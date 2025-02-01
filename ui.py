@@ -15,9 +15,9 @@ search_engine = st.selectbox(
 
 # Mappa il nome del search engine all'endpoint corrispondente
 ENDPOINTS = {
-    "PostgreSQL": "http://localhost:5000/search_pg",
-    "PyLucene": "http://localhost:5000/search_lucene",
-    "Whoosh": "http://localhost:5000/search_whoosh"
+    "PostgreSQL": "http://localhost:5001/search_pg",
+    "PyLucene": "http://localhost:5001/search_lucene",
+    "Whoosh": "http://localhost:5001/search_whoosh"
 }
 
 if query:
@@ -31,8 +31,10 @@ if query:
             st.write(f"### 📌 Risultati trovati con {search_engine} ({len(results)})")
             
             for i, result in enumerate(results, 1):
-                st.markdown(f"**{i}. [{result['title']}]({result['url']})**")
-                st.write(result["snippet"])
+                #st.markdown(f"**{i}. [{result['title']}]({result['url']})**")
+                st.markdown(result)
+                st.write(result)
+                #st.write(result["snippet"])
                 st.markdown("---")
         else:
             st.write("❌ Nessun risultato trovato.")
