@@ -15,20 +15,21 @@ CREATE TABLE public.movies (
     tsv_movie_title tsvector,
     tsv_movie_description tsvector,
 	tsv_movie_release_year tsvector,
-    tsv_mul_movie_title_description_genere_type_name_character tsvector,
+    tsv_mul_movie_title_description_genere_type_name_character_cast tsvector,
 );
 
 create index tsv_movie_title_index on movies using GIN(tsv_movie_title);
 create index tsv_movie_description_index on movies using GIN(tsv_movie_description);
 create index tsv_movie_release_year_index on movies using GIN(tsv_movie_release_year);
-create index tsv_mul_movie_title_description_genere_type_name_character_index on movies using GIN(tsv_mul_movie_title_description_genere_type_name_character);
+create index tsv_mul_movie_title_description_genere_type_name_character_cast_index on movies using GIN(tsv_mul_movie_title_description_genere_type_name_character_cast);
 
 update movies m
 set 
 tsv_movie_title=to_tsvector(m.title), 
 tsv_movie_description=to_tsvector(m.description),
 tsv_movie_release_year=to_tsvector(cast(m.release_year as varchar(10))),
-tsv_mul_movie_title_description_genere_type_name_character=to_tsvector(m.title||' '||m.description||' '||m.genres||' '|| m.type);
+tsv_mpvoe_cast=to_tsvector(cast(m.release_year as varchar(10))),
+tsv_mul_movie_title_description_genere_type_name_character_cast=to_tsvector(m.title||' '||m.description||' '||m.genres||' '|| m.type|| ' '|| m."cast");
 
 
 update movies m 
@@ -39,7 +40,7 @@ group by movie_id
 ) as XX 
 where m.title_id = XX.movie_id;
 
-update movies m set tsv_mul_movie_title_description_genere_type_name_character=to_tsvector(m.title||' '||m.description||' '||m.genres||' '|| m.type
+update movies m set tsv_mul_movie_title_description_genere_type_name_character_cast=to_tsvector(m.title||' '||m.description||' '||m.genres||' '|| m.type
 || ' '|| m."cast" 
 );
 
@@ -47,14 +48,14 @@ update movies m set tsv_mul_movie_title_description_genere_type_name_character=t
 CREATE TABLE public.credits (
 	id serial4 NOT NULL,
 	movie_id varchar(20) NOT NULL,
-	"name" _text NULL,
-	"character" _text NULL,
+	"name" text NULL,
+	"character" text NULL,
 	"role" text NULL,
 	CONSTRAINT credits_pkey PRIMARY KEY (id),
     tsv_credit_name tsvector,
     tsv_credit_character tsvector,
     tsv_credit_role tsvector,
-    tsv_mul_credit_name_character tsvector,
+    tsv_mul_credit_name_character tsvector
 );
 create index tsv_credit_name_index on credits using GIN(tsv_credit_name);
 create index tsv_credit_character_index on credits using GIN(tsv_credit_character);
@@ -77,7 +78,7 @@ CREATE TABLE movies_credits (
 
 insert into movies_credits
 select m.id, c.id from 
-movies join credits
+movies m join credits c
 on m.title_id= c.movie_id;
 
 --Tolgo i film che non mi danno info su attori

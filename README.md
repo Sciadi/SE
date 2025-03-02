@@ -14,3 +14,6 @@
 ## Password DB Postgres
 1234
 
+### Regole POSTGRES
+, per or 
+AND non va specificato, lo spazio è sufficiente
