@@ -15,9 +15,10 @@ def search_pg():
     data = json.loads(request.json)
     query = data["query"]
     config = data["config"]
+    rank_model = data["rank_model"]
     if not query:
         return jsonify({"error": "Query vuota"}), 400
-    results = search_in_postgres(query, config)
+    results = search_in_postgres(query, config, rank_model)
     return jsonify({"results": results})
 
 """@app.route("/search_lucene", methods=["GET"])

@@ -22,29 +22,26 @@ def join():
 def crea_ts_query(input_text):
     # Rimuove spazi inutili e normalizza la stringa
     input_text = input_text.strip()
+    input_text = input_text.replace('&','')
     query = re.sub(r'\s*,\s*', ',', input_text)
-    print(input_text)
     
     # Sostituisce gli spazi con " & " 
     query = re.sub(r'\s+', ' & ', query)
-    print(query)
-
     # Sostituisce le virgole con " | " 
     query = re.sub(r'\s*,\s*', ' | ', query)
-    print(query)
     
     return query
 
 
 # PostgreSQL Full-Text Search
-def search_in_postgres(query, config):
+def search_in_postgres(query, config, rank_model):
     conn = psycopg2.connect(**DB_CONFIG)
     cur = conn.cursor()
 
+    print(config)
+
     vector = MAPPING_FILTRO_DB[config]
     
-    #words = query.split(' ')
-    #words = ",".join(f'"{w}"' for w in words)
     words = crea_ts_query(query)
     print(words)
 
@@ -54,11 +51,19 @@ def search_in_postgres(query, config):
         join_v = ''
         field =''
     
+    rank = dict(
+        ts_rank = f"2*pg_catalog.ts_rank({vector}, phraseto_tsquery('{words}'))+pg_catalog.ts_rank({vector}, to_tsquery('{words}'))",
+        ts_rank_cd = f"2*pg_catalog.ts_rank_cd({vector}, phraseto_tsquery('{words}'))+pg_catalog.ts_rank_cd({vector}, to_tsquery('{words}'))"
+        )
+    
 
     sql = f"""
-    SELECT m.id, m.title, m.description, m."cast"
+    SELECT m.id, m.title, m.description, m."cast", 
+    {rank[rank_model]} as rank
     FROM movies m {join_v}
-    WHERE to_tsquery('{words}') @@ {vector}
+    WHERE 1=1
+    AND to_tsquery('{words}') @@ {vector}
+    order by rank DESC
     ;
     """
     #ORDER BY ts_rank(tsv, to_tsquery('italian', %s)) DESC
@@ -67,8 +72,7 @@ def search_in_postgres(query, config):
 
     
     cur.execute(sql)
-    #print(cur.fetchall())
-    results = [{"cast":row[3], "description": row[2][:200],"title": row[1]} for row in cur.fetchall()]
+    results = [{"cast":row[3], "description": row[2][:200],"title": row[1], "rank":row[4]} for row in cur.fetchall()]
     cur.close()
     conn.close()
     return results

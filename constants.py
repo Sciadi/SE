@@ -1,8 +1,7 @@
 FILTRO = [
     "Full text",
     "Titolo",
-    "Trama",
-    "CAST-Personaggi",
+    "Trama"
 ]
 
 MAPPING_FILTRO_DB = {
@@ -10,6 +9,11 @@ MAPPING_FILTRO_DB = {
     "Titolo":"tsv_movie_title",
     "Trama":"tsv_movie_description",
     "CAST-Personaggi":"tsv_mul_credit_name_character",
+}
+
+MAPPING_RANK_MODEL={
+    "PostgreSQL":["ts_rank","ts_rank_cd"]
+    #, "PyLucene", "Whoosh"]
 }
 
 

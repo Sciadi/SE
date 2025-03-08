@@ -28,14 +28,14 @@ set
 tsv_movie_title=to_tsvector(m.title), 
 tsv_movie_description=to_tsvector(m.description),
 tsv_movie_release_year=to_tsvector(cast(m.release_year as varchar(10))),
-tsv_mpvoe_cast=to_tsvector(cast(m.release_year as varchar(10))),
+--tsv_movie_cast=to_tsvector(cast(m.release_year as varchar(10))),
 tsv_mul_movie_title_description_genere_type_name_character_cast=to_tsvector(m.title||' '||m.description||' '||m.genres||' '|| m.type|| ' '|| m."cast");
 
 
 update movies m 
 set "cast" = XX.x
 FROM(
-select movie_id, string_agg(c.name || ':' || c.character, ', ') as x from credits c
+select movie_id, string_agg(c.name || '#' || c.character, ', ') as x from credits c
 group by movie_id
 ) as XX 
 where m.title_id = XX.movie_id;
@@ -66,7 +66,7 @@ update credits c set
 tsv_credit_name=to_tsvector(c.name), 
 tsv_credit_character=to_tsvector(c.character),
 tsv_credit_role=to_tsvector(c.role), 
-tsv_mul_credit_name_character=to_tsvector(c.name||' '||c.character)
+tsv_mul_credit_name_character=to_tsvector(c.name||'#'||c.character)
 ;
 
 ---MOVIES_CREDITS

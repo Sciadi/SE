@@ -15,7 +15,7 @@
         {
           "type": "film+cast",
           "query": "Find all movies where 'Robert Downey Jr.' played a superhero.",
-          "ts_query": "to_tsquery('english', 'Robert Downey Jr. & superhero')"
+          "ts_query": "to_tsquery('english', 'Robert Downey Jr. detective')"
         },
         {
           "type": "film",

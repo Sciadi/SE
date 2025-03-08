@@ -1,23 +1,23 @@
 import streamlit as st
 import requests
 import json
-from constants import FILTRO
+from constants import FILTRO, MAPPING_RANK_MODEL
 
 def get_config(query):
-    res = {"config": filtro}
+    res = {"config": filtro, "rank_model": ranking_model}
     res["query"]= query
     return json.dumps(res)
     
 
 # Configura il titolo della UI
-st.title("Motore di Ricerca - Confronto Search Engine (selezionare una checkbox per ogni ricerca)")
+st.title("Motore di Ricerca - Confronto Search Engine ")
 
 # Barra di ricerca per l'input dell'utente
-query = st.text_input("🔍 Inserisci la tua ricerca e premi Invio", "")
+query = st.text_input("🔍 Inserisci la ricerca e premi Invio", "")
 
 
 # Selettore per il SE
-columns = st.columns([4,4])
+columns = st.columns([2,2,2])
 search_engine = columns[0].selectbox(
     "🔀 Seleziona il motore di ricerca",
     ["PostgreSQL", "PyLucene", "Whoosh"]
@@ -29,6 +29,10 @@ filtro = columns[1].selectbox(
     [elem for elem in FILTRO]
 ) 
 
+ranking_model = columns[2].selectbox(
+    "💯 Rank model",
+    MAPPING_RANK_MODEL[search_engine]
+)
 
 
 # Mappa il nome del search engine all'endpoint corrispondente
@@ -51,8 +55,9 @@ if query:
             st.write(f"### 📌 {len(results)} Risultati trovati con {search_engine}")
             
             for i, result in enumerate(results, 1):
-                st.markdown(result["title"])
+                st.markdown(f"Titolo : {result["title"]}, rank : {result["rank"]}")
                 result.pop("title")
+                result.pop("rank")
                 st.write(result)
                 #st.write(result["snippet"])
                 st.markdown("---")
