@@ -51,6 +51,7 @@ def search_in_postgres(query, config, rank_model):
         join_v = ''
         field =''
     
+    # Quando uso phraseto_tsquery assegno peso doppio al match perche' il primo matcha il virgolettato
     rank = dict(
         ts_rank = f"2*pg_catalog.ts_rank({vector}, phraseto_tsquery('{words}'))+pg_catalog.ts_rank({vector}, to_tsquery('{words}'))",
         ts_rank_cd = f"2*pg_catalog.ts_rank_cd({vector}, phraseto_tsquery('{words}'))+pg_catalog.ts_rank_cd({vector}, to_tsquery('{words}'))"
