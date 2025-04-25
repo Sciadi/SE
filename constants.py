@@ -20,54 +20,64 @@ MAPPING_RANK_MODEL={
 UIN={
       "queries": [
         {
-          "type": "film",
+          "type": "Titolo",
           "query": "Find movies with the title 'Inception'.",
-          "ts_query": "plainto_tsquery('english', 'Inception')"
+          "ts_query": "plainto_tsquery('english', 'Inception')",
+          "pylucene": "Inception"
         },
         {
-          "type": "actor",
-          "query": "Find movies starring 'Leonardo Di Caprio'.",
-          "ts_query": "plainto_tsquery('english', 'Leonardo Di Caprio')"
+          "type": "Titolo",
+          "query": "Find movies with the title 'The Blue Lagoon'.",
+          "ts_query": "plainto_tsquery('english', 'The Blue Lagoon')",
+          "pylucene": "The Blue Lagoon"
         },
         {
-          "type": "film+actor",
-          "query": "Find all movies where 'Robert Downey Jr.' played a superhero.",
-          "ts_query": "to_tsquery('english', 'Robert Downey Jr. & superhero')"
+          "type": "Titolo",
+          "query": "Find movies with the title 'She's Gotta Have It'.",
+          "ts_query": "to_tsquery('english', 'She Gotta Have It')",
+          "pylucene": "She Gotta Have It"
         },
         {
-          "type": "film",
-          "query": "Search for movies containing 'detective' in the description.",
-          "ts_query": "plainto_tsquery('english', 'detective')"
+          "type": "Titolo",
+          "query": "Find movies with the title 'Mission: Impossible'.",
+          "ts_query": "plainto_tsquery('english', 'Mission: Impossible')",
+          "pylucene": "Mission: Impossible"
         },
         {
-          "type": "actor",
-          "query": "Which actors have played a 'robot' or an 'alien'?",
-          "ts_query": "to_tsquery('english', 'robot | alien')"
+          "type": "Titolo",
+          "query": "Find movies with the title 'Connected'.",
+          "ts_query": "to_tsquery('english', 'Connected')",
+          "pylucene": "Connected"
         },
         {
-          "type": "film+actor",
-          "query": "Which movies featuring 'Angelina Jolie' contain the word 'espionage' in the description?",
-          "ts_query": "to_tsquery('english', 'Angelina Jolie & espionage')"
+          "type": "Full text",
+          "query": "Find movies based on real-life public figures or biographies",
+          "ts_query": "to_tsquery('english', 'biographical & drama')",
+          "pylucene": "biographical drama"
         },
         {
-          "type": "film",
-          "query": "Show all movies classified as 'thriller'.",
-          "ts_query": "plainto_tsquery('english', 'thriller')"
+          "type": "Full text",
+          "query": "Discover shows on lawyer ",
+          "ts_query": "plainto_tsquery('english', 'teen & coming-of-age comedy')",
+          "pylucene": "lawyer cases"
         },
         {
-          "type": "film+actor+character+genres",
-          "query": "Find all 'action' movies where 'Christian Bale' played 'Batman'.",
-          "ts_query": "to_tsquery('english', 'Christian Bale & Batman & action')"
+          "type": "Full text",
+          "query": "Identify thrillers on love revenge.",
+          #"ts_query": "to_tsquery('english', 'drug & smuggling & adventure')",
+          "pylucene": "love revenge"
         },
         {
-          "type": "film+actor",
-          "query": "Search for 'thriller' movies where 'Morgan Freeman' plays a detective.",
-          "ts_query": ""
+          "type": "Full text",
+          "query": "Explore stories of young superheroes",
+          "ts_query": "to_tsquery('english', 'superhero & high & school')",
+          "pylucene": "superhero young"
         },
         {
-          "type": "film",
-          "query": "Show movies with the exact phrase 'based on a true story' in the description.",
-          "ts_query": "phraseto_tsquery('english', 'based on a true story')"
+          "type": "Full text",
+          "query": "Based on a true story",
+          "ts_query": "phraseto_tsquery('english', 'based on a true story')",
+          "pylucene": "based on a true story"
         }
       ]
   }

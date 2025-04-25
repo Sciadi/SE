@@ -17,7 +17,15 @@ from java.lang import String, CharSequence
 
 
 # Define index directory
-index_dir = "./index_directory"
+index_dir = "pylucene/index_directory"
+
+import shutil
+import os
+
+if os.path.exists(index_dir):
+    shutil.rmtree(index_dir)
+
+
 directory = FSDirectory.open(Paths.get(index_dir))
 
 # Analyzer for processing text
@@ -34,21 +42,21 @@ def index_csv(csv_file):
         for row in reader:
             doc = Document()
             doc.add(TextField("title", row["title"], Field.Store.YES))
-            doc.add(TextField("type", row["type"], Field.Store.YES))
+            #doc.add(TextField("type", row["type"], Field.Store.YES))
             doc.add(TextField("description", row["description"], Field.Store.YES))
-            doc.add(StringField("release_year", row["release_year"], Field.Store.YES))
-            doc.add(TextField("genres", row["genres"], Field.Store.YES))
+            #doc.add(StringField("release_year", row["release_year"], Field.Store.YES))
+            #doc.add(TextField("genres", row["genres"], Field.Store.YES))
             index_writer.addDocument(doc)
 
 # Index the uploaded file
-csv_path = "../archive/csv/titles.csv"
+csv_path = "archive/csv/titles.csv"
 index_csv(csv_path)
 index_writer.commit()
 index_writer.close()
 print("Indexing completed.")
 
 # Function to search using different ranking models
-def search(query_str, similarity_model="BM25", search_type="keyword", top_n=10):
+def pylucene_search(query_str, similarity_model="BM25", search_type="keyword", top_n=10):
     index_reader = DirectoryReader.open(directory)
     index_searcher = IndexSearcher(index_reader)
     
@@ -58,7 +66,7 @@ def search(query_str, similarity_model="BM25", search_type="keyword", top_n=10):
     elif similarity_model == "TF-IDF":
         index_searcher.setSimilarity(ClassicSimilarity())
     
-    fields = ["title", "type", "description", "genres"]
+    fields = ["title", "description"]
     if search_type == "keyword":        
         SHOULD = [BooleanClause.Occur.SHOULD]*len(fields)
         query = MultiFieldQueryParser.parse(query_str,fields,SHOULD,analyzer)
@@ -67,17 +75,21 @@ def search(query_str, similarity_model="BM25", search_type="keyword", top_n=10):
         query = query_parser.parse(query_str)
     
      
-    
+    if search_type == 'keyword':
+        top_n = 5
     top_docs = index_searcher.search(query, top_n)
+    
     
     # Print search results
     print(f"\nResults for '{query_str}' using {similarity_model} ({search_type} search):")
+    res=[]
     for score_doc in top_docs.scoreDocs:
         doc = index_searcher.doc(score_doc.doc)
-        print(f"Score: {score_doc.score:.4f}, Title: {doc.get('title')}, Type: {doc.get('type')}, Year: {doc.get('release_year')}, Genres: {doc.get('genres')}, Description: {doc.get('description')}")
+        res.append({"rank": score_doc.score, "title": doc.get('title'), "description": doc.get('description')})
     
     index_reader.close()
 
+    return res
 # Example queries
 
 
@@ -87,16 +99,3 @@ search("example title", similarity_model="BM25", search_type="full-text")
 search("example title", similarity_model="TF-IDF", search_type="keyword")
 search("example title", similarity_model="TF-IDF", search_type="full-text")
 """
-import sys
-import os
-
-# Aggiungi la cartella genitore al path
-sys.path.append(os.path.abspath('..'))
-from UIN import UIN
-queries_dict = UIN['queries']
-
-for query in queries_dict:
-    if query['type'] in ['full text','film+cast'] :
-        search_type = 'full-text'
-        search("example title", similarity_model="BM25", search_type="full-text")
-    

@@ -45,11 +45,11 @@ def search_in_postgres(query, config, rank_model):
     words = crea_ts_query(query)
     print(words)
 
-    if config == "CAST-Personaggi":
-        join_v = join() 
-    else:
-        join_v = ''
-        field =''
+#    if config == "CAST-Personaggi":
+#        join_v = join() 
+#   else:
+    join_v = ''
+    field =''
     
     # Quando uso phraseto_tsquery assegno peso doppio al match perche' il primo matcha il virgolettato
     rank = dict(
@@ -73,7 +73,7 @@ def search_in_postgres(query, config, rank_model):
 
     
     cur.execute(sql)
-    results = [{"cast":row[3], "description": row[2][:200],"title": row[1], "rank":row[4]} for row in cur.fetchall()]
+    results = [{"description": row[2][:200],"title": row[1], "rank":row[4]} for row in cur.fetchall()]
     cur.close()
     conn.close()
-    return results
+    return results, sql

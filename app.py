@@ -1,35 +1,25 @@
-from flask import Flask, request, jsonify
 import json
-
+from constants import UIN, MAPPING_RANK_MODEL
 from postgres.postrgres import search_in_postgres
+from pylucene.pylucene import pylucene_search
+
 #from your_pylucene_module import pylucene_search  # Modifica con il tuo modulo
 #from your_whoosh_module import whoosh_search  # Modifica con il tuo modulo
 
-app = Flask(__name__)
 
 
 
-@app.route("/search_pg", methods=["PUT"])
-def search_pg():
-    query = None
-    data = json.loads(request.json)
-    query = data["query"]
-    config = data["config"]
-    rank_model = data["rank_model"]
+
+
+def search_pg(query, config, rank_model):
     if not query:
-        return jsonify({"error": "Query vuota"}), 400
-    results = search_in_postgres(query, config, rank_model)
-    return jsonify({"results": results})
+        return {"error": "Query vuota"}
+    results, sql = search_in_postgres(query, config, rank_model)
+    return  results
 
-"""@app.route("/search_lucene", methods=["GET"])
-def search_lucene():
-    query = request.args.get("q")
-    if not query:
-        return jsonify({"error": "Manca il parametro 'q'"}), 400
-    results = pylucene_search(query)
-    return jsonify({"results": results})
 
-@app.route("/search_whoosh", methods=["GET"])
+
+"""@app.route("/search_whoosh", methods=["GET"])
 def search_whoosh():
     query = request.args.get("q")
     if not query:
@@ -37,5 +27,81 @@ def search_whoosh():
     results = whoosh_search(query)
     return jsonify({"results": results})"""
 
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5001, debug=True)
+queries_dict = UIN['queries']
+results = { uin['query']:{'pg':{} , 'pyluc':{}, 'wo':{}} for uin in queries_dict }
+
+
+# POSTGRES
+
+from pprint import pprint
+print("INIZIO POSTGRES ")
+pg_results = {r:[] for r in MAPPING_RANK_MODEL["PostgreSQL"]}
+for query in queries_dict:
+    system = 'pg'
+    config = query['type']
+    q = query["pylucene"]
+    uin = query['query']
+
+    print(f"eseguo {q}")
+    for rank_model in MAPPING_RANK_MODEL["PostgreSQL"]:
+        res = search_pg(q,config, rank_model)
+        results[uin][system][rank_model]=res
+
+
+
+# PYLUCENE
+print("INIZIO PYLUCENE ")
+
+for query in queries_dict:
+    system = 'pyluc'
+    uin = query['query']
+    config = 'full-text' if query['type'] == 'Full text' else query['type']
+    q = query["pylucene"]
+    for rank_model in ["BM25", "TF-IDF"]:
+        res = pylucene_search(q, similarity_model=rank_model, search_type=config)
+        results[uin][system][rank_model]=res
+
+print("STAMPO I RISULTATI")
+pprint(results['Identify thrillers on love revenge.'])
+
+
+# WOOSH
+
+
+
+
+# TODO: depositare results in un json per confrontare i risultati per uin 
+#
+# DESIDERATA
+# Per ogni uin -> system-> per ogni system il rank model. Così si possono confrontare per uin
+"""
+{
+    uin: ["system":{
+            "rank_model":---
+                results: [{
+                    title:
+                    description:
+                    rank:
+                },
+                .
+                .
+                .
+                ]
+            },
+            "rank_model":---
+                    results: [{
+                    title:
+                    description:
+                    rank:
+                },
+                .
+                .
+                .
+                ]
+            },
+        .
+        .
+        .
+        ]
+}
+"""
