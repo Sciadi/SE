@@ -75,8 +75,6 @@ def pylucene_search(query_str, similarity_model="BM25", search_type="keyword", t
         query = query_parser.parse(query_str)
     
      
-    if search_type == 'keyword':
-        top_n = 5
     top_docs = index_searcher.search(query, top_n)
     
     

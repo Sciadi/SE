@@ -1,25 +1,26 @@
 import os
 import csv
-from whoosh import index
+from whoosh import index, scoring
 from whoosh.fields import Schema, TEXT, ID, KEYWORD
 from whoosh.analysis import StemmingAnalyzer
-from whoosh.qparser import MultifieldParser
-from whoosh.qparser import MultifieldParser
-from whoosh import scoring
+from whoosh.qparser import MultifieldParser, OrGroup
+from whoosh.query import Term, And
 
 
 # Directory indice
-index_dir = "whoosh_index"
-if not os.path.exists(index_dir):
-    os.mkdir(index_dir)
+index_dir = "wo/whoosh_index"
+
+import shutil
+
+if os.path.exists(index_dir):
+    shutil.rmtree(index_dir)
+
+os.mkdir(index_dir)
 
 # Schema: cosa vuoi cercare e come
 schema = Schema(
     title=TEXT(stored=True, analyzer=StemmingAnalyzer()),
-    type=TEXT(stored=True),
     description=TEXT(stored=True, analyzer=StemmingAnalyzer()),
-    release_year=ID(stored=True),
-    genres=KEYWORD(stored=True, commas=True, lowercase=True)
 )
 
 # Crea o apre l'indice
@@ -45,8 +46,27 @@ def index_csv(csv_path):
     print("Indicizzazione completata.")
 
 # Esegui indicizzazione
-index_csv("titles_cleaned.csv")
+index_csv("archive/titles.csv")
 
+
+def advanced_search(query_str, filters=None, top_n=10, weighting=None):
+    if weighting is None:
+        weighting = scoring.BM25F()  # default
+
+    with ix.searcher(weighting=weighting) as searcher:
+        parser = MultifieldParser(["title", "description"], schema=ix.schema, group=OrGroup)
+        fulltext_query = parser.parse(query_str)
+
+        if filters:
+            filter_parts = [Term(field, value) for field, value in filters.items()]
+            final_query = And([fulltext_query] + filter_parts)
+        else:
+            final_query = fulltext_query
+
+        results = searcher.search(final_query, limit=top_n)
+        print(f"\nRisultati per '{query_str}' con filtri {filters or 'nessuno'}:")
+        for hit in results:
+            {"rank": hit.score, "title": hit['title'], "description":hit['description']}
 
 
 def search(query_str, model="BM25F", top_n=10):

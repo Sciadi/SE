@@ -2,6 +2,7 @@ import json
 from constants import UIN, MAPPING_RANK_MODEL
 from postgres.postrgres import search_in_postgres
 from pylucene.pylucene import pylucene_search
+from wo.se_woosh import advanced_search, search
 
 #from your_pylucene_module import pylucene_search  # Modifica con il tuo modulo
 #from your_whoosh_module import whoosh_search  # Modifica con il tuo modulo
@@ -65,20 +66,35 @@ print("STAMPO I RISULTATI")
 pprint(results['Identify thrillers on love revenge.'])
 
 
-# WOOSH
+# WHOOSH
+# TODO: c'è da capire se funzionano i metodi search e adv_search,
+# formattare la risposta correttamente.
+for query in queries_dict:
+    system = 'wo'
+    uin = query['query']
+    config = 'full-text' if query['type'] == 'Full text' else query['type']
+    q = query["pylucene"]
+    for rank_model in ["BM25", "TF-IDF"]:
+        if config == 'full-text':
+            res = advanced_search(q, similarity_model=rank_model)
+        else:
+            res = search(q, similarity_model=rank_model)
+
+        results[uin][system][rank_model]=res
+
 
 
 
 
 # TODO: depositare results in un json per confrontare i risultati per uin 
-#
+# # Capire come fare i benchmarks
 # DESIDERATA
 # Per ogni uin -> system-> per ogni system il rank model. Così si possono confrontare per uin
 """
 {
     uin: ["system":{
-            "rank_model":---
-                results: [{
+            "<rank_model>":
+                [{
                     title:
                     description:
                     rank:

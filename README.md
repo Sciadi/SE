@@ -35,3 +35,5 @@ Usiamo
 Usiamo 
     TF-IDF: Basato su Term Frequency e Inverse Document Frequency
     Frequency: Ordina solo in base a quante volte un termine appare nel documento (TF puro)
+
+    Bm25:  -
