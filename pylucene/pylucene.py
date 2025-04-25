@@ -79,7 +79,24 @@ def search(query_str, similarity_model="BM25", search_type="keyword", top_n=10):
     index_reader.close()
 
 # Example queries
-search("example title", similarity_model="BM25", search_type="keyword")
+
+
+
+"""search("example title", similarity_model="BM25", search_type="keyword")
 search("example title", similarity_model="BM25", search_type="full-text")
 search("example title", similarity_model="TF-IDF", search_type="keyword")
 search("example title", similarity_model="TF-IDF", search_type="full-text")
+"""
+import sys
+import os
+
+# Aggiungi la cartella genitore al path
+sys.path.append(os.path.abspath('..'))
+from UIN import UIN
+queries_dict = UIN['queries']
+
+for query in queries_dict:
+    if query['type'] in ['full text','film+cast'] :
+        search_type = 'full-text'
+        search("example title", similarity_model="BM25", search_type="full-text")
+    
