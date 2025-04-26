@@ -68,8 +68,8 @@ def pylucene_search(query_str, similarity_model="BM25", search_type="keyword", t
     
     fields = ["title", "description"]
     if search_type == "keyword":        
-        SHOULD = [BooleanClause.Occur.SHOULD]*len(fields)
-        query = MultiFieldQueryParser.parse(query_str,fields,SHOULD,analyzer)
+        SHOULD = BooleanClause.Occur.SHOULD
+        query = MultiFieldQueryParser.parse(query_str,fields[0],SHOULD,analyzer)
     else:  # Full-text query
         query_parser = QueryParser("description", analyzer)
         query = query_parser.parse(query_str)

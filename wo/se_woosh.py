@@ -3,7 +3,7 @@ import csv
 from whoosh import index, scoring
 from whoosh.fields import Schema, TEXT, ID, KEYWORD
 from whoosh.analysis import StemmingAnalyzer
-from whoosh.qparser import MultifieldParser, OrGroup
+from whoosh.qparser import MultifieldParser, QueryParser, OrGroup
 from whoosh.query import Term, And
 
 
@@ -37,19 +37,19 @@ def index_csv(csv_path):
         for row in reader:
             writer.add_document(
                 title=row["title"],
-                type=row["type"],
+                #type=row["type"],
                 description=row["description"],
-                release_year=row["release_year"],
-                genres=row["genres"]
+                #release_year=row["release_year"],
+                #genres=row["genres"]
             )
     writer.commit()
     print("Indicizzazione completata.")
 
 # Esegui indicizzazione
-index_csv("archive/titles.csv")
+index_csv("archive/csv/titles.csv")
 
 
-def advanced_search(query_str, filters=None, top_n=10, weighting=None):
+"""def advanced_search(query_str, filters=None, top_n=10, weighting=None):
     if weighting is None:
         weighting = scoring.BM25F()  # default
 
@@ -67,25 +67,53 @@ def advanced_search(query_str, filters=None, top_n=10, weighting=None):
         print(f"\nRisultati per '{query_str}' con filtri {filters or 'nessuno'}:")
         for hit in results:
             {"rank": hit.score, "title": hit['title'], "description":hit['description']}
+"""
 
-
-def search(query_str, model="BM25F", top_n=10):
-    if model == "BM25F":
-        scoring_fn = scoring.BM25F()
-    elif model == "TF-IDF":
-        scoring_fn = scoring.TF_IDF()
+def search(query_str, search_type="full-text", fields=None, filters=None, weighting=None, top_n=10):
+    """
+    query_str: testo da cercare
+    search_type: 'full-text' o 'keyword'
+    fields: lista di campi (se None -> usa 'title' e 'description')
+    filters: dizionario opzionale {campo: valore}
+    weighting: modello di ranking (es. BM25F(), TF_IDF())
+    top_n: quanti risultati mostrare
+    """
+    if weighting == 'BM25':
+        searcher = ix.searcher(weighting = scoring.BM25F())
     else:
-        raise ValueError("Modello di ranking non valido. Usa 'BM25F' o 'TF-IDF'.")
+        searcher = ix.searcher()
 
-    with ix.searcher(weighting=scoring_fn) as searcher:
-        parser = MultifieldParser(["title", "description", "genres"], schema=ix.schema)
+    if True:
+        if search_type == "full-text":
+            if fields is None:
+                fields = ["title", "description"]
+            parser = MultifieldParser(fields, schema=ix.schema, group=OrGroup)
+        elif search_type == "title":
+            fields = ['title']
+            parser = QueryParser(fields[0], schema=ix.schema)
+        else:
+            raise ValueError("search_type deve essere 'full-text' o 'title'")
+
         query = parser.parse(query_str)
 
-        results = searcher.search(query, limit=top_n)
-        print(f"\nRisultati per '{query_str}' con modello {model}:")
+        # Applico eventuali filtri aggiuntivi
+        if filters:
+            filter_parts = [Term(field, value) for field, value in filters.items()]
+            final_query = And([query] + filter_parts)
+        else:
+            final_query = query
+
+        results = searcher.search(final_query, limit=top_n)
+
+        print(f"\n[Query: '{query_str}' | Tipo: {search_type} | Ranking: {weighting.__class__.__name__}]")
+        res=[]
         for hit in results:
-            print(f"Score: {hit.score:.4f}, Title: {hit['title']}, Type: {hit['type']}, Year: {hit['release_year']}, Genres: {hit['genres']}")
+            res.append({"rank": hit.score, "title": hit['title'], "description":hit['description']})
+        
+        return res
+    
+
 
 # Esempi
-search("space war", model="BM25F")
-search("romantic drama", model="TF-IDF")
+#search("space war", model="BM25F")
+#search("romantic drama", model="TF-IDF")
