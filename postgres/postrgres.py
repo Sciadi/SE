@@ -73,7 +73,7 @@ def search_in_postgres(query, config, rank_model):
 
     
     cur.execute(sql)
-    results = [{"description": row[2][:200],"title": row[1], "rank":row[4]} for row in cur.fetchall()]
+    results = [{"description": row[2][:100],"title": row[1], "rank":row[4]} for row in cur.fetchall()]
     cur.close()
     conn.close()
     return results, sql

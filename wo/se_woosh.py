@@ -108,7 +108,7 @@ def search(query_str, search_type="full-text", fields=None, filters=None, weight
         print(f"\n[Query: '{query_str}' | Tipo: {search_type} | Ranking: {weighting.__class__.__name__}]")
         res=[]
         for hit in results:
-            res.append({"rank": hit.score, "title": hit['title'], "description":hit['description']})
+            res.append({"rank": hit.score, "title": hit['title'], "description":hit['description'][:100]})
         
         return res
     

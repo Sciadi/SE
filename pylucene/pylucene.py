@@ -67,9 +67,12 @@ def pylucene_search(query_str, similarity_model="BM25", search_type="keyword", t
         index_searcher.setSimilarity(ClassicSimilarity())
     
     fields = ["title", "description"]
-    if search_type == "keyword":        
-        SHOULD = BooleanClause.Occur.SHOULD
-        query = MultiFieldQueryParser.parse(query_str,fields[0],SHOULD,analyzer)
+    if search_type == "Titolo":
+        print('SONO QUI TITOLOOOOOOOO')     
+        SHOULD = [BooleanClause.Occur.SHOULD]
+        print(query_str)
+        print([fields[0]])
+        query = MultiFieldQueryParser.parse(query_str,[fields[0]],SHOULD,analyzer)
     else:  # Full-text query
         query_parser = QueryParser("description", analyzer)
         query = query_parser.parse(query_str)
@@ -79,13 +82,14 @@ def pylucene_search(query_str, similarity_model="BM25", search_type="keyword", t
     
     
     # Print search results
-    print(f"\nResults for '{query_str}' using {similarity_model} ({search_type} search):")
     res=[]
     for score_doc in top_docs.scoreDocs:
         doc = index_searcher.doc(score_doc.doc)
-        res.append({"rank": score_doc.score, "title": doc.get('title'), "description": doc.get('description')})
+        res.append({"rank": score_doc.score, "title": doc.get('title'), "description": doc.get('description')[:100]})
     
     index_reader.close()
+
+    print(f"\nResults for '{query_str}' using {similarity_model} ({search_type} search):\n{res}")
 
     return res
 # Example queries
