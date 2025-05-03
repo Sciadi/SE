@@ -94,7 +94,7 @@
             "rank": 3.1282799243927,
             "title": "Blue Exorcist",
             "description": "Humans live in the world of Assiah, demons in Gehenna. The two dimensions are not meant to interfere",
-            "rilevante": 0.5
+            "rilevante": 0.3
           },
           {
             "rank": 3.1282799243927,
@@ -650,25 +650,25 @@
             "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur",
             "title": "Rush",
             "rank": 0.2984118238091469,
-            "rilevante": 0.0
+            "rilevante": 0.9
           },
           {
             "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ",
             "title": "Baggio: The Divine Ponytail",
             "rank": 0.00032248931529466063,
-            "rilevante": 0.0
+            "rilevante": 1
           },
           {
             "description": "Budhia Singh – Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra",
             "title": "Budhia Singh: Born to Run",
             "rank": 6.091040086175781e-05,
-            "rilevante": 0.0
+            "rilevante": 1.0
           },
           {
             "description": "A semi-biographical account of Yip Man, the first martial arts master to teach the Chinese martial a",
             "title": "Ip Man",
             "rank": 1.017307321715677e-09,
-            "rilevante": 0.0
+            "rilevante": 1.0
           }
         ],
         "ts_rank_cd": [
@@ -676,25 +676,25 @@
             "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur",
             "title": "Rush",
             "rank": 0.30000000447034836,
-            "rilevante": 0.0
+            "rilevante": 1.0
           },
           {
             "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ",
             "title": "Baggio: The Divine Ponytail",
             "rank": 0.0035714285913854837,
-            "rilevante": 0.0
+            "rilevante": 1.0
           },
           {
             "description": "Budhia Singh – Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra",
             "title": "Budhia Singh: Born to Run",
             "rank": 0.003030303167179227,
-            "rilevante": 0.0
+            "rilevante": 1.0
           },
           {
             "description": "A semi-biographical account of Yip Man, the first martial arts master to teach the Chinese martial a",
             "title": "Ip Man",
             "rank": 0.0015151515835896134,
-            "rilevante": 0.0
+            "rilevante": 1.0
           }
         ]
       },
@@ -704,19 +704,19 @@
             "rank": 6.11442756652832,
             "title": "Rush",
             "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur",
-            "rilevante": 0.0
+            "rilevante": 1.0
           },
           {
             "rank": 3.7316086292266846,
             "title": "Baggio: The Divine Ponytail",
             "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ",
-            "rilevante": 0.0
+            "rilevante": 1.0
           },
           {
             "rank": 3.1636390686035156,
             "title": "Budhia Singh: Born to Run",
             "description": "Budhia Singh – Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra",
-            "rilevante": 0.0
+            "rilevante": 1.0
           },
           {
             "rank": 3.0351037979125977,
@@ -734,13 +734,13 @@
             "rank": 2.890700340270996,
             "title": "At Dolphin Bay",
             "description": "At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu.",
-            "rilevante": 0.0
+            "rilevante": 0.2
           },
           {
             "rank": 2.5862908363342285,
             "title": "Ip Man",
             "description": "A semi-biographical account of Yip Man, the first martial arts master to teach the Chinese martial a",
-            "rilevante": 0.0
+            "rilevante": 1.0
           },
           {
             "rank": 2.526080846786499,
@@ -772,13 +772,13 @@
             "rank": 2.6967549324035645,
             "title": "Rush",
             "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur",
-            "rilevante": 0.0
+            "rilevante": 1.0
           },
           {
             "rank": 1.5515035390853882,
             "title": "Baggio: The Divine Ponytail",
             "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ",
-            "rilevante": 0.0
+            "rilevante": 1.0
           },
           {
             "rank": 1.4564980268478394,
@@ -830,7 +830,7 @@
             "rank": 15.117134953848808,
             "title": "Rush",
             "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur",
-            "rilevante": 0.0
+            "rilevante": 1.0
           },
           {
             "rank": 11.450695926969402,
@@ -842,37 +842,37 @@
             "rank": 9.319087426398456,
             "title": "The Little Nyonya",
             "description": "A biographic flashback of an extended Peranakan family in Malacca; set in the 1930s, the story spans",
-            "rilevante": 0.0
+            "rilevante": 0.5
           },
           {
             "rank": 8.752812394582687,
             "title": "Mama Drama",
             "description": "",
-            "rilevante": 0.0
+            "rilevante": 0.1
           },
           {
             "rank": 8.526142771123796,
             "title": "The Oath",
             "description": "The Oath is a medical drama produced by Wawa Pictures. The drama follows a Chinese physician and a W",
-            "rilevante": 0.0
+            "rilevante": 0.1
           },
           {
             "rank": 8.423092235841036,
             "title": "Baggio: The Divine Ponytail",
             "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ",
-            "rilevante": 0.0
+            "rilevante": 0.5
           },
           {
             "rank": 8.06876891658231,
             "title": "Sleepless Society NYCTOPHOBIA",
             "description": "Thai Horro Drama.",
-            "rilevante": 0.0
+            "rilevante": 0.1
           },
           {
             "rank": 7.8913684706743,
             "title": "At Dolphin Bay",
             "description": "At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu.",
-            "rilevante": 0.0
+            "rilevante": 0.1
           },
           {
             "rank": 7.573561249729494,
