@@ -17,7 +17,7 @@ if os.path.exists(index_dir):
 
 os.mkdir(index_dir)
 
-# Schema: cosa vuoi cercare e come
+# Schema: cosa cercare e come
 schema = Schema(
     title=TEXT(stored=True, analyzer=StemmingAnalyzer()),
     description=TEXT(stored=True, analyzer=StemmingAnalyzer()),
@@ -45,29 +45,8 @@ def index_csv(csv_path):
     writer.commit()
     print("Indicizzazione completata.")
 
-# Esegui indicizzazione
+# Indicizzazione
 index_csv("archive/csv/titles.csv")
-
-
-"""def advanced_search(query_str, filters=None, top_n=10, weighting=None):
-    if weighting is None:
-        weighting = scoring.BM25F()  # default
-
-    with ix.searcher(weighting=weighting) as searcher:
-        parser = MultifieldParser(["title", "description"], schema=ix.schema, group=OrGroup)
-        fulltext_query = parser.parse(query_str)
-
-        if filters:
-            filter_parts = [Term(field, value) for field, value in filters.items()]
-            final_query = And([fulltext_query] + filter_parts)
-        else:
-            final_query = fulltext_query
-
-        results = searcher.search(final_query, limit=top_n)
-        print(f"\nRisultati per '{query_str}' con filtri {filters or 'nessuno'}:")
-        for hit in results:
-            {"rank": hit.score, "title": hit['title'], "description":hit['description']}
-"""
 
 def search(query_str, search_type="full-text", fields=None, filters=None, weighting=None, top_n=10):
     """
@@ -114,6 +93,5 @@ def search(query_str, search_type="full-text", fields=None, filters=None, weight
     
 
 
-# Esempi
 #search("space war", model="BM25F")
 #search("romantic drama", model="TF-IDF")

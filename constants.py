@@ -64,7 +64,6 @@ UIN={
         {
           "type": "Full text",
           "query": "Identify thrillers on love revenge.",
-          #"ts_query": "to_tsquery('english', 'drug & smuggling & adventure')",
           "pylucene": "love revenge"
         },
         {
