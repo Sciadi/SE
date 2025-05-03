@@ -1,0 +1,349 @@
+Di seguito riportiamo in formato json i benchmark per ogni uin e per ogni motore di ricerca e rank-model utilizzato
+
+Nei casi in cui la query è incentrata sul singolo campo (il campo 'Titolo' del film), del tipo "Find movies with the title ..."
+tutti i sistemi hanno trovato risultati perfetti. Significa che per query molto specifiche e titoli noti, tutti i motori restituiscono il risultato atteso.
+
+Nelle query full text otteniamo prestazioni leggemente differenti tra i vari motiri di ricerca:
+
+    Esempi: 'Explore stories of young superheroes', 'Identify thrillers on love revenge', 'Discover shows on lawyer', 'Based on a true story'
+
+Best performer: Whoosh (BM25 e TF-IDF) e PostgreSQL con CD (ts_rank_cd)
+Worst performer: PyLucene, soprattutto TF-IDF, spesso ha:
+
+    Precision@10 tra 0.75 e 0.85
+
+    MAP e NDCG sotto 0.9
+
+Conclusione:
+
+    PostgreSQL è molto preciso nei match diretti o semplici, ma cade completamente nella query 'Explore stories of young superheroes', con tutti i valori = 0.
+
+    Whoosh ha le performance più stabili e alte nelle query descrittive, mostrando miglior capacità di generalizzazione semantica.
+
+    PyLucene mostra performance decenti ma non eccelle mai.
+
+{
+   "Find movies with the title 'Inception'.":{
+      "pg.ts_rank":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pg.ts_rank_cd":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pyluc.BM25":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pyluc.TF-IDF":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "wo.BM25":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "wo.TF-IDF":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      }
+   },
+   "Find movies with the title 'The Blue Lagoon'.":{
+      "pg.ts_rank":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pg.ts_rank_cd":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pyluc.BM25":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pyluc.TF-IDF":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "wo.BM25":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "wo.TF-IDF":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      }
+   },
+   "Find movies with the title 'She's Gotta Have It'.":{
+      "pg.ts_rank":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pg.ts_rank_cd":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pyluc.BM25":{
+         "Precision@10":0.8666666666666667,
+         "MAP":0.9920634920634921,
+         "NDCG@10":0.99769277221392
+      },
+      "pyluc.TF-IDF":{
+         "Precision@10":0.8666666666666667,
+         "MAP":0.9574074074074074,
+         "NDCG@10":0.9857159827303459
+      },
+      "wo.BM25":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "wo.TF-IDF":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      }
+   },
+   "Find movies with the title 'Mission: Impossible'.":{
+      "pg.ts_rank":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pg.ts_rank_cd":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pyluc.BM25":{
+         "Precision@10":0.9,
+         "MAP":0.9940476190476191,
+         "NDCG@10":0.99826957916044
+      },
+      "pyluc.TF-IDF":{
+         "Precision@10":0.9,
+         "MAP":0.9680555555555556,
+         "NDCG@10":0.9892869870477594
+      },
+      "wo.BM25":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "wo.TF-IDF":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      }
+   },
+   "Find movies with the title 'Connected'.":{
+      "pg.ts_rank":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pg.ts_rank_cd":{
+         "Precision@10":1.0,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pyluc.BM25":{
+         "Precision@10":0.9199999999999999,
+         "MAP":0.9952380952380953,
+         "NDCG@10":0.998615663328352
+      },
+      "pyluc.TF-IDF":{
+         "Precision@10":0.9199999999999999,
+         "MAP":0.9744444444444443,
+         "NDCG@10":0.9914295896382075
+      },
+      "wo.BM25":{
+         "Precision@10":0.95,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "wo.TF-IDF":{
+         "Precision@10":0.95,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      }
+   },
+   "Find movies based on real-life public figures or biographies":{
+      "pg.ts_rank":{
+         "Precision@10":0.9583333333333334,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pg.ts_rank_cd":{
+         "Precision@10":0.9583333333333334,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pyluc.BM25":{
+         "Precision@10":0.85,
+         "MAP":0.9838095238095238,
+         "NDCG@10":0.9946368782497581
+      },
+      "pyluc.TF-IDF":{
+         "Precision@10":0.8666666666666666,
+         "MAP":0.9215277777777776,
+         "NDCG@10":0.954948087893098
+      },
+      "wo.BM25":{
+         "Precision@10":0.9249999999999999,
+         "MAP":0.9950810185185185,
+         "NDCG@10":0.9986381844102495
+      },
+      "wo.TF-IDF":{
+         "Precision@10":0.9249999999999999,
+         "MAP":0.9950810185185185,
+         "NDCG@10":0.9986381844102495
+      }
+   },
+   "Discover shows on lawyer ":{
+      "pg.ts_rank":{
+         "Precision@10":0.9642857142857143,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pg.ts_rank_cd":{
+         "Precision@10":0.9642857142857143,
+         "MAP":1.0,
+         "NDCG@10":1.0
+      },
+      "pyluc.BM25":{
+         "Precision@10":0.8285714285714285,
+         "MAP":0.950578231292517,
+         "NDCG@10":0.9813273992876406
+      },
+      "pyluc.TF-IDF":{
+         "Precision@10":0.8428571428571427,
+         "MAP":0.8864067055393585,
+         "NDCG@10":0.9400654750881375
+      },
+      "wo.BM25":{
+         "Precision@10":0.9214285714285715,
+         "MAP":0.9731016943814562,
+         "NDCG@10":0.9873536109728056
+      },
+      "wo.TF-IDF":{
+         "Precision@10":0.9214285714285715,
+         "MAP":0.9731016943814562,
+         "NDCG@10":0.9873536109728056
+      }
+   },
+   "Identify thrillers on love revenge.":{
+      "pg.ts_rank":{
+         "Precision@10":0.90625,
+         "MAP":0.9524305555555556,
+         "NDCG@10":0.9596350182597604
+      },
+      "pg.ts_rank_cd":{
+         "Precision@10":0.90625,
+         "MAP":0.9524305555555556,
+         "NDCG@10":0.9596350182597604
+      },
+      "pyluc.BM25":{
+         "Precision@10":0.775,
+         "MAP":0.8805282738095238,
+         "NDCG@10":0.9352146503505268
+      },
+      "pyluc.TF-IDF":{
+         "Precision@10":0.7875000000000001,
+         "MAP":0.825767077664399,
+         "NDCG@10":0.8996943371018983
+      },
+      "wo.BM25":{
+         "Precision@10":0.91875,
+         "MAP":0.9674968309082892,
+         "NDCG@10":0.9860613308886189
+      },
+      "wo.TF-IDF":{
+         "Precision@10":0.91875,
+         "MAP":0.9674968309082892,
+         "NDCG@10":0.9860613308886189
+      }
+   },
+   "Explore stories of young superheroes":{
+      "pg.ts_rank":{
+         "Precision@10":0,
+         "MAP":0,
+         "NDCG@10":0
+      },
+      "pg.ts_rank_cd":{
+         "Precision@10":0,
+         "MAP":0,
+         "NDCG@10":0
+      },
+      "pyluc.BM25":{
+         "Precision@10":0.7666666666666667,
+         "MAP":0.8490561224489795,
+         "NDCG@10":0.9106240348488635
+      },
+      "pyluc.TF-IDF":{
+         "Precision@10":0.7666666666666667,
+         "MAP":0.7984772612748803,
+         "NDCG@10":0.8773323657252408
+      },
+      "wo.BM25":{
+         "Precision@10":0.9055555555555556,
+         "MAP":0.9314147315304722,
+         "NDCG@10":0.9583576718197434
+      },
+      "wo.TF-IDF":{
+         "Precision@10":0.9055555555555556,
+         "MAP":0.9314147315304722,
+         "NDCG@10":0.9583576718197434
+      }
+   },
+   "Based on a true story":{
+      "pg.ts_rank":{
+         "Precision@10":0.8944444444444445,
+         "MAP":0.935945488788626,
+         "NDCG@10":0.9323037951472904
+      },
+      "pg.ts_rank_cd":{
+         "Precision@10":0.8944444444444445,
+         "MAP":0.9439701801466508,
+         "NDCG@10":0.9462263953615716
+      },
+      "pyluc.BM25":{
+         "Precision@10":0.78,
+         "MAP":0.8547545666414713,
+         "NDCG@10":0.9162331106345762
+      },
+      "pyluc.TF-IDF":{
+         "Precision@10":0.78,
+         "MAP":0.8092335915847819,
+         "NDCG@10":0.8862706084233158
+      },
+      "wo.BM25":{
+         "Precision@10":0.905,
+         "MAP":0.9359275793650792,
+         "NDCG@10":0.9619013832010908
+      },
+      "wo.TF-IDF":{
+         "Precision@10":0.905,
+         "MAP":0.9359275793650792,
+         "NDCG@10":0.9619013832010908
+      }
+   }
+}
+
+In media, i kpi dei SE sono:
+

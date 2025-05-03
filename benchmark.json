@@ -1,0 +1,2009 @@
+{
+    "Find movies with the title 'Inception'.":{
+       "pg":{
+          "ts_rank":[
+             {
+                "description":"Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target",
+                "title":"Inception",
+                "rilevante":1.0
+             }
+          ],
+          "ts_rank_cd":[
+             {
+                "description":"Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target",
+                "title":"Inception",
+                "rilevante":1.0
+             }
+          ]
+       },
+       "pyluc":{
+          "BM25":[
+             {
+                "title":"Inception",
+                "description":"Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target",
+                "rilevante":1.0
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"Inception",
+                "description":"Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target",
+                "rilevante":1.0
+             }
+          ]
+       },
+       "wo":{
+          "BM25":[
+             {
+                "title":"Inception",
+                "description":"Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target",
+                "rilevante":1.0
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"Inception",
+                "description":"Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target",
+                "rilevante":1.0
+             }
+          ]
+       }
+    },
+    "Find movies with the title 'The Blue Lagoon'.":{
+       "pg":{
+          "ts_rank":[
+             {
+                "description":"Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla",
+                "title":"The Blue Lagoon",
+                "rilevante":1.0
+             }
+          ],
+          "ts_rank_cd":[
+             {
+                "description":"Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla",
+                "title":"The Blue Lagoon",
+                "rilevante":1.0
+             }
+          ]
+       },
+       "pyluc":{
+          "BM25":[
+             {
+                "title":"The Blue Lagoon",
+                "description":"Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla",
+                "rilevante":1.0
+             },
+             {
+                "title":"The Blue Umbrella",
+                "description":"Young Biniya lives a poor lifestyle in a small village in the mountainous and snowy region of Himach",
+                "rilevante":0.5
+             },
+             {
+                "title":"Blue Exorcist",
+                "description":"Humans live in the world of Assiah, demons in Gehenna. The two dimensions are not meant to interfere",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Blue Jasmine",
+                "description":"After experiencing a traumatic misfortune, Jasmine French, a wealthy woman from New York, moves to S",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Mission Blue",
+                "description":"Feature documentary about legendary oceanographer, marine biologist, environmentalist and National G",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"Blue Jay",
+                "description":"Meeting by chance when they return to their tiny California hometown, two former high-school sweethe",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Blue Period",
+                "description":"Bored with life, popular high schooler Yatora Yaguchi jumps into the beautiful yet unrelenting world",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Blue Miracle",
+                "description":"To save their cash-strapped orphanage, a guardian and his kids partner with a washed-up boat captain",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Cobalt Blue",
+                "description":"When an aspiring author and his free-spirited sister both fall for the enigmatic paying guest at the",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"The Blue Elephant 2",
+                "description":"A meeting with a new inmate in the psychiatric hospital flips Dr. Yehia's life upside down, he proph",
+                "rilevante":"0.4"
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"The Blue Lagoon",
+                "description":"Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla",
+                "rilevante":1.0
+             },
+             {
+                "title":"The Blue Umbrella",
+                "description":"Young Biniya lives a poor lifestyle in a small village in the mountainous and snowy region of Himach",
+                "rilevante":0.5
+             },
+             {
+                "title":"Blue Exorcist",
+                "description":"Humans live in the world of Assiah, demons in Gehenna. The two dimensions are not meant to interfere",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Blue Jasmine",
+                "description":"After experiencing a traumatic misfortune, Jasmine French, a wealthy woman from New York, moves to S",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Mission Blue",
+                "description":"Feature documentary about legendary oceanographer, marine biologist, environmentalist and National G",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"Blue Jay",
+                "description":"Meeting by chance when they return to their tiny California hometown, two former high-school sweethe",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Blue Period",
+                "description":"Bored with life, popular high schooler Yatora Yaguchi jumps into the beautiful yet unrelenting world",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Blue Miracle",
+                "description":"To save their cash-strapped orphanage, a guardian and his kids partner with a washed-up boat captain",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Cobalt Blue",
+                "description":"When an aspiring author and his free-spirited sister both fall for the enigmatic paying guest at the",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"The Blue Elephant 2",
+                "description":"A meeting with a new inmate in the psychiatric hospital flips Dr. Yehia's life upside down, he proph",
+                "rilevante":"0.4"
+             }
+          ]
+       },
+       "wo":{
+          "BM25":[
+             {
+                "title":"The Blue Lagoon",
+                "description":"Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla",
+                "rilevante":1.0
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"The Blue Lagoon",
+                "description":"Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla",
+                "rilevante":1.0
+             }
+          ]
+       }
+    },
+    "Find movies with the title 'She's Gotta Have It'.":{
+       "pg":{
+          "ts_rank":[
+             {
+                "description":"The story of Nola Darling's simultaneous sexual relationships with three different men is told by he",
+                "title":"She's Gotta Have It",
+                "rilevante":1.0
+             },
+             {
+                "description":"Nola Darling struggles to define herself and divide her time among her friends, job and three lovers",
+                "title":"She's Gotta Have It",
+                "rilevante":1.0
+             }
+          ],
+          "ts_rank_cd":[
+             {
+                "description":"The story of Nola Darling's simultaneous sexual relationships with three different men is told by he",
+                "title":"She's Gotta Have It",
+                "rilevante":1.0
+             },
+             {
+                "description":"Nola Darling struggles to define herself and divide her time among her friends, job and three lovers",
+                "title":"She's Gotta Have It",
+                "rilevante":1.0
+             }
+          ]
+       },
+       "pyluc":{
+          "BM25":[
+             {
+                "title":"She's Gotta Have It",
+                "description":"The story of Nola Darling's simultaneous sexual relationships with three different men is told by he",
+                "rilevante":1.0
+             },
+             {
+                "title":"She's Gotta Have It",
+                "description":"Nola Darling struggles to define herself and divide her time among her friends, job and three lovers",
+                "rilevante":1.0
+             },
+             {
+                "title":"She",
+                "description":"An undercover assignment to expose a drug ring becomes a timid Mumbai constable's road to empowermen",
+                "rilevante":0.333
+             },
+             {
+                "title":"She Is",
+                "description":"Can one woman have everything? Facing her 40s, a highly accomplished woman, with a host of suitors a",
+                "rilevante":0.333
+             },
+             {
+                "title":"Something's Gotta Give",
+                "description":"Harry Sanborn is an aged music industry exec with a fondness for younger women like Marin, his lates",
+                "rilevante":0.333
+             },
+             {
+                "title":"It",
+                "description":"In a small town in Maine, seven children known as The Losers Club come face to face with life proble",
+                "rilevante":0.0
+             },
+             {
+                "title":"She Would Never Know",
+                "description":"It is an office romance about female senior who doesn\u2019t want to catch feelings for younger men and m",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"It Follows",
+                "description":"When carefree teenager Jay sleeps with her older boyfriend for the first time, she learns that she i",
+                "rilevante":0.0
+             },
+             {
+                "title":"Nailed It!",
+                "description":"Home bakers who have a poor track record in the kitchen seek redemption -- and cash -- on this serie",
+                "rilevante":0.0
+             },
+             {
+                "title":"Work It",
+                "description":"A brilliant but clumsy high school senior vows to get into her late father's alma mater by transform",
+                "rilevante":0.0
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"She's Gotta Have It",
+                "description":"The story of Nola Darling's simultaneous sexual relationships with three different men is told by he",
+                "rilevante":1.0
+             },
+             {
+                "title":"She's Gotta Have It",
+                "description":"Nola Darling struggles to define herself and divide her time among her friends, job and three lovers",
+                "rilevante":1.0
+             },
+             {
+                "title":"She",
+                "description":"An undercover assignment to expose a drug ring becomes a timid Mumbai constable's road to empowermen",
+                "rilevante":0.333
+             },
+             {
+                "title":"It",
+                "description":"In a small town in Maine, seven children known as The Losers Club come face to face with life proble",
+                "rilevante":0.0
+             },
+             {
+                "title":"She Is",
+                "description":"Can one woman have everything? Facing her 40s, a highly accomplished woman, with a host of suitors a",
+                "rilevante":0.333
+             },
+             {
+                "title":"Something's Gotta Give",
+                "description":"Harry Sanborn is an aged music industry exec with a fondness for younger women like Marin, his lates",
+                "rilevante":0.333
+             },
+             {
+                "title":"It Follows",
+                "description":"When carefree teenager Jay sleeps with her older boyfriend for the first time, she learns that she i",
+                "rilevante":0.0
+             },
+             {
+                "title":"Nailed It!",
+                "description":"Home bakers who have a poor track record in the kitchen seek redemption -- and cash -- on this serie",
+                "rilevante":0.0
+             },
+             {
+                "title":"Work It",
+                "description":"A brilliant but clumsy high school senior vows to get into her late father's alma mater by transform",
+                "rilevante":0.0
+             },
+             {
+                "title":"She Would Never Know",
+                "description":"It is an office romance about female senior who doesn\u2019t want to catch feelings for younger men and m",
+                "rilevante":"0.2"
+             }
+          ]
+       },
+       "wo":{
+          "BM25":[
+             {
+                "title":"She's Gotta Have It",
+                "description":"The story of Nola Darling's simultaneous sexual relationships with three different men is told by he",
+                "rilevante":1.0
+             },
+             {
+                "title":"She's Gotta Have It",
+                "description":"Nola Darling struggles to define herself and divide her time among her friends, job and three lovers",
+                "rilevante":1.0
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"She's Gotta Have It",
+                "description":"The story of Nola Darling's simultaneous sexual relationships with three different men is told by he",
+                "rilevante":1.0
+             },
+             {
+                "title":"She's Gotta Have It",
+                "description":"Nola Darling struggles to define herself and divide her time among her friends, job and three lovers",
+                "rilevante":1.0
+             }
+          ]
+       }
+    },
+    "Find movies with the title 'Mission: Impossible'.":{
+       "pg":{
+          "ts_rank":[
+             {
+                "description":"With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt",
+                "title":"Mission: Impossible II",
+                "rilevante":1.0
+             },
+             {
+                "description":"When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no",
+                "title":"Mission: Impossible",
+                "rilevante":1.0
+             },
+             {
+                "description":"Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks,",
+                "title":"Mission: Impossible - Ghost Protocol",
+                "rilevante":1.0
+             }
+          ],
+          "ts_rank_cd":[
+             {
+                "description":"With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt",
+                "title":"Mission: Impossible II",
+                "rilevante":1.0
+             },
+             {
+                "description":"When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no",
+                "title":"Mission: Impossible",
+                "rilevante":1.0
+             },
+             {
+                "description":"Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks,",
+                "title":"Mission: Impossible - Ghost Protocol",
+                "rilevante":1.0
+             }
+          ]
+       },
+       "pyluc":{
+          "BM25":[
+            {"description":"When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no",
+            "title":"Mission: Impossible",
+            "rilevante":1.0
+          }
+          ],
+          "TF-IDF":[
+           {                "description":"When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no",
+           "title":"Mission: Impossible",
+           "rilevante":1.0}  
+          ]
+       },
+       "wo":{
+          "BM25":[
+             {
+                "title":"Mission: Impossible",
+                "description":"When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no",
+                "rilevante":1.0
+             },
+             {
+                "title":"Mission: Impossible II",
+                "description":"With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt",
+                "rilevante":1.0
+             },
+             {
+                "title":"Mission: Impossible - Ghost Protocol",
+                "description":"Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks,",
+                "rilevante":1.0
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"Mission: Impossible",
+                "description":"When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no",
+                "rilevante":1.0
+             },
+             {
+                "title":"Mission: Impossible II",
+                "description":"With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt",
+                "rilevante":1.0
+             },
+             {
+                "title":"Mission: Impossible - Ghost Protocol",
+                "description":"Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks,",
+                "rilevante":1.0
+             }
+          ]
+       }
+    },
+    "Find movies with the title 'Connected'.":{
+       "pg":{
+          "ts_rank":[
+             {
+                "description":"Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f",
+                "title":"Connected",
+                "rilevante":1.0
+             },
+             {
+                "description":"A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a",
+                "title":"Connected",
+                "rilevante":1.0
+             },
+             {
+                "description":"Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne",
+                "title":"Connected",
+                "rilevante":1.0
+             }
+          ],
+          "ts_rank_cd":[
+             {
+                "description":"Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f",
+                "title":"Connected",
+                "rilevante":1.0
+             },
+             {
+                "description":"A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a",
+                "title":"Connected",
+                "rilevante":1.0
+             },
+             {
+                "description":"Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne",
+                "title":"Connected",
+                "rilevante":1.0
+             }
+          ]
+       },
+       "pyluc":{
+          "BM25":[
+             {
+                "title":"Connected",
+                "description":"A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a",
+                "rilevante":1.0
+             },
+             {
+                "title":"Connected",
+                "description":"Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne",
+                "rilevante":1.0
+             },
+             {
+                "title":"Connected",
+                "description":"Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f",
+                "rilevante":1.0
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"Connected",
+                "description":"A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a",
+                "rilevante":1.0
+             },
+             {
+                "title":"Connected",
+                "description":"Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne",
+                "rilevante":1.0
+             },
+             {
+                "title":"Connected",
+                "description":"Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f",
+                "rilevante":1.0
+             }
+          ]
+       },
+       "wo":{
+          "BM25":[
+             {
+                "title":"Connected",
+                "description":"A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a",
+                "rilevante":1.0
+             },
+             {
+                "title":"Connected",
+                "description":"Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne",
+                "rilevante":1.0
+             },
+             {
+                "title":"Connected",
+                "description":"Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f",
+                "rilevante":1.0
+             },
+             {
+                "title":"The Magic School Bus Rides Again: The Frizz Connection",
+                "description":"Lightning splits the Magic School Bus into three pieces, scattering the class across the globe with ",
+                "rilevante":0.0
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"Connected",
+                "description":"A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a",
+                "rilevante":1.0
+             },
+             {
+                "title":"Connected",
+                "description":"Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne",
+                "rilevante":1.0
+             },
+             {
+                "title":"Connected",
+                "description":"Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f",
+                "rilevante":1.0
+             },
+             {
+                "title":"The Magic School Bus Rides Again: The Frizz Connection",
+                "description":"Lightning splits the Magic School Bus into three pieces, scattering the class across the globe with ",
+                "rilevante":0.0
+             }
+          ]
+       }
+    },
+    "Find movies based on real-life public figures or biographies":{
+       "pg":{
+          "ts_rank":[
+             {
+                "description":"A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur",
+                "title":"Rush",
+                "rilevante":0.8166666666666668
+             },
+             {
+                "description":"Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ",
+                "title":"Baggio: The Divine Ponytail",
+                "rilevante":"1"
+             },
+             {
+                "description":"Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra",
+                "title":"Budhia Singh: Born to Run",
+                "rilevante":0.5
+             },
+             {
+                "description":"A semi-biographical account of Yip Man, the first martial arts master to teach the Chinese martial a",
+                "title":"Ip Man",
+                "rilevante":"0"
+             }
+          ],
+          "ts_rank_cd":[
+             {
+                "description":"A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur",
+                "title":"Rush",
+                "rilevante":0.8166666666666668
+             },
+             {
+                "description":"Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ",
+                "title":"Baggio: The Divine Ponytail",
+                "rilevante":"1"
+             },
+             {
+                "description":"Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra",
+                "title":"Budhia Singh: Born to Run",
+                "rilevante":0.5
+             },
+             {
+                "description":"A semi-biographical account of Yip Man, the first martial arts master to teach the Chinese martial a",
+                "title":"Ip Man",
+                "rilevante":"0"
+             }
+          ]
+       },
+       "pyluc":{
+          "BM25":[
+             {
+                "title":"Rush",
+                "description":"A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur",
+                "rilevante":0.8166666666666668
+             },
+             {
+                "title":"Baggio: The Divine Ponytail",
+                "description":"Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ",
+                "rilevante":"1"
+             },
+             {
+                "title":"Budhia Singh: Born to Run",
+                "description":"Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra",
+                "rilevante":0.5
+             },
+             {
+                "title":"Sleepless Society NYCTOPHOBIA",
+                "description":"Thai Horro Drama.",
+                "rilevante":"0"
+             },
+             {
+                "title":"The Oath",
+                "description":"The Oath is a medical drama produced by Wawa Pictures. The drama follows a Chinese physician and a W",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"At Dolphin Bay",
+                "description":"At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu.",
+                "rilevante":0.07500000000000001
+             },
+             {
+                "title":"Ip Man",
+                "description":"A semi-biographical account of Yip Man, the first martial arts master to teach the Chinese martial a",
+                "rilevante":"0"
+             },
+             {
+                "title":"Our Planet: Behind the Scenes",
+                "description":"Behind the Scenes look at the hardships and drama of capturing footage from Our Planet.",
+                "rilevante":0.0
+             },
+             {
+                "title":"Yours Fatefully",
+                "description":"Yours Fatefully is a Singaporean Chinese drama which was telecasted on Singapore's free-to-air chann",
+                "rilevante":0.0
+             },
+             {
+                "title":"Queen Sono",
+                "description":"A drama about a secret agent who fights crime while dealing with crises in her personal life.",
+                "rilevante":0.0
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"Sleepless Society NYCTOPHOBIA",
+                "description":"Thai Horro Drama.",
+                "rilevante":"0"
+             },
+             {
+                "title":"Rush",
+                "description":"A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur",
+                "rilevante":0.8166666666666668
+             },
+             {
+                "title":"Baggio: The Divine Ponytail",
+                "description":"Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ",
+                "rilevante":"1"
+             },
+             {
+                "title":"At Dolphin Bay",
+                "description":"At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu.",
+                "rilevante":0.07500000000000001
+             },
+             {
+                "title":"The Oath",
+                "description":"The Oath is a medical drama produced by Wawa Pictures. The drama follows a Chinese physician and a W",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Our Planet: Behind the Scenes",
+                "description":"Behind the Scenes look at the hardships and drama of capturing footage from Our Planet.",
+                "rilevante":0.0
+             },
+             {
+                "title":"Queen Sono",
+                "description":"A drama about a secret agent who fights crime while dealing with crises in her personal life.",
+                "rilevante":0.0
+             },
+             {
+                "title":"Budhia Singh: Born to Run",
+                "description":"Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra",
+                "rilevante":0.5
+             },
+             {
+                "title":"Much Loved",
+                "description":"A social drama about four marginalized prostitutes in Marrakech and their complex relations with the",
+                "rilevante":0.0
+             },
+             {
+                "title":"What are the Odds?",
+                "description":"A drama film directed by Megha Ramaswamy, starring Priyanka Bose, Manu Rishi Chadha and Yashaswini D",
+                "rilevante":"0.2"
+             }
+          ]
+       },
+       "wo":{
+          "BM25":[
+             {
+                "title":"Rush",
+                "description":"A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur",
+                "rilevante":0.8166666666666668
+             },
+             {
+                "title":"Falling in Love Like a Romantic Drama",
+                "description":"Naomi Watanabe hosts a reality show in which eight young actors perform kissing scenes in a drama. T",
+                "rilevante":"0.05"
+             },
+             {
+                "title":"The Little Nyonya",
+                "description":"A biographic flashback of an extended Peranakan family in Malacca; set in the 1930s, the story spans",
+                "rilevante":0.25
+             },
+             {
+                "title":"Mama Drama",
+                "description":"",
+                "rilevante":0.05
+             },
+             {
+                "title":"The Oath",
+                "description":"The Oath is a medical drama produced by Wawa Pictures. The drama follows a Chinese physician and a W",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Baggio: The Divine Ponytail",
+                "description":"Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ",
+                "rilevante":"1"
+             },
+             {
+                "title":"Sleepless Society NYCTOPHOBIA",
+                "description":"Thai Horro Drama.",
+                "rilevante":"0"
+             },
+             {
+                "title":"At Dolphin Bay",
+                "description":"At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu.",
+                "rilevante":0.07500000000000001
+             },
+             {
+                "title":"Budhia Singh: Born to Run",
+                "description":"Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra",
+                "rilevante":0.5
+             },
+             {
+                "title":"Total Drama Island",
+                "description":"Reality TV meets animation in this parody in which twenty-two teens are sent to the most run-down an",
+                "rilevante":0.0
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"Rush",
+                "description":"A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur",
+                "rilevante":0.8166666666666668
+             },
+             {
+                "title":"Falling in Love Like a Romantic Drama",
+                "description":"Naomi Watanabe hosts a reality show in which eight young actors perform kissing scenes in a drama. T",
+                "rilevante":"0.05"
+             },
+             {
+                "title":"The Little Nyonya",
+                "description":"A biographic flashback of an extended Peranakan family in Malacca; set in the 1930s, the story spans",
+                "rilevante":0.25
+             },
+             {
+                "title":"Mama Drama",
+                "description":"",
+                "rilevante":0.05
+             },
+             {
+                "title":"The Oath",
+                "description":"The Oath is a medical drama produced by Wawa Pictures. The drama follows a Chinese physician and a W",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Baggio: The Divine Ponytail",
+                "description":"Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ",
+                "rilevante":"1"
+             },
+             {
+                "title":"Sleepless Society NYCTOPHOBIA",
+                "description":"Thai Horro Drama.",
+                "rilevante":"0"
+             },
+             {
+                "title":"At Dolphin Bay",
+                "description":"At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu.",
+                "rilevante":0.07500000000000001
+             },
+             {
+                "title":"Budhia Singh: Born to Run",
+                "description":"Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra",
+                "rilevante":0.5
+             },
+             {
+                "title":"Total Drama Island",
+                "description":"Reality TV meets animation in this parody in which twenty-two teens are sent to the most run-down an",
+                "rilevante":0.0
+             }
+          ]
+       }
+    },
+    "Discover shows on lawyer ":{
+       "pg":{
+          "ts_rank":[
+             {
+                "description":"While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence ",
+                "title":"Firebrand",
+                "rilevante":"0.01"
+             }
+          ],
+          "ts_rank_cd":[
+             {
+                "description":"While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence ",
+                "title":"Firebrand",
+                "rilevante":"0.01"
+             }
+          ]
+       },
+       "pyluc":{
+          "BM25":[
+             {
+                "title":"30 March",
+                "description":"Ali, the fugitive from a murder he does not even know whether he committed it or not, sets out to un",
+                "rilevante":"0.01"
+             },
+             {
+                "title":"Cold Case Files",
+                "description":"Tense new series exploring cold cases from victims death to criminal convictions.",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Sakho & Mangane",
+                "description":"Two cops with very different methods, solving mysterious murder cases surrounded by black magic.",
+                "rilevante":0.0
+             },
+             {
+                "title":"Unsolved Mysteries",
+                "description":"Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this grippi",
+                "rilevante":0.0
+             },
+             {
+                "title":"The Confession Tapes",
+                "description":"This true crime documentary series investigates cases where people convicted of murder claim their c",
+                "rilevante":"0.7"
+             },
+             {
+                "title":"Firebrand",
+                "description":"While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence ",
+                "rilevante":"0.01"
+             },
+             {
+                "title":"Solo el amor",
+                "description":"A love story between a young lawyer called Emma and a Noah, a rock star.",
+                "rilevante":0.0
+             },
+             {
+                "title":"Catching Killers",
+                "description":"The investigators behind infamous serial killer cases reveal the harrowing, chilling details of thei",
+                "rilevante":"0.4"
+             },
+             {
+                "title":"U Turn",
+                "description":"A journalist who intents to write an article on traffic rule breakers gets dragged into a whirlpool ",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Carmel: Who Killed Maria Marta?",
+                "description":"Documentary series on the circumstances surrounding the death of Mar\u00eda Marta Garc\u00eda Belsunce, one of",
+                "rilevante":"0.8"
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"Cold Case Files",
+                "description":"Tense new series exploring cold cases from victims death to criminal convictions.",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Sakho & Mangane",
+                "description":"Two cops with very different methods, solving mysterious murder cases surrounded by black magic.",
+                "rilevante":0.0
+             },
+             {
+                "title":"30 March",
+                "description":"Ali, the fugitive from a murder he does not even know whether he committed it or not, sets out to un",
+                "rilevante":"0.01"
+             },
+             {
+                "title":"Solo el amor",
+                "description":"A love story between a young lawyer called Emma and a Noah, a rock star.",
+                "rilevante":0.0
+             },
+             {
+                "title":"Unsolved Mysteries",
+                "description":"Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this grippi",
+                "rilevante":0.0
+             },
+             {
+                "title":"The Confession Tapes",
+                "description":"This true crime documentary series investigates cases where people convicted of murder claim their c",
+                "rilevante":"0.7"
+             },
+             {
+                "title":"Firebrand",
+                "description":"While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence ",
+                "rilevante":"0.01"
+             },
+             {
+                "title":"Catching Killers",
+                "description":"The investigators behind infamous serial killer cases reveal the harrowing, chilling details of thei",
+                "rilevante":"0.4"
+             },
+             {
+                "title":"U Turn",
+                "description":"A journalist who intents to write an article on traffic rule breakers gets dragged into a whirlpool ",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Carmel: Who Killed Maria Marta?",
+                "description":"Documentary series on the circumstances surrounding the death of Mar\u00eda Marta Garc\u00eda Belsunce, one of",
+                "rilevante":"0.8"
+             }
+          ]
+       },
+       "wo":{
+          "BM25":[
+             {
+                "title":"The Lincoln Lawyer",
+                "description":"Sidelined after an accident, hotshot Los Angeles lawyer Mickey Haller restarts his career \u2014 and his ",
+                "rilevante":"1"
+             },
+             {
+                "title":"Case",
+                "description":"A dramatic thriller about a broken lawyer who seeks redemption through his investigation into the su",
+                "rilevante":0.0
+             },
+             {
+                "title":"Lawless Lawyer",
+                "description":"Driven by the desire to avenge his mother, a former gangster turned lawyer uses both his fists and t",
+                "rilevante":"1"
+             },
+             {
+                "title":"Shepherds and Butchers",
+                "description":"A lawyer takes on a case of a prison guard in South Africa who is traumatized by the executions he's",
+                "rilevante":"1"
+             },
+             {
+                "title":"Cold Case Files",
+                "description":"Tense new series exploring cold cases from victims death to criminal convictions.",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"The Family Court",
+                "description":"Five lawyers from different firms develop a strong bond of friendship that is occasionally tested by",
+                "rilevante":"1"
+             },
+             {
+                "title":"Firebrand",
+                "description":"While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence ",
+                "rilevante":"0.01"
+             },
+             {
+                "title":"Love, Guaranteed",
+                "description":"To save her small law firm, earnest lawyer Susan takes a high-paying case from Nick, a charming new ",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Under Suspicion: Uncovering the Wesphael Case",
+                "description":"This docuseries follows the high-profile case of Belgian politician Bernard Wesphael, who was accuse",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Thimmarusu: Assignment Vali",
+                "description":"After a cab driver is found dead, a young pub employee is framed for the murder and is sent to jail ",
+                "rilevante":"0.1"
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"The Lincoln Lawyer",
+                "description":"Sidelined after an accident, hotshot Los Angeles lawyer Mickey Haller restarts his career \u2014 and his ",
+                "rilevante":"1"
+             },
+             {
+                "title":"Case",
+                "description":"A dramatic thriller about a broken lawyer who seeks redemption through his investigation into the su",
+                "rilevante":0.0
+             },
+             {
+                "title":"Lawless Lawyer",
+                "description":"Driven by the desire to avenge his mother, a former gangster turned lawyer uses both his fists and t",
+                "rilevante":"1"
+             },
+             {
+                "title":"Shepherds and Butchers",
+                "description":"A lawyer takes on a case of a prison guard in South Africa who is traumatized by the executions he's",
+                "rilevante":"1"
+             },
+             {
+                "title":"Cold Case Files",
+                "description":"Tense new series exploring cold cases from victims death to criminal convictions.",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"The Family Court",
+                "description":"Five lawyers from different firms develop a strong bond of friendship that is occasionally tested by",
+                "rilevante":"1"
+             },
+             {
+                "title":"Firebrand",
+                "description":"While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence ",
+                "rilevante":"0.01"
+             },
+             {
+                "title":"Love, Guaranteed",
+                "description":"To save her small law firm, earnest lawyer Susan takes a high-paying case from Nick, a charming new ",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Under Suspicion: Uncovering the Wesphael Case",
+                "description":"This docuseries follows the high-profile case of Belgian politician Bernard Wesphael, who was accuse",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Thimmarusu: Assignment Vali",
+                "description":"After a cab driver is found dead, a young pub employee is framed for the murder and is sent to jail ",
+                "rilevante":"0.1"
+             }
+          ]
+       }
+    },
+    "Identify thrillers on love revenge.":{
+       "pg":{
+          "ts_rank":[
+             {
+                "description":"A patriotic bodyguard who was abandoned by his country and colleagues, a hidden daughter of leading ",
+                "title":"The K2",
+                "rilevante":0.0
+             },
+             {
+                "description":"Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds ",
+                "title":"Ferry",
+                "rilevante":"0.2"
+             },
+             {
+                "description":"The story of twin brothers who separated at birth but grew up to be supreme martial artists. Raised ",
+                "title":"Handsome Siblings",
+                "rilevante":"0.3"
+             },
+             {
+                "description":"Quan is a humble London businessman whose long-buried past erupts in a revenge-fueled vendetta when ",
+                "title":"The Foreigner",
+                "rilevante":"0.2"
+             },
+             {
+                "description":"When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek reven",
+                "title":"The Harder They Fall",
+                "rilevante":"0.1"
+             },
+             {
+                "description":"After learning of his brother's death during a mission in Romania, a former soldier joins two allies",
+                "title":"The Hard Way",
+                "rilevante":0.0
+             },
+             {
+                "description":"Siddharth, Omi, and Jai are close friends and roommates who are studying at Delhi University. Siddha",
+                "title":"Chashme Baddoor",
+                "rilevante":0.0
+             },
+             {
+                "description":"Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump",
+                "title":"2020",
+                "rilevante":0.0
+             },
+             {
+                "description":"Indran suffers from narcolepsy, a sleep disorder that makes him fall asleep at the slightest excitem",
+                "title":"Naan Sigappu Manithan",
+                "rilevante":0.0
+             },
+             {
+                "description":"A bigamist with one family in Buenos Aires and the other in Mar del Plata sees his life turned upsid",
+                "title":"So Much Love to Give",
+                "rilevante":"0.8"
+             },
+             {
+                "description":"This is the story of Catalina, the indigenous woman who gave away her soul, her heart and her life t",
+                "title":"The Queen and the Conqueror",
+                "rilevante":0.0
+             },
+             {
+                "description":"Valerie is in love with a brooding outsider, Peter, but her parents have arranged for her to marry a",
+                "title":"Red Riding Hood",
+                "rilevante":"0.3"
+             }
+          ],
+          "ts_rank_cd":[
+             {
+                "description":"A patriotic bodyguard who was abandoned by his country and colleagues, a hidden daughter of leading ",
+                "title":"The K2",
+                "rilevante":0.0
+             },
+             {
+                "description":"Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds ",
+                "title":"Ferry",
+                "rilevante":"0.2"
+             },
+             {
+                "description":"The story of twin brothers who separated at birth but grew up to be supreme martial artists. Raised ",
+                "title":"Handsome Siblings",
+                "rilevante":"0.3"
+             },
+             {
+                "description":"Quan is a humble London businessman whose long-buried past erupts in a revenge-fueled vendetta when ",
+                "title":"The Foreigner",
+                "rilevante":"0.2"
+             },
+             {
+                "description":"When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek reven",
+                "title":"The Harder They Fall",
+                "rilevante":"0.1"
+             },
+             {
+                "description":"After learning of his brother's death during a mission in Romania, a former soldier joins two allies",
+                "title":"The Hard Way",
+                "rilevante":0.0
+             },
+             {
+                "description":"Siddharth, Omi, and Jai are close friends and roommates who are studying at Delhi University. Siddha",
+                "title":"Chashme Baddoor",
+                "rilevante":0.0
+             },
+             {
+                "description":"Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump",
+                "title":"2020",
+                "rilevante":0.0
+             },
+             {
+                "description":"Indran suffers from narcolepsy, a sleep disorder that makes him fall asleep at the slightest excitem",
+                "title":"Naan Sigappu Manithan",
+                "rilevante":0.0
+             },
+             {
+                "description":"A bigamist with one family in Buenos Aires and the other in Mar del Plata sees his life turned upsid",
+                "title":"So Much Love to Give",
+                "rilevante":"0.8"
+             },
+             {
+                "description":"This is the story of Catalina, the indigenous woman who gave away her soul, her heart and her life t",
+                "title":"The Queen and the Conqueror",
+                "rilevante":0.0
+             },
+             {
+                "description":"Valerie is in love with a brooding outsider, Peter, but her parents have arranged for her to marry a",
+                "title":"Red Riding Hood",
+                "rilevante":"0.3"
+             }
+          ]
+       },
+       "pyluc":{
+          "BM25":[
+             {
+                "title":"2020",
+                "description":"Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump",
+                "rilevante":0.0
+             },
+             {
+                "title":"Ferry",
+                "description":"Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds ",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"The K2",
+                "description":"A patriotic bodyguard who was abandoned by his country and colleagues, a hidden daughter of leading ",
+                "rilevante":0.0
+             },
+             {
+                "title":"Thaandavam",
+                "description":"A blind man with his 'Echolocation' power takes on a revenge mission.",
+                "rilevante":0.0
+             },
+             {
+                "title":"Sisterakas",
+                "description":"A man takes revenge on his sister by hiring her as his personal assistant.",
+                "rilevante":0.0
+             },
+             {
+                "title":"Hello Brother",
+                "description":"A ghost seeking revenge for his death haunts the man who received his heart in a transplant.",
+                "rilevante":0.0
+             },
+             {
+                "title":"The Harder They Fall",
+                "description":"When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek reven",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"He's All That",
+                "description":"To get revenge on her ex-boyfriend, an influencer attempts to transform an unpopular classmate into ",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"Naan Sigappu Manithan",
+                "description":"Indran suffers from narcolepsy, a sleep disorder that makes him fall asleep at the slightest excitem",
+                "rilevante":0.0
+             },
+             {
+                "title":"Sin senos s\u00ed hay para\u00edso",
+                "description":"A young woman born in a mafia-controlled town seeks revenge on those who wrongfully harmed and impri",
+                "rilevante":"0.15"
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"2020",
+                "description":"Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump",
+                "rilevante":0.0
+             },
+             {
+                "title":"Ferry",
+                "description":"Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds ",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"Thaandavam",
+                "description":"A blind man with his 'Echolocation' power takes on a revenge mission.",
+                "rilevante":0.0
+             },
+             {
+                "title":"Sisterakas",
+                "description":"A man takes revenge on his sister by hiring her as his personal assistant.",
+                "rilevante":0.0
+             },
+             {
+                "title":"The K2",
+                "description":"A patriotic bodyguard who was abandoned by his country and colleagues, a hidden daughter of leading ",
+                "rilevante":0.0
+             },
+             {
+                "title":"Hello Brother",
+                "description":"A ghost seeking revenge for his death haunts the man who received his heart in a transplant.",
+                "rilevante":0.0
+             },
+             {
+                "title":"The Harder They Fall",
+                "description":"When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek reven",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"He's All That",
+                "description":"To get revenge on her ex-boyfriend, an influencer attempts to transform an unpopular classmate into ",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"Sin senos s\u00ed hay para\u00edso",
+                "description":"A young woman born in a mafia-controlled town seeks revenge on those who wrongfully harmed and impri",
+                "rilevante":"0.15"
+             },
+             {
+                "title":"Jaane Tu... Ya Jaane Na",
+                "description":"Two best friends being convinced that they are not in love search for each other's love.",
+                "rilevante":0.0
+             }
+          ]
+       },
+       "wo":{
+          "BM25":[
+             {
+                "title":"The Car: Road to Revenge",
+                "description":"In a dilapidated cyberpunk city plagued by crime and corruption, an unscrupulous District Attorney i",
+                "rilevante":"0.8"
+             },
+             {
+                "title":"Revenger",
+                "description":"Hell-bent on avenging the murder of his family, a former detective infiltrates a remote island that ",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Loving",
+                "description":"The story of Richard and Mildred Loving, an interracial couple, whose challenge of their anti-misceg",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"Ferry",
+                "description":"Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds ",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"2020",
+                "description":"Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump",
+                "rilevante":0.0
+             },
+             {
+                "title":"Love Actually",
+                "description":"'Love Actually' follows the lives of eight very different couples dealing with their love lives, in ",
+                "rilevante":"0.6"
+             },
+             {
+                "title":"Ashes of Love",
+                "description":"Jin Mi is the daughter of a flower deity who is fed a pill that prevents her from feeling or express",
+                "rilevante":"0.6"
+             },
+             {
+                "title":"Love Hard",
+                "description":"An LA girl, unlucky in love, falls for an East Coast guy on a dating app and decides to surprise him",
+                "rilevante":"0.6"
+             },
+             {
+                "title":"AI Love You",
+                "description":"A modern love story set in the near future where an AI building is powered by human feelings. Due to",
+                "rilevante":"0.5"
+             },
+             {
+                "title":"Love Alarm",
+                "description":"Love Alarm is an app that tells you if someone within a 10-meter radius has a crush on you. It quick",
+                "rilevante":"0.5"
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"The Car: Road to Revenge",
+                "description":"In a dilapidated cyberpunk city plagued by crime and corruption, an unscrupulous District Attorney i",
+                "rilevante":"0.8"
+             },
+             {
+                "title":"Revenger",
+                "description":"Hell-bent on avenging the murder of his family, a former detective infiltrates a remote island that ",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Loving",
+                "description":"The story of Richard and Mildred Loving, an interracial couple, whose challenge of their anti-misceg",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"Ferry",
+                "description":"Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds ",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"2020",
+                "description":"Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump",
+                "rilevante":0.0
+             },
+             {
+                "title":"Love Actually",
+                "description":"'Love Actually' follows the lives of eight very different couples dealing with their love lives, in ",
+                "rilevante":"0.6"
+             },
+             {
+                "title":"Ashes of Love",
+                "description":"Jin Mi is the daughter of a flower deity who is fed a pill that prevents her from feeling or express",
+                "rilevante":"0.6"
+             },
+             {
+                "title":"Love Hard",
+                "description":"An LA girl, unlucky in love, falls for an East Coast guy on a dating app and decides to surprise him",
+                "rilevante":"0.6"
+             },
+             {
+                "title":"AI Love You",
+                "description":"A modern love story set in the near future where an AI building is powered by human feelings. Due to",
+                "rilevante":"0.5"
+             },
+             {
+                "title":"Love Alarm",
+                "description":"Love Alarm is an app that tells you if someone within a 10-meter radius has a crush on you. It quick",
+                "rilevante":"0.5"
+             }
+          ]
+       }
+    },
+    "Explore stories of young superheroes":{
+       "pg":{
+          "ts_rank":[
+             {
+                "description":"A young man who stands for the right discovers that he's destined to do bigger things, which will tr",
+                "title":"Bhavesh Joshi Superhero",
+                "rilevante":1.0
+             }
+          ],
+          "ts_rank_cd":[
+             {
+                "description":"A young man who stands for the right discovers that he's destined to do bigger things, which will tr",
+                "title":"Bhavesh Joshi Superhero",
+                "rilevante":1.0
+             }
+          ]
+       },
+       "pyluc":{
+          "BM25":[
+             {
+                "title":"Bhavesh Joshi Superhero",
+                "description":"A young man who stands for the right discovers that he's destined to do bigger things, which will tr",
+                "rilevante":1.0
+             },
+             {
+                "title":"The Epic Tales of Captain Underpants",
+                "description":"Fourth-grade friends George and Harold have a shared love of pranks and comic books -- and turning t",
+                "rilevante":0.0
+             },
+             {
+                "title":"Shiva VS Autobots",
+                "description":"When an evil enemy gains control of a gadget that sends vehicles destructively spinning out of contr",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Zokkomon",
+                "description":"An orphan is abused and abandoned, believed to be dead, and upon his return is first feared as a gho",
+                "rilevante":"0.9"
+             },
+             {
+                "title":"Minnal Murali",
+                "description":"A tailor gains special powers after being struck by lightning but must take down an unexpected foe i",
+                "rilevante":"1"
+             },
+             {
+                "title":"Abby Hatcher",
+                "description":"Abby Hatcher is part girl, part superhero; living in a world full of fuzzlies. When a fuzzly friend ",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"StarBeam",
+                "description":"Zoey is excited to tackle second grade, but when danger beckons, she sneaks away and with her signat",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Kevin Hart: I'm a Grown Little Man",
+                "description":"Fresh off the heels of appearing in movies like Superhero Movie and The 40 Year-Old Virgin, fast-tal",
+                "rilevante":0.0
+             },
+             {
+                "title":"Henry Danger",
+                "description":"When 13-year-old Henry Hart lands a job as Danger, the sidekick-in-training to superhero Captain Man",
+                "rilevante":"0.8"
+             },
+             {
+                "title":"Hancock",
+                "description":"Hancock is a down-and-out superhero who's forced to employ a PR expert to help repair his image when",
+                "rilevante":"1"
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"Bhavesh Joshi Superhero",
+                "description":"A young man who stands for the right discovers that he's destined to do bigger things, which will tr",
+                "rilevante":0.0
+             },
+             {
+                "title":"The Epic Tales of Captain Underpants",
+                "description":"Fourth-grade friends George and Harold have a shared love of pranks and comic books -- and turning t",
+                "rilevante":0.0
+             },
+             {
+                "title":"Shiva VS Autobots",
+                "description":"When an evil enemy gains control of a gadget that sends vehicles destructively spinning out of contr",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Zokkomon",
+                "description":"An orphan is abused and abandoned, believed to be dead, and upon his return is first feared as a gho",
+                "rilevante":"0.9"
+             },
+             {
+                "title":"Minnal Murali",
+                "description":"A tailor gains special powers after being struck by lightning but must take down an unexpected foe i",
+                "rilevante":"1"
+             },
+             {
+                "title":"Abby Hatcher",
+                "description":"Abby Hatcher is part girl, part superhero; living in a world full of fuzzlies. When a fuzzly friend ",
+                "rilevante":"0.2"
+             },
+             {
+                "title":"StarBeam",
+                "description":"Zoey is excited to tackle second grade, but when danger beckons, she sneaks away and with her signat",
+                "rilevante":"0.3"
+             },
+             {
+                "title":"Kevin Hart: I'm a Grown Little Man",
+                "description":"Fresh off the heels of appearing in movies like Superhero Movie and The 40 Year-Old Virgin, fast-tal",
+                "rilevante":0.0
+             },
+             {
+                "title":"Henry Danger",
+                "description":"When 13-year-old Henry Hart lands a job as Danger, the sidekick-in-training to superhero Captain Man",
+                "rilevante":"0.8"
+             },
+             {
+                "title":"Teen Mom 2",
+                "description":"Jenelle, Chelsea, Kailyn, and Leah are four young women navigating complicated lives. It's not alway",
+                "rilevante":"0"
+             }
+          ]
+       },
+       "wo":{
+          "BM25":[
+             {
+                "title":"Bhavesh Joshi Superhero",
+                "description":"A young man who stands for the right discovers that he's destined to do bigger things, which will tr",
+                "rilevante":0.0
+             },
+             {
+                "title":"The Young Messiah",
+                "description":"Tells the story of Jesus Christ at age seven as he and his family depart Egypt to return home to Naz",
+                "rilevante":"0"
+             },
+             {
+                "title":"Young & Hungry",
+                "description":"Two worlds collide when Josh, a wealthy young tech entrepreneur, meets Gabi, a feisty young food blo",
+                "rilevante":"0.5"
+             },
+             {
+                "title":"How I Became a Super Hero",
+                "description":"While superheroes have assimilated into Parisian society, a new drug gives super powers to mere mort",
+                "rilevante":"1"
+             },
+             {
+                "title":"Young Wallander",
+                "description":"Follow recently graduated police officer Kurt Wallander as he investigates his first case.",
+                "rilevante":0.5
+             },
+             {
+                "title":"We Die Young",
+                "description":"Lucas, a 14-year-old boy inducted into the gang life in Washington D.C., is determined that his 10-y",
+                "rilevante":0.5
+             },
+             {
+                "title":"Young Royals",
+                "description":"Prince Wilhelm adjusts to life at his prestigious new boarding school, Hillerska, but following his ",
+                "rilevante":0.5
+             },
+             {
+                "title":"Zokkomon",
+                "description":"An orphan is abused and abandoned, believed to be dead, and upon his return is first feared as a gho",
+                "rilevante":"0.9"
+             },
+             {
+                "title":"ReBoot: The Guardian Code",
+                "description":"Four tech-savvy teens hone their skills as cyber-superheroes in a series of secret missions to save ",
+                "rilevante":"0.6"
+             },
+             {
+                "title":"Miniforce",
+                "description":"Four animal superheroes called the Miniforce transform into robots to protect small and defenseless ",
+                "rilevante":"0.51"
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"Bhavesh Joshi Superhero",
+                "description":"A young man who stands for the right discovers that he's destined to do bigger things, which will tr",
+                "rilevante":0.0
+             },
+             {
+                "title":"The Young Messiah",
+                "description":"Tells the story of Jesus Christ at age seven as he and his family depart Egypt to return home to Naz",
+                "rilevante":"0"
+             },
+             {
+                "title":"Young & Hungry",
+                "description":"Two worlds collide when Josh, a wealthy young tech entrepreneur, meets Gabi, a feisty young food blo",
+                "rilevante":"0.5"
+             },
+             {
+                "title":"How I Became a Super Hero",
+                "description":"While superheroes have assimilated into Parisian society, a new drug gives super powers to mere mort",
+                "rilevante":"1"
+             },
+             {
+                "title":"Young Wallander",
+                "description":"Follow recently graduated police officer Kurt Wallander as he investigates his first case.",
+                "rilevante":0.5
+             },
+             {
+                "title":"We Die Young",
+                "description":"Lucas, a 14-year-old boy inducted into the gang life in Washington D.C., is determined that his 10-y",
+                "rilevante":0.5
+             },
+             {
+                "title":"Young Royals",
+                "description":"Prince Wilhelm adjusts to life at his prestigious new boarding school, Hillerska, but following his ",
+                "rilevante":0.5
+             },
+             {
+                "title":"Zokkomon",
+                "description":"An orphan is abused and abandoned, believed to be dead, and upon his return is first feared as a gho",
+                "rilevante":"0.9"
+             },
+             {
+                "title":"ReBoot: The Guardian Code",
+                "description":"Four tech-savvy teens hone their skills as cyber-superheroes in a series of secret missions to save ",
+                "rilevante":"0.6"
+             },
+             {
+                "title":"Miniforce",
+                "description":"Four animal superheroes called the Miniforce transform into robots to protect small and defenseless ",
+                "rilevante":"0.51"
+             }
+          ]
+       }
+    },
+    "Based on a true story":{
+       "pg":{
+          "ts_rank":[
+             {
+                "description":"Based on a true story, the drama tells the tragic love story of Kim Woo Jin, a married stage drama w",
+                "title":"Hymn of Death",
+                "rilevante":0.0
+             },
+             {
+                "description":"The murder of 13-year-old Yara Gambirasio shocks the little town of Brembate di Sopra, Italy. To bri",
+                "title":"Yara",
+                "rilevante":"1"
+             },
+             {
+                "description":"After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h",
+                "title":"Silverton Siege",
+                "rilevante":"1"
+             },
+             {
+                "description":"Having fought in the First Carlist War, Martin returns to his family farm in Gipuzkoa only to find t",
+                "title":"Giant",
+                "rilevante":"1"
+             },
+             {
+                "description":"Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever",
+                "title":"Rescued by Ruby",
+                "rilevante":"0.5"
+             },
+             {
+                "description":"Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her",
+                "title":"Notes for My Son",
+                "rilevante":"1"
+             },
+             {
+                "description":"When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case",
+                "title":"The Search",
+                "rilevante":"1"
+             },
+             {
+                "description":"After her husband's death, a 60-year-old mom decides to find love again to the joy and annoyance of ",
+                "title":"Mom, Don't Do That!",
+                "rilevante":"0.1"
+             },
+             {
+                "description":"A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this ",
+                "title":"Final Fantasy XIV: Dad of Light",
+                "rilevante":0.0
+             },
+             {
+                "description":"An action-packed series about several Colombian women who work as intelligence agents. They investig",
+                "title":"Undercover Law",
+                "rilevante":"1"
+             },
+             {
+                "description":"In 16th-century Zazzau, now Zaria, Nigeria, Amina must utilize her military skills and tactics to de",
+                "title":"Amina",
+                "rilevante":"1"
+             },
+             {
+                "description":"Anthology series in which each season is based on a true crime story featuring an epic tale of love ",
+                "title":"Dirty John",
+                "rilevante":"1"
+             },
+             {
+                "description":"Based on the incredibly true story of a Spanish man with Multiple Esclorosis who tried to finish an ",
+                "title":"100 Meters",
+                "rilevante":"1"
+             },
+             {
+                "description":"Based on the true story of Clyde Barrow, a charismatic convicted armed robber who sweeps Bonnie Park",
+                "title":"Bonnie & Clyde",
+                "rilevante":"1"
+             },
+             {
+                "description":"Based on the true story of Grace Marks, a housemaid and immigrant from Ireland who was imprisoned in",
+                "title":"Alias Grace",
+                "rilevante":"1"
+             },
+             {
+                "description":"When ISIS took their homes, families and city, one group of men fought to take it all back. Based on",
+                "title":"Mosul",
+                "rilevante":"0.6"
+             },
+             {
+                "description":"Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million ",
+                "title":"War Dogs",
+                "rilevante":"0.8"
+             }
+          ],
+          "ts_rank_cd":[
+             {
+                "description":"The murder of 13-year-old Yara Gambirasio shocks the little town of Brembate di Sopra, Italy. To bri",
+                "title":"Yara",
+                "rilevante":"1"
+             },
+             {
+                "description":"Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her",
+                "title":"Notes for My Son",
+                "rilevante":"1"
+             },
+             {
+                "description":"After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h",
+                "title":"Silverton Siege",
+                "rilevante":"1"
+             },
+             {
+                "description":"Based on a true story, the drama tells the tragic love story of Kim Woo Jin, a married stage drama w",
+                "title":"Hymn of Death",
+                "rilevante":0.0
+             },
+             {
+                "description":"In 16th-century Zazzau, now Zaria, Nigeria, Amina must utilize her military skills and tactics to de",
+                "title":"Amina",
+                "rilevante":"1"
+             },
+             {
+                "description":"When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case",
+                "title":"The Search",
+                "rilevante":"1"
+             },
+             {
+                "description":"Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever",
+                "title":"Rescued by Ruby",
+                "rilevante":"0.5"
+             },
+             {
+                "description":"After her husband's death, a 60-year-old mom decides to find love again to the joy and annoyance of ",
+                "title":"Mom, Don't Do That!",
+                "rilevante":"0.1"
+             },
+             {
+                "description":"A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this ",
+                "title":"Final Fantasy XIV: Dad of Light",
+                "rilevante":0.0
+             },
+             {
+                "description":"An action-packed series about several Colombian women who work as intelligence agents. They investig",
+                "title":"Undercover Law",
+                "rilevante":"1"
+             },
+             {
+                "description":"Having fought in the First Carlist War, Martin returns to his family farm in Gipuzkoa only to find t",
+                "title":"Giant",
+                "rilevante":"1"
+             },
+             {
+                "description":"Anthology series in which each season is based on a true crime story featuring an epic tale of love ",
+                "title":"Dirty John",
+                "rilevante":"1"
+             },
+             {
+                "description":"Based on the incredibly true story of a Spanish man with Multiple Esclorosis who tried to finish an ",
+                "title":"100 Meters",
+                "rilevante":"1"
+             },
+             {
+                "description":"Based on the true story of Grace Marks, a housemaid and immigrant from Ireland who was imprisoned in",
+                "title":"Alias Grace",
+                "rilevante":"1"
+             },
+             {
+                "description":"Based on the true story of Clyde Barrow, a charismatic convicted armed robber who sweeps Bonnie Park",
+                "title":"Bonnie & Clyde",
+                "rilevante":"1"
+             },
+             {
+                "description":"When ISIS took their homes, families and city, one group of men fought to take it all back. Based on",
+                "title":"Mosul",
+                "rilevante":"0.6"
+             },
+             {
+                "description":"Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million ",
+                "title":"War Dogs",
+                "rilevante":"0.8"
+             }
+          ]
+       },
+       "pyluc":{
+          "BM25":[
+             {
+                "title":"Dirty John",
+                "description":"Anthology series in which each season is based on a true crime story featuring an epic tale of love ",
+                "rilevante":"1"
+             },
+             {
+                "title":"Silverton Siege",
+                "description":"After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h",
+                "rilevante":"1"
+             },
+             {
+                "title":"Amina",
+                "description":"In 16th-century Zazzau, now Zaria, Nigeria, Amina must utilize her military skills and tactics to de",
+                "rilevante":"1"
+             },
+             {
+                "title":"Final Fantasy XIV: Dad of Light",
+                "description":"A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this ",
+                "rilevante":0.0
+             },
+             {
+                "title":"The Search",
+                "description":"When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case",
+                "rilevante":"1"
+             },
+             {
+                "title":"Mom, Don't Do That!",
+                "description":"After her husband's death, a 60-year-old mom decides to find love again to the joy and annoyance of ",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"Notes for My Son",
+                "description":"Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her",
+                "rilevante":"1"
+             },
+             {
+                "title":"Rescued by Ruby",
+                "description":"Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever",
+                "rilevante":"0.5"
+             },
+             {
+                "title":"War Dogs",
+                "description":"Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million ",
+                "rilevante":"0.8"
+             },
+             {
+                "title":"Too Young The Hero",
+                "description":"TV movie based upon the true story of Calvin Graham, who, as a 12 year old boy, enlisted in the US N",
+                "rilevante":"1"
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"Dirty John",
+                "description":"Anthology series in which each season is based on a true crime story featuring an epic tale of love ",
+                "rilevante":"1"
+             },
+             {
+                "title":"Silverton Siege",
+                "description":"After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h",
+                "rilevante":"1"
+             },
+             {
+                "title":"The Search",
+                "description":"When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case",
+                "rilevante":"1"
+             },
+             {
+                "title":"Final Fantasy XIV: Dad of Light",
+                "description":"A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this ",
+                "rilevante":0.0
+             },
+             {
+                "title":"Notes for My Son",
+                "description":"Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her",
+                "rilevante":"1"
+             },
+             {
+                "title":"Amina",
+                "description":"In 16th-century Zazzau, now Zaria, Nigeria, Amina must utilize her military skills and tactics to de",
+                "rilevante":"1"
+             },
+             {
+                "title":"Rescued by Ruby",
+                "description":"Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever",
+                "rilevante":"0.5"
+             },
+             {
+                "title":"Mom, Don't Do That!",
+                "description":"After her husband's death, a 60-year-old mom decides to find love again to the joy and annoyance of ",
+                "rilevante":"0.1"
+             },
+             {
+                "title":"War Dogs",
+                "description":"Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million ",
+                "rilevante":"0.8"
+             },
+             {
+                "title":"Too Young The Hero",
+                "description":"TV movie based upon the true story of Calvin Graham, who, as a 12 year old boy, enlisted in the US N",
+                "rilevante":"1"
+             }
+          ]
+       },
+       "wo":{
+          "BM25":[
+             {
+                "title":"Dirty John",
+                "description":"Anthology series in which each season is based on a true crime story featuring an epic tale of love ",
+                "rilevante":"1"
+             },
+             {
+                "title":"The Search",
+                "description":"When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case",
+                "rilevante":"1"
+             },
+             {
+                "title":"True: Terrific Tales",
+                "description":"Through the magic of the Story Spinner, True and her friends create their own versions of Pinocchio,",
+                "rilevante":"1"
+             },
+             {
+                "title":"Too Young The Hero",
+                "description":"TV movie based upon the true story of Calvin Graham, who, as a 12 year old boy, enlisted in the US N",
+                "rilevante":"1"
+             },
+             {
+                "title":"Silverton Siege",
+                "description":"After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h",
+                "rilevante":"1"
+             },
+             {
+                "title":"Gifted Hands: The Ben Carson Story",
+                "description":"Gifted Hands: The Ben Carson Story is a movie based on the life story of world-renowned neurosurgeon",
+                "rilevante":"1"
+             },
+             {
+                "title":"War Dogs",
+                "description":"Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million ",
+                "rilevante":"0.8"
+             },
+             {
+                "title":"Final Fantasy XIV: Dad of Light",
+                "description":"A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this ",
+                "rilevante":0.0
+             },
+             {
+                "title":"Notes for My Son",
+                "description":"Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her",
+                "rilevante":"1"
+             },
+             {
+                "title":"Rescued by Ruby",
+                "description":"Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever",
+                "rilevante":"0.5"
+             }
+          ],
+          "TF-IDF":[
+             {
+                "title":"Dirty John",
+                "description":"Anthology series in which each season is based on a true crime story featuring an epic tale of love ",
+                "rilevante":"1"
+             },
+             {
+                "title":"The Search",
+                "description":"When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case",
+                "rilevante":"1"
+             },
+             {
+                "title":"True: Terrific Tales",
+                "description":"Through the magic of the Story Spinner, True and her friends create their own versions of Pinocchio,",
+                "rilevante":"1"
+             },
+             {
+                "title":"Too Young The Hero",
+                "description":"TV movie based upon the true story of Calvin Graham, who, as a 12 year old boy, enlisted in the US N",
+                "rilevante":"1"
+             },
+             {
+                "title":"Silverton Siege",
+                "description":"After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h",
+                "rilevante":"1"
+             },
+             {
+                "title":"Gifted Hands: The Ben Carson Story",
+                "description":"Gifted Hands: The Ben Carson Story is a movie based on the life story of world-renowned neurosurgeon",
+                "rilevante":"1"
+             },
+             {
+                "title":"War Dogs",
+                "description":"Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million ",
+                "rilevante":"0.8"
+             },
+             {
+                "title":"Final Fantasy XIV: Dad of Light",
+                "description":"A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this ",
+                "rilevante":0.0
+             },
+             {
+                "title":"Notes for My Son",
+                "description":"Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her",
+                "rilevante":"1"
+             },
+             {
+                "title":"Rescued by Ruby",
+                "description":"Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever",
+                "rilevante":"0.5"
+             }
+          ]
+       }
+    }
+ }

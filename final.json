@@ -1,1 +1,2010 @@
-{"Find movies with the title 'Inception'.": {"type": "Titolo", "pg": {"ts_rank": [{"description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target", "title": "Inception", "rank": 0.1823781318962574}], "ts_rank_cd": [{"description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target", "title": "Inception", "rank": 0.30000000447034836}]}, "pyluc": {"BM25": [{"rank": 5.205865859985352, "title": "Inception", "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target"}], "TF-IDF": [{"rank": 8.981049537658691, "title": "Inception", "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target"}]}, "wo": {"BM25": [{"rank": 11.877341294420038, "title": "Inception", "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target"}], "TF-IDF": [{"rank": 11.877341294420038, "title": "Inception", "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target"}]}}, "Find movies with the title 'The Blue Lagoon'.": {"type": "Titolo", "pg": {"ts_rank": [{"description": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla", "title": "The Blue Lagoon", "rank": 0.8049893081188202}], "ts_rank_cd": [{"description": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla", "title": "The Blue Lagoon", "rank": 0.30000000447034836}]}, "pyluc": {"BM25": [{"rank": 7.187864303588867, "title": "The Blue Lagoon", "description": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla"}, {"rank": 3.3686718940734863, "title": "The Blue Umbrella", "description": "Young Biniya lives a poor lifestyle in a small village in the mountainous and snowy region of Himach"}, {"rank": 3.1282799243927, "title": "Blue Exorcist", "description": "Humans live in the world of Assiah, demons in Gehenna. The two dimensions are not meant to interfere"}, {"rank": 3.1282799243927, "title": "Blue Jasmine", "description": "After experiencing a traumatic misfortune, Jasmine French, a wealthy woman from New York, moves to S"}, {"rank": 3.1282799243927, "title": "Mission Blue", "description": "Feature documentary about legendary oceanographer, marine biologist, environmentalist and National G"}, {"rank": 3.1282799243927, "title": "Blue Jay", "description": "Meeting by chance when they return to their tiny California hometown, two former high-school sweethe"}, {"rank": 3.1282799243927, "title": "Blue Period", "description": "Bored with life, popular high schooler Yatora Yaguchi jumps into the beautiful yet unrelenting world"}, {"rank": 3.1282799243927, "title": "Blue Miracle", "description": "To save their cash-strapped orphanage, a guardian and his kids partner with a washed-up boat captain"}, {"rank": 3.1282799243927, "title": "Cobalt Blue", "description": "When an aspiring author and his free-spirited sister both fall for the enigmatic paying guest at the"}, {"rank": 2.972750186920166, "title": "The Blue Elephant 2", "description": "A meeting with a new inmate in the psychiatric hospital flips Dr. Yehia's life upside down, he proph"}], "TF-IDF": [{"rank": 10.533279418945312, "title": "The Blue Lagoon", "description": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla"}, {"rank": 5.3480682373046875, "title": "The Blue Umbrella", "description": "Young Biniya lives a poor lifestyle in a small village in the mountainous and snowy region of Himach"}, {"rank": 4.837305545806885, "title": "Blue Exorcist", "description": "Humans live in the world of Assiah, demons in Gehenna. The two dimensions are not meant to interfere"}, {"rank": 4.837305545806885, "title": "Blue Jasmine", "description": "After experiencing a traumatic misfortune, Jasmine French, a wealthy woman from New York, moves to S"}, {"rank": 4.837305545806885, "title": "Mission Blue", "description": "Feature documentary about legendary oceanographer, marine biologist, environmentalist and National G"}, {"rank": 4.837305545806885, "title": "Blue Jay", "description": "Meeting by chance when they return to their tiny California hometown, two former high-school sweethe"}, {"rank": 4.837305545806885, "title": "Blue Period", "description": "Bored with life, popular high schooler Yatora Yaguchi jumps into the beautiful yet unrelenting world"}, {"rank": 4.837305545806885, "title": "Blue Miracle", "description": "To save their cash-strapped orphanage, a guardian and his kids partner with a washed-up boat captain"}, {"rank": 4.837305545806885, "title": "Cobalt Blue", "description": "When an aspiring author and his free-spirited sister both fall for the enigmatic paying guest at the"}, {"rank": 4.631563186645508, "title": "The Blue Elephant 2", "description": "A meeting with a new inmate in the psychiatric hospital flips Dr. Yehia's life upside down, he proph"}]}, "wo": {"BM25": [{"rank": 17.051191743359905, "title": "The Blue Lagoon", "description": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla"}], "TF-IDF": [{"rank": 17.051191743359905, "title": "The Blue Lagoon", "description": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla"}]}}, "Find movies with the title 'She's Gotta Have It'.": {"type": "Titolo", "pg": {"ts_rank": [{"description": "The story of Nola Darling's simultaneous sexual relationships with three different men is told by he", "title": "She's Gotta Have It", "rank": 1.3839707672595978}, {"description": "Nola Darling struggles to define herself and divide her time among her friends, job and three lovers", "title": "She's Gotta Have It", "rank": 1.3839707672595978}], "ts_rank_cd": [{"description": "The story of Nola Darling's simultaneous sexual relationships with three different men is told by he", "title": "She's Gotta Have It", "rank": 0.05000000074505806}, {"description": "Nola Darling struggles to define herself and divide her time among her friends, job and three lovers", "title": "She's Gotta Have It", "rank": 0.05000000074505806}]}, "pyluc": {"BM25": [{"rank": 7.6800618171691895, "title": "She's Gotta Have It", "description": "The story of Nola Darling's simultaneous sexual relationships with three different men is told by he"}, {"rank": 7.6800618171691895, "title": "She's Gotta Have It", "description": "Nola Darling struggles to define herself and divide her time among her friends, job and three lovers"}, {"rank": 4.282682418823242, "title": "She", "description": "An undercover assignment to expose a drug ring becomes a timid Mumbai constable's road to empowermen"}, {"rank": 3.624661445617676, "title": "She Is", "description": "Can one woman have everything? Facing her 40s, a highly accomplished woman, with a host of suitors a"}, {"rank": 3.4278392791748047, "title": "Something's Gotta Give", "description": "Harry Sanborn is an aged music industry exec with a fondness for younger women like Marin, his lates"}, {"rank": 3.1465981006622314, "title": "It", "description": "In a small town in Maine, seven children known as The Losers Club come face to face with life proble"}, {"rank": 2.77264404296875, "title": "She Would Never Know", "description": "It is an office romance about female senior who doesn\u2019t want to catch feelings for younger men and m"}, {"rank": 2.663132905960083, "title": "It Follows", "description": "When carefree teenager Jay sleeps with her older boyfriend for the first time, she learns that she i"}, {"rank": 2.663132905960083, "title": "Nailed It!", "description": "Home bakers who have a poor track record in the kitchen seek redemption -- and cash -- on this serie"}, {"rank": 2.663132905960083, "title": "Work It", "description": "A brilliant but clumsy high school senior vows to get into her late father's alma mater by transform"}], "TF-IDF": [{"rank": 10.822416305541992, "title": "She's Gotta Have It", "description": "The story of Nola Darling's simultaneous sexual relationships with three different men is told by he"}, {"rank": 10.822416305541992, "title": "She's Gotta Have It", "description": "Nola Darling struggles to define herself and divide her time among her friends, job and three lovers"}, {"rank": 7.7282867431640625, "title": "She", "description": "An undercover assignment to expose a drug ring becomes a timid Mumbai constable's road to empowermen"}, {"rank": 5.985317707061768, "title": "It", "description": "In a small town in Maine, seven children known as The Losers Club come face to face with life proble"}, {"rank": 5.464724063873291, "title": "She Is", "description": "Can one woman have everything? Facing her 40s, a highly accomplished woman, with a host of suitors a"}, {"rank": 4.785022735595703, "title": "Something's Gotta Give", "description": "Harry Sanborn is an aged music industry exec with a fondness for younger women like Marin, his lates"}, {"rank": 4.2322587966918945, "title": "It Follows", "description": "When carefree teenager Jay sleeps with her older boyfriend for the first time, she learns that she i"}, {"rank": 4.2322587966918945, "title": "Nailed It!", "description": "Home bakers who have a poor track record in the kitchen seek redemption -- and cash -- on this serie"}, {"rank": 4.2322587966918945, "title": "Work It", "description": "A brilliant but clumsy high school senior vows to get into her late father's alma mater by transform"}, {"rank": 3.8641433715820312, "title": "She Would Never Know", "description": "It is an office romance about female senior who doesn\u2019t want to catch feelings for younger men and m"}]}, "wo": {"BM25": [{"rank": 16.892080640154774, "title": "She's Gotta Have It", "description": "The story of Nola Darling's simultaneous sexual relationships with three different men is told by he"}, {"rank": 16.892080640154774, "title": "She's Gotta Have It", "description": "Nola Darling struggles to define herself and divide her time among her friends, job and three lovers"}], "TF-IDF": [{"rank": 16.892080640154774, "title": "She's Gotta Have It", "description": "The story of Nola Darling's simultaneous sexual relationships with three different men is told by he"}, {"rank": 16.892080640154774, "title": "She's Gotta Have It", "description": "Nola Darling struggles to define herself and divide her time among her friends, job and three lovers"}]}}, "Find movies with the title 'Mission: Impossible'.": {"type": "Titolo", "pg": {"ts_rank": [{"description": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt", "title": "Mission: Impossible II", "rank": 0.29730965942144394}, {"description": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no", "title": "Mission: Impossible", "rank": 0.29730965942144394}, {"description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks,", "title": "Mission: Impossible - Ghost Protocol", "rank": 0.29730965942144394}], "ts_rank_cd": [{"description": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt", "title": "Mission: Impossible II", "rank": 0.30000000447034836}, {"description": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no", "title": "Mission: Impossible", "rank": 0.30000000447034836}, {"description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks,", "title": "Mission: Impossible - Ghost Protocol", "rank": 0.30000000447034836}]}, "pyluc": {"BM25": [], "TF-IDF": []}, "wo": {"BM25": [{"rank": 15.80318076060333, "title": "Mission: Impossible", "description": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no"}, {"rank": 13.400038715755077, "title": "Mission: Impossible II", "description": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt"}, {"rank": 11.631301734403579, "title": "Mission: Impossible - Ghost Protocol", "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks,"}], "TF-IDF": [{"rank": 15.80318076060333, "title": "Mission: Impossible", "description": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no"}, {"rank": 13.400038715755077, "title": "Mission: Impossible II", "description": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt"}, {"rank": 11.631301734403579, "title": "Mission: Impossible - Ghost Protocol", "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks,"}]}}, "Find movies with the title 'Connected'.": {"type": "Titolo", "pg": {"ts_rank": [{"description": "Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f", "title": "Connected", "rank": 0.1823781318962574}, {"description": "A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a", "title": "Connected", "rank": 0.1823781318962574}, {"description": "Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne", "title": "Connected", "rank": 0.1823781318962574}], "ts_rank_cd": [{"description": "Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f", "title": "Connected", "rank": 0.30000000447034836}, {"description": "A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a", "title": "Connected", "rank": 0.30000000447034836}, {"description": "Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne", "title": "Connected", "rank": 0.30000000447034836}]}, "pyluc": {"BM25": [{"rank": 4.672420024871826, "title": "Connected", "description": "A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a"}, {"rank": 4.672420024871826, "title": "Connected", "description": "Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne"}, {"rank": 4.672420024871826, "title": "Connected", "description": "Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f"}], "TF-IDF": [{"rank": 8.28790283203125, "title": "Connected", "description": "A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a"}, {"rank": 8.28790283203125, "title": "Connected", "description": "Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne"}, {"rank": 8.28790283203125, "title": "Connected", "description": "Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f"}]}, "wo": {"BM25": [{"rank": 10.665556699231685, "title": "Connected", "description": "A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a"}, {"rank": 10.665556699231685, "title": "Connected", "description": "Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne"}, {"rank": 10.665556699231685, "title": "Connected", "description": "Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f"}, {"rank": 4.614777445120837, "title": "The Magic School Bus Rides Again: The Frizz Connection", "description": "Lightning splits the Magic School Bus into three pieces, scattering the class across the globe with "}], "TF-IDF": [{"rank": 10.665556699231685, "title": "Connected", "description": "A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a"}, {"rank": 10.665556699231685, "title": "Connected", "description": "Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne"}, {"rank": 10.665556699231685, "title": "Connected", "description": "Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f"}, {"rank": 4.614777445120837, "title": "The Magic School Bus Rides Again: The Frizz Connection", "description": "Lightning splits the Magic School Bus into three pieces, scattering the class across the globe with "}]}}, "Find movies based on real-life public figures or biographies": {"type": "Full text", "pg": {"ts_rank": [{"description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur", "title": "Rush", "rank": 0.2984118238091469}, {"description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ", "title": "Baggio: The Divine Ponytail", "rank": 0.00032248931529466063}, {"description": "Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra", "title": "Budhia Singh: Born to Run", "rank": 6.091040086175781e-05}, {"description": "A semi-biographical account of Yip Man, the first martial arts master to teach the Chinese martial a", "title": "Ip Man", "rank": 1.017307321715677e-09}], "ts_rank_cd": [{"description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur", "title": "Rush", "rank": 0.30000000447034836}, {"description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ", "title": "Baggio: The Divine Ponytail", "rank": 0.0035714285913854837}, {"description": "Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra", "title": "Budhia Singh: Born to Run", "rank": 0.003030303167179227}, {"description": "A semi-biographical account of Yip Man, the first martial arts master to teach the Chinese martial a", "title": "Ip Man", "rank": 0.0015151515835896134}]}, "pyluc": {"BM25": [{"rank": 6.11442756652832, "title": "Rush", "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur"}, {"rank": 3.7316086292266846, "title": "Baggio: The Divine Ponytail", "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to "}, {"rank": 3.1636390686035156, "title": "Budhia Singh: Born to Run", "description": "Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra"}, {"rank": 3.0351037979125977, "title": "Sleepless Society NYCTOPHOBIA", "description": "Thai Horro Drama."}, {"rank": 3.0269832611083984, "title": "The Oath", "description": "The Oath is a medical drama produced by Wawa Pictures. The drama follows a Chinese physician and a W"}, {"rank": 2.890700340270996, "title": "At Dolphin Bay", "description": "At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu."}, {"rank": 2.5862908363342285, "title": "Ip Man", "description": "A semi-biographical account of Yip Man, the first martial arts master to teach the Chinese martial a"}, {"rank": 2.526080846786499, "title": "Our Planet: Behind the Scenes", "description": "Behind the Scenes look at the hardships and drama of capturing footage from Our Planet."}, {"rank": 2.4750638008117676, "title": "Yours Fatefully", "description": "Yours Fatefully is a Singaporean Chinese drama which was telecasted on Singapore's free-to-air chann"}, {"rank": 2.4573919773101807, "title": "Queen Sono", "description": "A drama about a secret agent who fights crime while dealing with crises in her personal life."}], "TF-IDF": [{"rank": 2.9730639457702637, "title": "Sleepless Society NYCTOPHOBIA", "description": "Thai Horro Drama."}, {"rank": 2.6967549324035645, "title": "Rush", "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur"}, {"rank": 1.5515035390853882, "title": "Baggio: The Divine Ponytail", "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to "}, {"rank": 1.4564980268478394, "title": "At Dolphin Bay", "description": "At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu."}, {"rank": 1.3963536024093628, "title": "The Oath", "description": "The Oath is a medical drama produced by Wawa Pictures. The drama follows a Chinese physician and a W"}, {"rank": 1.329594612121582, "title": "Our Planet: Behind the Scenes", "description": "Behind the Scenes look at the hardships and drama of capturing footage from Our Planet."}, {"rank": 1.248936653137207, "title": "Queen Sono", "description": "A drama about a secret agent who fights crime while dealing with crises in her personal life."}, {"rank": 1.243970274925232, "title": "Budhia Singh: Born to Run", "description": "Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra"}, {"rank": 1.1514627933502197, "title": "Much Loved", "description": "A social drama about four marginalized prostitutes in Marrakech and their complex relations with the"}, {"rank": 1.1514627933502197, "title": "What are the Odds?", "description": "A drama film directed by Megha Ramaswamy, starring Priyanka Bose, Manu Rishi Chadha and Yashaswini D"}]}, "wo": {"BM25": [{"rank": 15.117134953848808, "title": "Rush", "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur"}, {"rank": 11.450695926969402, "title": "Falling in Love Like a Romantic Drama", "description": "Naomi Watanabe hosts a reality show in which eight young actors perform kissing scenes in a drama. T"}, {"rank": 9.319087426398456, "title": "The Little Nyonya", "description": "A biographic flashback of an extended Peranakan family in Malacca; set in the 1930s, the story spans"}, {"rank": 8.752812394582687, "title": "Mama Drama", "description": ""}, {"rank": 8.526142771123796, "title": "The Oath", "description": "The Oath is a medical drama produced by Wawa Pictures. The drama follows a Chinese physician and a W"}, {"rank": 8.423092235841036, "title": "Baggio: The Divine Ponytail", "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to "}, {"rank": 8.06876891658231, "title": "Sleepless Society NYCTOPHOBIA", "description": "Thai Horro Drama."}, {"rank": 7.8913684706743, "title": "At Dolphin Bay", "description": "At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu."}, {"rank": 7.573561249729494, "title": "Budhia Singh: Born to Run", "description": "Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra"}, {"rank": 7.421798607248932, "title": "Total Drama Island", "description": "Reality TV meets animation in this parody in which twenty-two teens are sent to the most run-down an"}], "TF-IDF": [{"rank": 15.117134953848808, "title": "Rush", "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur"}, {"rank": 11.450695926969402, "title": "Falling in Love Like a Romantic Drama", "description": "Naomi Watanabe hosts a reality show in which eight young actors perform kissing scenes in a drama. T"}, {"rank": 9.319087426398456, "title": "The Little Nyonya", "description": "A biographic flashback of an extended Peranakan family in Malacca; set in the 1930s, the story spans"}, {"rank": 8.752812394582687, "title": "Mama Drama", "description": ""}, {"rank": 8.526142771123796, "title": "The Oath", "description": "The Oath is a medical drama produced by Wawa Pictures. The drama follows a Chinese physician and a W"}, {"rank": 8.423092235841036, "title": "Baggio: The Divine Ponytail", "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to "}, {"rank": 8.06876891658231, "title": "Sleepless Society NYCTOPHOBIA", "description": "Thai Horro Drama."}, {"rank": 7.8913684706743, "title": "At Dolphin Bay", "description": "At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu."}, {"rank": 7.573561249729494, "title": "Budhia Singh: Born to Run", "description": "Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra"}, {"rank": 7.421798607248932, "title": "Total Drama Island", "description": "Reality TV meets animation in this parody in which twenty-two teens are sent to the most run-down an"}]}}, "Discover shows on lawyer ": {"type": "Full text", "pg": {"ts_rank": [{"description": "While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence ", "title": "Firebrand", "rank": 0.29550256580114365}], "ts_rank_cd": [{"description": "While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence ", "title": "Firebrand", "rank": 0.05000000074505806}]}, "pyluc": {"BM25": [{"rank": 4.103091716766357, "title": "30 March", "description": "Ali, the fugitive from a murder he does not even know whether he committed it or not, sets out to un"}, {"rank": 3.4992330074310303, "title": "Cold Case Files", "description": "Tense new series exploring cold cases from victims death to criminal convictions."}, {"rank": 3.400036096572876, "title": "Sakho & Mangane", "description": "Two cops with very different methods, solving mysterious murder cases surrounded by black magic."}, {"rank": 3.175020933151245, "title": "Unsolved Mysteries", "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this grippi"}, {"rank": 3.133544921875, "title": "The Confession Tapes", "description": "This true crime documentary series investigates cases where people convicted of murder claim their c"}, {"rank": 3.133544921875, "title": "Firebrand", "description": "While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence "}, {"rank": 3.101710081100464, "title": "Solo el amor", "description": "A love story between a young lawyer called Emma and a Noah, a rock star."}, {"rank": 3.093139171600342, "title": "Catching Killers", "description": "The investigators behind infamous serial killer cases reveal the harrowing, chilling details of thei"}, {"rank": 3.0537617206573486, "title": "U Turn", "description": "A journalist who intents to write an article on traffic rule breakers gets dragged into a whirlpool "}, {"rank": 3.0537617206573486, "title": "Carmel: Who Killed Maria Marta?", "description": "Documentary series on the circumstances surrounding the death of Mar\u00eda Marta Garc\u00eda Belsunce, one of"}], "TF-IDF": [{"rank": 1.8744348287582397, "title": "Cold Case Files", "description": "Tense new series exploring cold cases from victims death to criminal convictions."}, {"rank": 1.7353893518447876, "title": "Sakho & Mangane", "description": "Two cops with very different methods, solving mysterious murder cases surrounded by black magic."}, {"rank": 1.6812068223953247, "title": "30 March", "description": "Ali, the fugitive from a murder he does not even know whether he committed it or not, sets out to un"}, {"rank": 1.571854829788208, "title": "Solo el amor", "description": "A love story between a young lawyer called Emma and a Noah, a rock star."}, {"rank": 1.489649772644043, "title": "Unsolved Mysteries", "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this grippi"}, {"rank": 1.4519309997558594, "title": "The Confession Tapes", "description": "This true crime documentary series investigates cases where people convicted of murder claim their c"}, {"rank": 1.4519309997558594, "title": "Firebrand", "description": "While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence "}, {"rank": 1.416939616203308, "title": "Catching Killers", "description": "The investigators behind infamous serial killer cases reveal the harrowing, chilling details of thei"}, {"rank": 1.3843618631362915, "title": "U Turn", "description": "A journalist who intents to write an article on traffic rule breakers gets dragged into a whirlpool "}, {"rank": 1.3843618631362915, "title": "Carmel: Who Killed Maria Marta?", "description": "Documentary series on the circumstances surrounding the death of Mar\u00eda Marta Garc\u00eda Belsunce, one of"}]}, "wo": {"BM25": [{"rank": 21.221156036832703, "title": "The Lincoln Lawyer", "description": "Sidelined after an accident, hotshot Los Angeles lawyer Mickey Haller restarts his career \u2014 and his "}, {"rank": 17.387956132781728, "title": "Case", "description": "A dramatic thriller about a broken lawyer who seeks redemption through his investigation into the su"}, {"rank": 15.6068478163442, "title": "Lawless Lawyer", "description": "Driven by the desire to avenge his mother, a former gangster turned lawyer uses both his fists and t"}, {"rank": 14.128884208683369, "title": "Shepherds and Butchers", "description": "A lawyer takes on a case of a prison guard in South Africa who is traumatized by the executions he's"}, {"rank": 14.004706841630833, "title": "Cold Case Files", "description": "Tense new series exploring cold cases from victims death to criminal convictions."}, {"rank": 13.108839090003078, "title": "The Family Court", "description": "Five lawyers from different firms develop a strong bond of friendship that is occasionally tested by"}, {"rank": 13.108839090003078, "title": "Firebrand", "description": "While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence "}, {"rank": 11.782158982349138, "title": "Love, Guaranteed", "description": "To save her small law firm, earnest lawyer Susan takes a high-paying case from Nick, a charming new "}, {"rank": 11.581958930919207, "title": "Under Suspicion: Uncovering the Wesphael Case", "description": "This docuseries follows the high-profile case of Belgian politician Bernard Wesphael, who was accuse"}, {"rank": 11.27699893960202, "title": "Thimmarusu: Assignment Vali", "description": "After a cab driver is found dead, a young pub employee is framed for the murder and is sent to jail "}], "TF-IDF": [{"rank": 21.221156036832703, "title": "The Lincoln Lawyer", "description": "Sidelined after an accident, hotshot Los Angeles lawyer Mickey Haller restarts his career \u2014 and his "}, {"rank": 17.387956132781728, "title": "Case", "description": "A dramatic thriller about a broken lawyer who seeks redemption through his investigation into the su"}, {"rank": 15.6068478163442, "title": "Lawless Lawyer", "description": "Driven by the desire to avenge his mother, a former gangster turned lawyer uses both his fists and t"}, {"rank": 14.128884208683369, "title": "Shepherds and Butchers", "description": "A lawyer takes on a case of a prison guard in South Africa who is traumatized by the executions he's"}, {"rank": 14.004706841630833, "title": "Cold Case Files", "description": "Tense new series exploring cold cases from victims death to criminal convictions."}, {"rank": 13.108839090003078, "title": "The Family Court", "description": "Five lawyers from different firms develop a strong bond of friendship that is occasionally tested by"}, {"rank": 13.108839090003078, "title": "Firebrand", "description": "While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence "}, {"rank": 11.782158982349138, "title": "Love, Guaranteed", "description": "To save her small law firm, earnest lawyer Susan takes a high-paying case from Nick, a charming new "}, {"rank": 11.581958930919207, "title": "Under Suspicion: Uncovering the Wesphael Case", "description": "This docuseries follows the high-profile case of Belgian politician Bernard Wesphael, who was accuse"}, {"rank": 11.27699893960202, "title": "Thimmarusu: Assignment Vali", "description": "After a cab driver is found dead, a young pub employee is framed for the murder and is sent to jail "}]}}, "Identify thrillers on love revenge.": {"type": "Full text", "pg": {"ts_rank": [{"description": "A patriotic bodyguard who was abandoned by his country and colleagues, a hidden daughter of leading ", "title": "The K2", "rank": 0.2744699791073799}, {"description": "Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds ", "title": "Ferry", "rank": 0.1552320308983326}, {"description": "The story of twin brothers who separated at birth but grew up to be supreme martial artists. Raised ", "title": "Handsome Siblings", "rank": 0.11931345239281654}, {"description": "Quan is a humble London businessman whose long-buried past erupts in a revenge-fueled vendetta when ", "title": "The Foreigner", "rank": 0.08900328911840916}, {"description": "When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek reven", "title": "The Harder They Fall", "rank": 0.0651920735836029}, {"description": "After learning of his brother's death during a mission in Romania, a former soldier joins two allies", "title": "The Hard Way", "rank": 0.017576931975781918}, {"description": "Siddharth, Omi, and Jai are close friends and roommates who are studying at Delhi University. Siddha", "title": "Chashme Baddoor", "rank": 0.0033253898145630956}, {"description": "Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump", "title": "2020", "rank": 0.0017073896597139537}, {"description": "Indran suffers from narcolepsy, a sleep disorder that makes him fall asleep at the slightest excitem", "title": "Naan Sigappu Manithan", "rank": 1.605580700925202e-05}, {"description": "A bigamist with one family in Buenos Aires and the other in Mar del Plata sees his life turned upsid", "title": "So Much Love to Give", "rank": 3.032550466741668e-06}, {"description": "This is the story of Catalina, the indigenous woman who gave away her soul, her heart and her life t", "title": "The Queen and the Conqueror", "rank": 5.554309545630076e-08}, {"description": "Valerie is in love with a brooding outsider, Peter, but her parents have arranged for her to marry a", "title": "Red Riding Hood", "rank": 2.0433163161470702e-08}], "ts_rank_cd": [{"description": "A patriotic bodyguard who was abandoned by his country and colleagues, a hidden daughter of leading ", "title": "The K2", "rank": 0.019999999552965164}, {"description": "Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds ", "title": "Ferry", "rank": 0.011111111380159855}, {"description": "The story of twin brothers who separated at birth but grew up to be supreme martial artists. Raised ", "title": "Handsome Siblings", "rank": 0.010869565419852734}, {"description": "Quan is a humble London businessman whose long-buried past erupts in a revenge-fueled vendetta when ", "title": "The Foreigner", "rank": 0.00909090880304575}, {"description": "When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek reven", "title": "The Harder They Fall", "rank": 0.008333333767950535}, {"description": "After learning of his brother's death during a mission in Romania, a former soldier joins two allies", "title": "The Hard Way", "rank": 0.0062500000931322575}, {"description": "Siddharth, Omi, and Jai are close friends and roommates who are studying at Delhi University. Siddha", "title": "Chashme Baddoor", "rank": 0.004761904943734407}, {"description": "Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump", "title": "2020", "rank": 0.004347826354205608}, {"description": "Indran suffers from narcolepsy, a sleep disorder that makes him fall asleep at the slightest excitem", "title": "Naan Sigappu Manithan", "rank": 0.0027027027681469917}, {"description": "A bigamist with one family in Buenos Aires and the other in Mar del Plata sees his life turned upsid", "title": "So Much Love to Give", "rank": 0.0023809524718672037}, {"description": "This is the story of Catalina, the indigenous woman who gave away her soul, her heart and her life t", "title": "The Queen and the Conqueror", "rank": 0.0018518519354984164}, {"description": "Valerie is in love with a brooding outsider, Peter, but her parents have arranged for her to marry a", "title": "Red Riding Hood", "rank": 0.001754386001266539}]}, "pyluc": {"BM25": [{"rank": 3.66441011428833, "title": "2020", "description": "Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump"}, {"rank": 3.5343918800354004, "title": "Ferry", "description": "Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds "}, {"rank": 3.0323033332824707, "title": "The K2", "description": "A patriotic bodyguard who was abandoned by his country and colleagues, a hidden daughter of leading "}, {"rank": 2.839146137237549, "title": "Thaandavam", "description": "A blind man with his 'Echolocation' power takes on a revenge mission."}, {"rank": 2.7586612701416016, "title": "Sisterakas", "description": "A man takes revenge on his sister by hiring her as his personal assistant."}, {"rank": 2.646141529083252, "title": "Hello Brother", "description": "A ghost seeking revenge for his death haunts the man who received his heart in a transplant."}, {"rank": 2.610647201538086, "title": "The Harder They Fall", "description": "When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek reven"}, {"rank": 2.610647201538086, "title": "He's All That", "description": "To get revenge on her ex-boyfriend, an influencer attempts to transform an unpopular classmate into "}, {"rank": 2.5639986991882324, "title": "Naan Sigappu Manithan", "description": "Indran suffers from narcolepsy, a sleep disorder that makes him fall asleep at the slightest excitem"}, {"rank": 2.54244065284729, "title": "Sin senos s\u00ed hay para\u00edso", "description": "A young woman born in a mafia-controlled town seeks revenge on those who wrongfully harmed and impri"}], "TF-IDF": [{"rank": 1.772247552871704, "title": "2020", "description": "Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump"}, {"rank": 1.6746164560317993, "title": "Ferry", "description": "Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds "}, {"rank": 1.578069806098938, "title": "Thaandavam", "description": "A blind man with his 'Echolocation' power takes on a revenge mission."}, {"rank": 1.4610087871551514, "title": "Sisterakas", "description": "A man takes revenge on his sister by hiring her as his personal assistant."}, {"rank": 1.3673186302185059, "title": "The K2", "description": "A patriotic bodyguard who was abandoned by his country and colleagues, a hidden daughter of leading "}, {"rank": 1.3258438110351562, "title": "Hello Brother", "description": "A ghost seeking revenge for his death haunts the man who received his heart in a transplant."}, {"rank": 1.2884886264801025, "title": "The Harder They Fall", "description": "When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek reven"}, {"rank": 1.2884886264801025, "title": "He's All That", "description": "To get revenge on her ex-boyfriend, an influencer attempts to transform an unpopular classmate into "}, {"rank": 1.2223676443099976, "title": "Sin senos s\u00ed hay para\u00edso", "description": "A young woman born in a mafia-controlled town seeks revenge on those who wrongfully harmed and impri"}, {"rank": 1.2001876831054688, "title": "Jaane Tu... Ya Jaane Na", "description": "Two best friends being convinced that they are not in love search for each other's love."}]}, "wo": {"BM25": [{"rank": 12.608613860081633, "title": "The Car: Road to Revenge", "description": "In a dilapidated cyberpunk city plagued by crime and corruption, an unscrupulous District Attorney i"}, {"rank": 10.220575800852203, "title": "Revenger", "description": "Hell-bent on avenging the murder of his family, a former detective infiltrates a remote island that "}, {"rank": 9.795327483898728, "title": "Loving", "description": "The story of Richard and Mildred Loving, an interracial couple, whose challenge of their anti-misceg"}, {"rank": 9.783731404933775, "title": "Ferry", "description": "Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds "}, {"rank": 9.783731404933775, "title": "2020", "description": "Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump"}, {"rank": 9.762820687937227, "title": "Love Actually", "description": "'Love Actually' follows the lives of eight very different couples dealing with their love lives, in "}, {"rank": 9.622491146967032, "title": "Ashes of Love", "description": "Jin Mi is the daughter of a flower deity who is fed a pill that prevents her from feeling or express"}, {"rank": 9.622491146967032, "title": "Love Hard", "description": "An LA girl, unlucky in love, falls for an East Coast guy on a dating app and decides to surprise him"}, {"rank": 9.533629073191383, "title": "AI Love You", "description": "A modern love story set in the near future where an AI building is powered by human feelings. Due to"}, {"rank": 9.408102916387541, "title": "Love Alarm", "description": "Love Alarm is an app that tells you if someone within a 10-meter radius has a crush on you. It quick"}], "TF-IDF": [{"rank": 12.608613860081633, "title": "The Car: Road to Revenge", "description": "In a dilapidated cyberpunk city plagued by crime and corruption, an unscrupulous District Attorney i"}, {"rank": 10.220575800852203, "title": "Revenger", "description": "Hell-bent on avenging the murder of his family, a former detective infiltrates a remote island that "}, {"rank": 9.795327483898728, "title": "Loving", "description": "The story of Richard and Mildred Loving, an interracial couple, whose challenge of their anti-misceg"}, {"rank": 9.783731404933775, "title": "Ferry", "description": "Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds "}, {"rank": 9.783731404933775, "title": "2020", "description": "Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump"}, {"rank": 9.762820687937227, "title": "Love Actually", "description": "'Love Actually' follows the lives of eight very different couples dealing with their love lives, in "}, {"rank": 9.622491146967032, "title": "Ashes of Love", "description": "Jin Mi is the daughter of a flower deity who is fed a pill that prevents her from feeling or express"}, {"rank": 9.622491146967032, "title": "Love Hard", "description": "An LA girl, unlucky in love, falls for an East Coast guy on a dating app and decides to surprise him"}, {"rank": 9.533629073191383, "title": "AI Love You", "description": "A modern love story set in the near future where an AI building is powered by human feelings. Due to"}, {"rank": 9.408102916387541, "title": "Love Alarm", "description": "Love Alarm is an app that tells you if someone within a 10-meter radius has a crush on you. It quick"}]}}, "Explore stories of young superheroes": {"type": "Full text", "pg": {"ts_rank": [{"description": "A young man who stands for the right discovers that he's destined to do bigger things, which will tr", "title": "Bhavesh Joshi Superhero", "rank": 0.29606882482767105}], "ts_rank_cd": [{"description": "A young man who stands for the right discovers that he's destined to do bigger things, which will tr", "title": "Bhavesh Joshi Superhero", "rank": 0.05384615436196327}]}, "pyluc": {"BM25": [{"rank": 4.448909282684326, "title": "Bhavesh Joshi Superhero", "description": "A young man who stands for the right discovers that he's destined to do bigger things, which will tr"}, {"rank": 3.318852663040161, "title": "The Epic Tales of Captain Underpants", "description": "Fourth-grade friends George and Harold have a shared love of pranks and comic books -- and turning t"}, {"rank": 3.318852663040161, "title": "Shiva VS Autobots", "description": "When an evil enemy gains control of a gadget that sends vehicles destructively spinning out of contr"}, {"rank": 3.238445281982422, "title": "Zokkomon", "description": "An orphan is abused and abandoned, believed to be dead, and upon his return is first feared as a gho"}, {"rank": 3.1248838901519775, "title": "Minnal Murali", "description": "A tailor gains special powers after being struck by lightning but must take down an unexpected foe i"}, {"rank": 3.053499937057495, "title": "Abby Hatcher", "description": "Abby Hatcher is part girl, part superhero; living in a world full of fuzzlies. When a fuzzly friend "}, {"rank": 2.827437400817871, "title": "StarBeam", "description": "Zoey is excited to tackle second grade, but when danger beckons, she sneaks away and with her signat"}, {"rank": 2.797846555709839, "title": "Kevin Hart: I'm a Grown Little Man", "description": "Fresh off the heels of appearing in movies like Superhero Movie and The 40 Year-Old Virgin, fast-tal"}, {"rank": 2.712677478790283, "title": "Henry Danger", "description": "When 13-year-old Henry Hart lands a job as Danger, the sidekick-in-training to superhero Captain Man"}, {"rank": 2.21762752532959, "title": "Hancock", "description": "Hancock is a down-and-out superhero who's forced to employ a PR expert to help repair his image when"}], "TF-IDF": [{"rank": 2.021639585494995, "title": "Bhavesh Joshi Superhero", "description": "A young man who stands for the right discovers that he's destined to do bigger things, which will tr"}, {"rank": 1.4505751132965088, "title": "The Epic Tales of Captain Underpants", "description": "Fourth-grade friends George and Harold have a shared love of pranks and comic books -- and turning t"}, {"rank": 1.4505751132965088, "title": "Shiva VS Autobots", "description": "When an evil enemy gains control of a gadget that sends vehicles destructively spinning out of contr"}, {"rank": 1.393667459487915, "title": "Zokkomon", "description": "An orphan is abused and abandoned, believed to be dead, and upon his return is first feared as a gho"}, {"rank": 1.3196136951446533, "title": "Minnal Murali", "description": "A tailor gains special powers after being struck by lightning but must take down an unexpected foe i"}, {"rank": 1.2763359546661377, "title": "Abby Hatcher", "description": "Abby Hatcher is part girl, part superhero; living in a world full of fuzzlies. When a fuzzly friend "}, {"rank": 1.15280020236969, "title": "StarBeam", "description": "Zoey is excited to tackle second grade, but when danger beckons, she sneaks away and with her signat"}, {"rank": 1.1379246711730957, "title": "Kevin Hart: I'm a Grown Little Man", "description": "Fresh off the heels of appearing in movies like Superhero Movie and The 40 Year-Old Virgin, fast-tal"}, {"rank": 1.0965317487716675, "title": "Henry Danger", "description": "When 13-year-old Henry Hart lands a job as Danger, the sidekick-in-training to superhero Captain Man"}, {"rank": 1.0746715068817139, "title": "Teen Mom 2", "description": "Jenelle, Chelsea, Kailyn, and Leah are four young women navigating complicated lives. It's not alway"}]}, "wo": {"BM25": [{"rank": 19.342009024394375, "title": "Bhavesh Joshi Superhero", "description": "A young man who stands for the right discovers that he's destined to do bigger things, which will tr"}, {"rank": 11.479883366788002, "title": "The Young Messiah", "description": "Tells the story of Jesus Christ at age seven as he and his family depart Egypt to return home to Naz"}, {"rank": 11.165219927023404, "title": "Young & Hungry", "description": "Two worlds collide when Josh, a wealthy young tech entrepreneur, meets Gabi, a feisty young food blo"}, {"rank": 8.21439565136659, "title": "How I Became a Super Hero", "description": "While superheroes have assimilated into Parisian society, a new drug gives super powers to mere mort"}, {"rank": 8.114878094475722, "title": "Young Wallander", "description": "Follow recently graduated police officer Kurt Wallander as he investigates his first case."}, {"rank": 8.114878094475722, "title": "We Die Young", "description": "Lucas, a 14-year-old boy inducted into the gang life in Washington D.C., is determined that his 10-y"}, {"rank": 8.114878094475722, "title": "Young Royals", "description": "Prince Wilhelm adjusts to life at his prestigious new boarding school, Hillerska, but following his "}, {"rank": 8.060582241647996, "title": "Zokkomon", "description": "An orphan is abused and abandoned, believed to be dead, and upon his return is first feared as a gho"}, {"rank": 8.060582241647996, "title": "ReBoot: The Guardian Code", "description": "Four tech-savvy teens hone their skills as cyber-superheroes in a series of secret missions to save "}, {"rank": 7.769612429457841, "title": "Miniforce", "description": "Four animal superheroes called the Miniforce transform into robots to protect small and defenseless "}], "TF-IDF": [{"rank": 19.342009024394375, "title": "Bhavesh Joshi Superhero", "description": "A young man who stands for the right discovers that he's destined to do bigger things, which will tr"}, {"rank": 11.479883366788002, "title": "The Young Messiah", "description": "Tells the story of Jesus Christ at age seven as he and his family depart Egypt to return home to Naz"}, {"rank": 11.165219927023404, "title": "Young & Hungry", "description": "Two worlds collide when Josh, a wealthy young tech entrepreneur, meets Gabi, a feisty young food blo"}, {"rank": 8.21439565136659, "title": "How I Became a Super Hero", "description": "While superheroes have assimilated into Parisian society, a new drug gives super powers to mere mort"}, {"rank": 8.114878094475722, "title": "Young Wallander", "description": "Follow recently graduated police officer Kurt Wallander as he investigates his first case."}, {"rank": 8.114878094475722, "title": "We Die Young", "description": "Lucas, a 14-year-old boy inducted into the gang life in Washington D.C., is determined that his 10-y"}, {"rank": 8.114878094475722, "title": "Young Royals", "description": "Prince Wilhelm adjusts to life at his prestigious new boarding school, Hillerska, but following his "}, {"rank": 8.060582241647996, "title": "Zokkomon", "description": "An orphan is abused and abandoned, believed to be dead, and upon his return is first feared as a gho"}, {"rank": 8.060582241647996, "title": "ReBoot: The Guardian Code", "description": "Four tech-savvy teens hone their skills as cyber-superheroes in a series of secret missions to save "}, {"rank": 7.769612429457841, "title": "Miniforce", "description": "Four animal superheroes called the Miniforce transform into robots to protect small and defenseless "}]}}, "Based on a true story": {"type": "Full text", "pg": {"ts_rank": [{"description": "Based on a true story, the drama tells the tragic love story of Kim Woo Jin, a married stage drama w", "title": "Hymn of Death", "rank": 2.2390741109848022}, {"description": "The murder of 13-year-old Yara Gambirasio shocks the little town of Brembate di Sopra, Italy. To bri", "title": "Yara", "rank": 2.2355990409851074}, {"description": "After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h", "title": "Silverton Siege", "rank": 2.226772964000702}, {"description": "Having fought in the First Carlist War, Martin returns to his family farm in Gipuzkoa only to find t", "title": "Giant", "rank": 2.119137167930603}, {"description": "Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever", "title": "Rescued by Ruby", "rank": 2.089073359966278}, {"description": "Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her", "title": "Notes for My Son", "rank": 1.9631561636924744}, {"description": "When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case", "title": "The Search", "rank": 1.945961594581604}, {"description": "After her husband's death, a 60-year-old mom decides to find love again to the joy and annoyance of ", "title": "Mom, Don't Do That!", "rank": 1.9365879893302917}, {"description": "A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this ", "title": "Final Fantasy XIV: Dad of Light", "rank": 1.9341418147087097}, {"description": "An action-packed series about several Colombian women who work as intelligence agents. They investig", "title": "Undercover Law", "rank": 1.9327161312103271}, {"description": "In 16th-century Zazzau, now Zaria, Nigeria, Amina must utilize her military skills and tactics to de", "title": "Amina", "rank": 1.9327161312103271}, {"description": "Anthology series in which each season is based on a true crime story featuring an epic tale of love ", "title": "Dirty John", "rank": 1.9236969351768494}, {"description": "Based on the incredibly true story of a Spanish man with Multiple Esclorosis who tried to finish an ", "title": "100 Meters", "rank": 1.876059114933014}, {"description": "Based on the true story of Clyde Barrow, a charismatic convicted armed robber who sweeps Bonnie Park", "title": "Bonnie & Clyde", "rank": 1.8514525294303894}, {"description": "Based on the true story of Grace Marks, a housemaid and immigrant from Ireland who was imprisoned in", "title": "Alias Grace", "rank": 1.8504645824432373}, {"description": "When ISIS took their homes, families and city, one group of men fought to take it all back. Based on", "title": "Mosul", "rank": 1.6102665066719055}, {"description": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million ", "title": "War Dogs", "rank": 1.4637937545776367}], "ts_rank_cd": [{"description": "The murder of 13-year-old Yara Gambirasio shocks the little town of Brembate di Sopra, Italy. To bri", "title": "Yara", "rank": 0.30000000447034836}, {"description": "Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her", "title": "Notes for My Son", "rank": 0.30000000447034836}, {"description": "After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h", "title": "Silverton Siege", "rank": 0.30000000447034836}, {"description": "Based on a true story, the drama tells the tragic love story of Kim Woo Jin, a married stage drama w", "title": "Hymn of Death", "rank": 0.30000000447034836}, {"description": "In 16th-century Zazzau, now Zaria, Nigeria, Amina must utilize her military skills and tactics to de", "title": "Amina", "rank": 0.30000000447034836}, {"description": "When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case", "title": "The Search", "rank": 0.30000000447034836}, {"description": "Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever", "title": "Rescued by Ruby", "rank": 0.30000000447034836}, {"description": "After her husband's death, a 60-year-old mom decides to find love again to the joy and annoyance of ", "title": "Mom, Don't Do That!", "rank": 0.30000000447034836}, {"description": "A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this ", "title": "Final Fantasy XIV: Dad of Light", "rank": 0.30000000447034836}, {"description": "An action-packed series about several Colombian women who work as intelligence agents. They investig", "title": "Undercover Law", "rank": 0.30000000447034836}, {"description": "Having fought in the First Carlist War, Martin returns to his family farm in Gipuzkoa only to find t", "title": "Giant", "rank": 0.10000000149011612}, {"description": "Anthology series in which each season is based on a true crime story featuring an epic tale of love ", "title": "Dirty John", "rank": 0.05000000074505806}, {"description": "Based on the incredibly true story of a Spanish man with Multiple Esclorosis who tried to finish an ", "title": "100 Meters", "rank": 0.02500000037252903}, {"description": "Based on the true story of Grace Marks, a housemaid and immigrant from Ireland who was imprisoned in", "title": "Alias Grace", "rank": 0.019999999552965164}, {"description": "Based on the true story of Clyde Barrow, a charismatic convicted armed robber who sweeps Bonnie Park", "title": "Bonnie & Clyde", "rank": 0.019999999552965164}, {"description": "When ISIS took their homes, families and city, one group of men fought to take it all back. Based on", "title": "Mosul", "rank": 0.009999999776482582}, {"description": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million ", "title": "War Dogs", "rank": 0.007692307699471712}]}, "pyluc": {"BM25": [{"rank": 6.524355411529541, "title": "Dirty John", "description": "Anthology series in which each season is based on a true crime story featuring an epic tale of love "}, {"rank": 6.287622451782227, "title": "Silverton Siege", "description": "After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h"}, {"rank": 6.204342842102051, "title": "Amina", "description": "In 16th-century Zazzau, now Zaria, Nigeria, Amina must utilize her military skills and tactics to de"}, {"rank": 6.176531791687012, "title": "Final Fantasy XIV: Dad of Light", "description": "A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this "}, {"rank": 6.12674617767334, "title": "The Search", "description": "When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case"}, {"rank": 6.032039642333984, "title": "Mom, Don't Do That!", "description": "After her husband's death, a 60-year-old mom decides to find love again to the joy and annoyance of "}, {"rank": 6.000362396240234, "title": "Notes for My Son", "description": "Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her"}, {"rank": 5.98613166809082, "title": "Rescued by Ruby", "description": "Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever"}, {"rank": 5.914255142211914, "title": "War Dogs", "description": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million "}, {"rank": 5.539427757263184, "title": "Too Young The Hero", "description": "TV movie based upon the true story of Calvin Graham, who, as a 12 year old boy, enlisted in the US N"}], "TF-IDF": [{"rank": 3.62744140625, "title": "Dirty John", "description": "Anthology series in which each season is based on a true crime story featuring an epic tale of love "}, {"rank": 3.582587718963623, "title": "Silverton Siege", "description": "After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h"}, {"rank": 3.3808298110961914, "title": "The Search", "description": "When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case"}, {"rank": 3.364828109741211, "title": "Final Fantasy XIV: Dad of Light", "description": "A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this "}, {"rank": 3.3263490200042725, "title": "Notes for My Son", "description": "Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her"}, {"rank": 3.3246052265167236, "title": "Amina", "description": "In 16th-century Zazzau, now Zaria, Nigeria, Amina must utilize her military skills and tactics to de"}, {"rank": 3.262166976928711, "title": "Rescued by Ruby", "description": "Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever"}, {"rank": 3.242429494857788, "title": "Mom, Don't Do That!", "description": "After her husband's death, a 60-year-old mom decides to find love again to the joy and annoyance of "}, {"rank": 3.086818218231201, "title": "War Dogs", "description": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million "}, {"rank": 2.9086685180664062, "title": "Too Young The Hero", "description": "TV movie based upon the true story of Calvin Graham, who, as a 12 year old boy, enlisted in the US N"}]}, "wo": {"BM25": [{"rank": 15.171913675503731, "title": "Dirty John", "description": "Anthology series in which each season is based on a true crime story featuring an epic tale of love "}, {"rank": 15.171913675503731, "title": "The Search", "description": "When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case"}, {"rank": 15.115907804424037, "title": "True: Terrific Tales", "description": "Through the magic of the Story Spinner, True and her friends create their own versions of Pinocchio,"}, {"rank": 14.902931665410097, "title": "Too Young The Hero", "description": "TV movie based upon the true story of Calvin Graham, who, as a 12 year old boy, enlisted in the US N"}, {"rank": 14.643321044545065, "title": "Silverton Siege", "description": "After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h"}, {"rank": 14.626372374548396, "title": "Gifted Hands: The Ben Carson Story", "description": "Gifted Hands: The Ben Carson Story is a movie based on the life story of world-renowned neurosurgeon"}, {"rank": 14.150320917936252, "title": "War Dogs", "description": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million "}, {"rank": 14.150320917936252, "title": "Final Fantasy XIV: Dad of Light", "description": "A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this "}, {"rank": 14.150320917936252, "title": "Notes for My Son", "description": "Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her"}, {"rank": 14.150320917936252, "title": "Rescued by Ruby", "description": "Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever"}], "TF-IDF": [{"rank": 15.171913675503731, "title": "Dirty John", "description": "Anthology series in which each season is based on a true crime story featuring an epic tale of love "}, {"rank": 15.171913675503731, "title": "The Search", "description": "When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case"}, {"rank": 15.115907804424037, "title": "True: Terrific Tales", "description": "Through the magic of the Story Spinner, True and her friends create their own versions of Pinocchio,"}, {"rank": 14.902931665410097, "title": "Too Young The Hero", "description": "TV movie based upon the true story of Calvin Graham, who, as a 12 year old boy, enlisted in the US N"}, {"rank": 14.643321044545065, "title": "Silverton Siege", "description": "After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h"}, {"rank": 14.626372374548396, "title": "Gifted Hands: The Ben Carson Story", "description": "Gifted Hands: The Ben Carson Story is a movie based on the life story of world-renowned neurosurgeon"}, {"rank": 14.150320917936252, "title": "War Dogs", "description": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million "}, {"rank": 14.150320917936252, "title": "Final Fantasy XIV: Dad of Light", "description": "A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this "}, {"rank": 14.150320917936252, "title": "Notes for My Son", "description": "Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her"}, {"rank": 14.150320917936252, "title": "Rescued by Ruby", "description": "Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever"}]}}}
+{
+    "Find movies with the title 'Inception'.": {
+        "type": "Titolo",
+        "pg": {
+            "ts_rank": [
+                {
+                    "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target",
+                    "title": "Inception",
+                    "rank": 0.1823781318962574
+                }
+            ],
+            "ts_rank_cd": [
+                {
+                    "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target",
+                    "title": "Inception",
+                    "rank": 0.30000000447034836
+                }
+            ]
+        },
+        "pyluc": {
+            "BM25": [
+                {
+                    "rank": 5.205865859985352,
+                    "title": "Inception",
+                    "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 8.981049537658691,
+                    "title": "Inception",
+                    "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target"
+                }
+            ]
+        },
+        "wo": {
+            "BM25": [
+                {
+                    "rank": 11.877341294420038,
+                    "title": "Inception",
+                    "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 11.877341294420038,
+                    "title": "Inception",
+                    "description": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his target"
+                }
+            ]
+        }
+    },
+    "Find movies with the title 'The Blue Lagoon'.": {
+        "type": "Titolo",
+        "pg": {
+            "ts_rank": [
+                {
+                    "description": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla",
+                    "title": "The Blue Lagoon",
+                    "rank": 0.8049893081188202
+                }
+            ],
+            "ts_rank_cd": [
+                {
+                    "description": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla",
+                    "title": "The Blue Lagoon",
+                    "rank": 0.30000000447034836
+                }
+            ]
+        },
+        "pyluc": {
+            "BM25": [
+                {
+                    "rank": 7.187864303588867,
+                    "title": "The Blue Lagoon",
+                    "description": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla"
+                },
+                {
+                    "rank": 3.3686718940734863,
+                    "title": "The Blue Umbrella",
+                    "description": "Young Biniya lives a poor lifestyle in a small village in the mountainous and snowy region of Himach"
+                },
+                {
+                    "rank": 3.1282799243927,
+                    "title": "Blue Exorcist",
+                    "description": "Humans live in the world of Assiah, demons in Gehenna. The two dimensions are not meant to interfere"
+                },
+                {
+                    "rank": 3.1282799243927,
+                    "title": "Blue Jasmine",
+                    "description": "After experiencing a traumatic misfortune, Jasmine French, a wealthy woman from New York, moves to S"
+                },
+                {
+                    "rank": 3.1282799243927,
+                    "title": "Mission Blue",
+                    "description": "Feature documentary about legendary oceanographer, marine biologist, environmentalist and National G"
+                },
+                {
+                    "rank": 3.1282799243927,
+                    "title": "Blue Jay",
+                    "description": "Meeting by chance when they return to their tiny California hometown, two former high-school sweethe"
+                },
+                {
+                    "rank": 3.1282799243927,
+                    "title": "Blue Period",
+                    "description": "Bored with life, popular high schooler Yatora Yaguchi jumps into the beautiful yet unrelenting world"
+                },
+                {
+                    "rank": 3.1282799243927,
+                    "title": "Blue Miracle",
+                    "description": "To save their cash-strapped orphanage, a guardian and his kids partner with a washed-up boat captain"
+                },
+                {
+                    "rank": 3.1282799243927,
+                    "title": "Cobalt Blue",
+                    "description": "When an aspiring author and his free-spirited sister both fall for the enigmatic paying guest at the"
+                },
+                {
+                    "rank": 2.972750186920166,
+                    "title": "The Blue Elephant 2",
+                    "description": "A meeting with a new inmate in the psychiatric hospital flips Dr. Yehia's life upside down, he proph"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 10.533279418945312,
+                    "title": "The Blue Lagoon",
+                    "description": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla"
+                },
+                {
+                    "rank": 5.3480682373046875,
+                    "title": "The Blue Umbrella",
+                    "description": "Young Biniya lives a poor lifestyle in a small village in the mountainous and snowy region of Himach"
+                },
+                {
+                    "rank": 4.837305545806885,
+                    "title": "Blue Exorcist",
+                    "description": "Humans live in the world of Assiah, demons in Gehenna. The two dimensions are not meant to interfere"
+                },
+                {
+                    "rank": 4.837305545806885,
+                    "title": "Blue Jasmine",
+                    "description": "After experiencing a traumatic misfortune, Jasmine French, a wealthy woman from New York, moves to S"
+                },
+                {
+                    "rank": 4.837305545806885,
+                    "title": "Mission Blue",
+                    "description": "Feature documentary about legendary oceanographer, marine biologist, environmentalist and National G"
+                },
+                {
+                    "rank": 4.837305545806885,
+                    "title": "Blue Jay",
+                    "description": "Meeting by chance when they return to their tiny California hometown, two former high-school sweethe"
+                },
+                {
+                    "rank": 4.837305545806885,
+                    "title": "Blue Period",
+                    "description": "Bored with life, popular high schooler Yatora Yaguchi jumps into the beautiful yet unrelenting world"
+                },
+                {
+                    "rank": 4.837305545806885,
+                    "title": "Blue Miracle",
+                    "description": "To save their cash-strapped orphanage, a guardian and his kids partner with a washed-up boat captain"
+                },
+                {
+                    "rank": 4.837305545806885,
+                    "title": "Cobalt Blue",
+                    "description": "When an aspiring author and his free-spirited sister both fall for the enigmatic paying guest at the"
+                },
+                {
+                    "rank": 4.631563186645508,
+                    "title": "The Blue Elephant 2",
+                    "description": "A meeting with a new inmate in the psychiatric hospital flips Dr. Yehia's life upside down, he proph"
+                }
+            ]
+        },
+        "wo": {
+            "BM25": [
+                {
+                    "rank": 17.051191743359905,
+                    "title": "The Blue Lagoon",
+                    "description": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 17.051191743359905,
+                    "title": "The Blue Lagoon",
+                    "description": "Two small children and a ship's cook survive a shipwreck and find safety on an idyllic tropical isla"
+                }
+            ]
+        }
+    },
+    "Find movies with the title 'She's Gotta Have It'.": {
+        "type": "Titolo",
+        "pg": {
+            "ts_rank": [
+                {
+                    "description": "The story of Nola Darling's simultaneous sexual relationships with three different men is told by he",
+                    "title": "She's Gotta Have It",
+                    "rank": 1.3839707672595978
+                },
+                {
+                    "description": "Nola Darling struggles to define herself and divide her time among her friends, job and three lovers",
+                    "title": "She's Gotta Have It",
+                    "rank": 1.3839707672595978
+                }
+            ],
+            "ts_rank_cd": [
+                {
+                    "description": "The story of Nola Darling's simultaneous sexual relationships with three different men is told by he",
+                    "title": "She's Gotta Have It",
+                    "rank": 0.05000000074505806
+                },
+                {
+                    "description": "Nola Darling struggles to define herself and divide her time among her friends, job and three lovers",
+                    "title": "She's Gotta Have It",
+                    "rank": 0.05000000074505806
+                }
+            ]
+        },
+        "pyluc": {
+            "BM25": [
+                {
+                    "rank": 7.6800618171691895,
+                    "title": "She's Gotta Have It",
+                    "description": "The story of Nola Darling's simultaneous sexual relationships with three different men is told by he"
+                },
+                {
+                    "rank": 7.6800618171691895,
+                    "title": "She's Gotta Have It",
+                    "description": "Nola Darling struggles to define herself and divide her time among her friends, job and three lovers"
+                },
+                {
+                    "rank": 4.282682418823242,
+                    "title": "She",
+                    "description": "An undercover assignment to expose a drug ring becomes a timid Mumbai constable's road to empowermen"
+                },
+                {
+                    "rank": 3.624661445617676,
+                    "title": "She Is",
+                    "description": "Can one woman have everything? Facing her 40s, a highly accomplished woman, with a host of suitors a"
+                },
+                {
+                    "rank": 3.4278392791748047,
+                    "title": "Something's Gotta Give",
+                    "description": "Harry Sanborn is an aged music industry exec with a fondness for younger women like Marin, his lates"
+                },
+                {
+                    "rank": 3.1465981006622314,
+                    "title": "It",
+                    "description": "In a small town in Maine, seven children known as The Losers Club come face to face with life proble"
+                },
+                {
+                    "rank": 2.77264404296875,
+                    "title": "She Would Never Know",
+                    "description": "It is an office romance about female senior who doesn\u2019t want to catch feelings for younger men and m"
+                },
+                {
+                    "rank": 2.663132905960083,
+                    "title": "It Follows",
+                    "description": "When carefree teenager Jay sleeps with her older boyfriend for the first time, she learns that she i"
+                },
+                {
+                    "rank": 2.663132905960083,
+                    "title": "Nailed It!",
+                    "description": "Home bakers who have a poor track record in the kitchen seek redemption -- and cash -- on this serie"
+                },
+                {
+                    "rank": 2.663132905960083,
+                    "title": "Work It",
+                    "description": "A brilliant but clumsy high school senior vows to get into her late father's alma mater by transform"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 10.822416305541992,
+                    "title": "She's Gotta Have It",
+                    "description": "The story of Nola Darling's simultaneous sexual relationships with three different men is told by he"
+                },
+                {
+                    "rank": 10.822416305541992,
+                    "title": "She's Gotta Have It",
+                    "description": "Nola Darling struggles to define herself and divide her time among her friends, job and three lovers"
+                },
+                {
+                    "rank": 7.7282867431640625,
+                    "title": "She",
+                    "description": "An undercover assignment to expose a drug ring becomes a timid Mumbai constable's road to empowermen"
+                },
+                {
+                    "rank": 5.985317707061768,
+                    "title": "It",
+                    "description": "In a small town in Maine, seven children known as The Losers Club come face to face with life proble"
+                },
+                {
+                    "rank": 5.464724063873291,
+                    "title": "She Is",
+                    "description": "Can one woman have everything? Facing her 40s, a highly accomplished woman, with a host of suitors a"
+                },
+                {
+                    "rank": 4.785022735595703,
+                    "title": "Something's Gotta Give",
+                    "description": "Harry Sanborn is an aged music industry exec with a fondness for younger women like Marin, his lates"
+                },
+                {
+                    "rank": 4.2322587966918945,
+                    "title": "It Follows",
+                    "description": "When carefree teenager Jay sleeps with her older boyfriend for the first time, she learns that she i"
+                },
+                {
+                    "rank": 4.2322587966918945,
+                    "title": "Nailed It!",
+                    "description": "Home bakers who have a poor track record in the kitchen seek redemption -- and cash -- on this serie"
+                },
+                {
+                    "rank": 4.2322587966918945,
+                    "title": "Work It",
+                    "description": "A brilliant but clumsy high school senior vows to get into her late father's alma mater by transform"
+                },
+                {
+                    "rank": 3.8641433715820312,
+                    "title": "She Would Never Know",
+                    "description": "It is an office romance about female senior who doesn\u2019t want to catch feelings for younger men and m"
+                }
+            ]
+        },
+        "wo": {
+            "BM25": [
+                {
+                    "rank": 16.892080640154774,
+                    "title": "She's Gotta Have It",
+                    "description": "The story of Nola Darling's simultaneous sexual relationships with three different men is told by he"
+                },
+                {
+                    "rank": 16.892080640154774,
+                    "title": "She's Gotta Have It",
+                    "description": "Nola Darling struggles to define herself and divide her time among her friends, job and three lovers"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 16.892080640154774,
+                    "title": "She's Gotta Have It",
+                    "description": "The story of Nola Darling's simultaneous sexual relationships with three different men is told by he"
+                },
+                {
+                    "rank": 16.892080640154774,
+                    "title": "She's Gotta Have It",
+                    "description": "Nola Darling struggles to define herself and divide her time among her friends, job and three lovers"
+                }
+            ]
+        }
+    },
+    "Find movies with the title 'Mission: Impossible'.": {
+        "type": "Titolo",
+        "pg": {
+            "ts_rank": [
+                {
+                    "description": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt",
+                    "title": "Mission: Impossible II",
+                    "rank": 0.29730965942144394
+                },
+                {
+                    "description": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no",
+                    "title": "Mission: Impossible",
+                    "rank": 0.29730965942144394
+                },
+                {
+                    "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks,",
+                    "title": "Mission: Impossible - Ghost Protocol",
+                    "rank": 0.29730965942144394
+                }
+            ],
+            "ts_rank_cd": [
+                {
+                    "description": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt",
+                    "title": "Mission: Impossible II",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no",
+                    "title": "Mission: Impossible",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks,",
+                    "title": "Mission: Impossible - Ghost Protocol",
+                    "rank": 0.30000000447034836
+                }
+            ]
+        },
+        "pyluc": {
+            "BM25": [],
+            "TF-IDF": []
+        },
+        "wo": {
+            "BM25": [
+                {
+                    "rank": 15.80318076060333,
+                    "title": "Mission: Impossible",
+                    "description": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no"
+                },
+                {
+                    "rank": 13.400038715755077,
+                    "title": "Mission: Impossible II",
+                    "description": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt"
+                },
+                {
+                    "rank": 11.631301734403579,
+                    "title": "Mission: Impossible - Ghost Protocol",
+                    "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks,"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 15.80318076060333,
+                    "title": "Mission: Impossible",
+                    "description": "When Ethan Hunt, the leader of a crack espionage team whose perilous operation has gone awry with no"
+                },
+                {
+                    "rank": 13.400038715755077,
+                    "title": "Mission: Impossible II",
+                    "description": "With computer genius Luther Stickell at his side and a beautiful thief on his mind, agent Ethan Hunt"
+                },
+                {
+                    "rank": 11.631301734403579,
+                    "title": "Mission: Impossible - Ghost Protocol",
+                    "description": "Ethan Hunt and his team are racing against time to track down a dangerous terrorist named Hendricks,"
+                }
+            ]
+        }
+    },
+    "Find movies with the title 'Connected'.": {
+        "type": "Titolo",
+        "pg": {
+            "ts_rank": [
+                {
+                    "description": "Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f",
+                    "title": "Connected",
+                    "rank": 0.1823781318962574
+                },
+                {
+                    "description": "A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a",
+                    "title": "Connected",
+                    "rank": 0.1823781318962574
+                },
+                {
+                    "description": "Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne",
+                    "title": "Connected",
+                    "rank": 0.1823781318962574
+                }
+            ],
+            "ts_rank_cd": [
+                {
+                    "description": "Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f",
+                    "title": "Connected",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a",
+                    "title": "Connected",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne",
+                    "title": "Connected",
+                    "rank": 0.30000000447034836
+                }
+            ]
+        },
+        "pyluc": {
+            "BM25": [
+                {
+                    "rank": 4.672420024871826,
+                    "title": "Connected",
+                    "description": "A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a"
+                },
+                {
+                    "rank": 4.672420024871826,
+                    "title": "Connected",
+                    "description": "Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne"
+                },
+                {
+                    "rank": 4.672420024871826,
+                    "title": "Connected",
+                    "description": "Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 8.28790283203125,
+                    "title": "Connected",
+                    "description": "A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a"
+                },
+                {
+                    "rank": 8.28790283203125,
+                    "title": "Connected",
+                    "description": "Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne"
+                },
+                {
+                    "rank": 8.28790283203125,
+                    "title": "Connected",
+                    "description": "Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f"
+                }
+            ]
+        },
+        "wo": {
+            "BM25": [
+                {
+                    "rank": 10.665556699231685,
+                    "title": "Connected",
+                    "description": "A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a"
+                },
+                {
+                    "rank": 10.665556699231685,
+                    "title": "Connected",
+                    "description": "Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne"
+                },
+                {
+                    "rank": 10.665556699231685,
+                    "title": "Connected",
+                    "description": "Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f"
+                },
+                {
+                    "rank": 4.614777445120837,
+                    "title": "The Magic School Bus Rides Again: The Frizz Connection",
+                    "description": "Lightning splits the Magic School Bus into three pieces, scattering the class across the globe with "
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 10.665556699231685,
+                    "title": "Connected",
+                    "description": "A debt collector receives a call from a woman who is kidnapped by an unknown gang. He thinks it is a"
+                },
+                {
+                    "rank": 10.665556699231685,
+                    "title": "Connected",
+                    "description": "Science journalist Latif Nasser investigates the surprising and intricate ways in which we are conne"
+                },
+                {
+                    "rank": 10.665556699231685,
+                    "title": "Connected",
+                    "description": "Argentine DJ Hern\u00e1n Catt\u00e1neo, known for his house music innovations, invites a symphonic orchestra f"
+                },
+                {
+                    "rank": 4.614777445120837,
+                    "title": "The Magic School Bus Rides Again: The Frizz Connection",
+                    "description": "Lightning splits the Magic School Bus into three pieces, scattering the class across the globe with "
+                }
+            ]
+        }
+    },
+    "Find movies based on real-life public figures or biographies": {
+        "type": "Full text",
+        "pg": {
+            "ts_rank": [
+                {
+                    "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur",
+                    "title": "Rush",
+                    "rank": 0.2984118238091469
+                },
+                {
+                    "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ",
+                    "title": "Baggio: The Divine Ponytail",
+                    "rank": 0.00032248931529466063
+                },
+                {
+                    "description": "Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra",
+                    "title": "Budhia Singh: Born to Run",
+                    "rank": 6.091040086175781e-05
+                },
+                {
+                    "description": "A semi-biographical account of Yip Man, the first martial arts master to teach the Chinese martial a",
+                    "title": "Ip Man",
+                    "rank": 1.017307321715677e-09
+                }
+            ],
+            "ts_rank_cd": [
+                {
+                    "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur",
+                    "title": "Rush",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to ",
+                    "title": "Baggio: The Divine Ponytail",
+                    "rank": 0.0035714285913854837
+                },
+                {
+                    "description": "Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra",
+                    "title": "Budhia Singh: Born to Run",
+                    "rank": 0.003030303167179227
+                },
+                {
+                    "description": "A semi-biographical account of Yip Man, the first martial arts master to teach the Chinese martial a",
+                    "title": "Ip Man",
+                    "rank": 0.0015151515835896134
+                }
+            ]
+        },
+        "pyluc": {
+            "BM25": [
+                {
+                    "rank": 6.11442756652832,
+                    "title": "Rush",
+                    "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur"
+                },
+                {
+                    "rank": 3.7316086292266846,
+                    "title": "Baggio: The Divine Ponytail",
+                    "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to "
+                },
+                {
+                    "rank": 3.1636390686035156,
+                    "title": "Budhia Singh: Born to Run",
+                    "description": "Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra"
+                },
+                {
+                    "rank": 3.0351037979125977,
+                    "title": "Sleepless Society NYCTOPHOBIA",
+                    "description": "Thai Horro Drama."
+                },
+                {
+                    "rank": 3.0269832611083984,
+                    "title": "The Oath",
+                    "description": "The Oath is a medical drama produced by Wawa Pictures. The drama follows a Chinese physician and a W"
+                },
+                {
+                    "rank": 2.890700340270996,
+                    "title": "At Dolphin Bay",
+                    "description": "At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu."
+                },
+                {
+                    "rank": 2.5862908363342285,
+                    "title": "Ip Man",
+                    "description": "A semi-biographical account of Yip Man, the first martial arts master to teach the Chinese martial a"
+                },
+                {
+                    "rank": 2.526080846786499,
+                    "title": "Our Planet: Behind the Scenes",
+                    "description": "Behind the Scenes look at the hardships and drama of capturing footage from Our Planet."
+                },
+                {
+                    "rank": 2.4750638008117676,
+                    "title": "Yours Fatefully",
+                    "description": "Yours Fatefully is a Singaporean Chinese drama which was telecasted on Singapore's free-to-air chann"
+                },
+                {
+                    "rank": 2.4573919773101807,
+                    "title": "Queen Sono",
+                    "description": "A drama about a secret agent who fights crime while dealing with crises in her personal life."
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 2.9730639457702637,
+                    "title": "Sleepless Society NYCTOPHOBIA",
+                    "description": "Thai Horro Drama."
+                },
+                {
+                    "rank": 2.6967549324035645,
+                    "title": "Rush",
+                    "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur"
+                },
+                {
+                    "rank": 1.5515035390853882,
+                    "title": "Baggio: The Divine Ponytail",
+                    "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to "
+                },
+                {
+                    "rank": 1.4564980268478394,
+                    "title": "At Dolphin Bay",
+                    "description": "At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu."
+                },
+                {
+                    "rank": 1.3963536024093628,
+                    "title": "The Oath",
+                    "description": "The Oath is a medical drama produced by Wawa Pictures. The drama follows a Chinese physician and a W"
+                },
+                {
+                    "rank": 1.329594612121582,
+                    "title": "Our Planet: Behind the Scenes",
+                    "description": "Behind the Scenes look at the hardships and drama of capturing footage from Our Planet."
+                },
+                {
+                    "rank": 1.248936653137207,
+                    "title": "Queen Sono",
+                    "description": "A drama about a secret agent who fights crime while dealing with crises in her personal life."
+                },
+                {
+                    "rank": 1.243970274925232,
+                    "title": "Budhia Singh: Born to Run",
+                    "description": "Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra"
+                },
+                {
+                    "rank": 1.1514627933502197,
+                    "title": "Much Loved",
+                    "description": "A social drama about four marginalized prostitutes in Marrakech and their complex relations with the"
+                },
+                {
+                    "rank": 1.1514627933502197,
+                    "title": "What are the Odds?",
+                    "description": "A drama film directed by Megha Ramaswamy, starring Priyanka Bose, Manu Rishi Chadha and Yashaswini D"
+                }
+            ]
+        },
+        "wo": {
+            "BM25": [
+                {
+                    "rank": 15.117134953848808,
+                    "title": "Rush",
+                    "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur"
+                },
+                {
+                    "rank": 11.450695926969402,
+                    "title": "Falling in Love Like a Romantic Drama",
+                    "description": "Naomi Watanabe hosts a reality show in which eight young actors perform kissing scenes in a drama. T"
+                },
+                {
+                    "rank": 9.319087426398456,
+                    "title": "The Little Nyonya",
+                    "description": "A biographic flashback of an extended Peranakan family in Malacca; set in the 1930s, the story spans"
+                },
+                {
+                    "rank": 8.752812394582687,
+                    "title": "Mama Drama",
+                    "description": ""
+                },
+                {
+                    "rank": 8.526142771123796,
+                    "title": "The Oath",
+                    "description": "The Oath is a medical drama produced by Wawa Pictures. The drama follows a Chinese physician and a W"
+                },
+                {
+                    "rank": 8.423092235841036,
+                    "title": "Baggio: The Divine Ponytail",
+                    "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to "
+                },
+                {
+                    "rank": 8.06876891658231,
+                    "title": "Sleepless Society NYCTOPHOBIA",
+                    "description": "Thai Horro Drama."
+                },
+                {
+                    "rank": 7.8913684706743,
+                    "title": "At Dolphin Bay",
+                    "description": "At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu."
+                },
+                {
+                    "rank": 7.573561249729494,
+                    "title": "Budhia Singh: Born to Run",
+                    "description": "Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra"
+                },
+                {
+                    "rank": 7.421798607248932,
+                    "title": "Total Drama Island",
+                    "description": "Reality TV meets animation in this parody in which twenty-two teens are sent to the most run-down an"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 15.117134953848808,
+                    "title": "Rush",
+                    "description": "A biographical drama centered on the rivalry between Formula 1 drivers James Hunt and Niki Lauda dur"
+                },
+                {
+                    "rank": 11.450695926969402,
+                    "title": "Falling in Love Like a Romantic Drama",
+                    "description": "Naomi Watanabe hosts a reality show in which eight young actors perform kissing scenes in a drama. T"
+                },
+                {
+                    "rank": 9.319087426398456,
+                    "title": "The Little Nyonya",
+                    "description": "A biographic flashback of an extended Peranakan family in Malacca; set in the 1930s, the story spans"
+                },
+                {
+                    "rank": 8.752812394582687,
+                    "title": "Mama Drama",
+                    "description": ""
+                },
+                {
+                    "rank": 8.526142771123796,
+                    "title": "The Oath",
+                    "description": "The Oath is a medical drama produced by Wawa Pictures. The drama follows a Chinese physician and a W"
+                },
+                {
+                    "rank": 8.423092235841036,
+                    "title": "Baggio: The Divine Ponytail",
+                    "description": "Biographical film about Italian footballer Roberto Baggio, a man who inspired entire generations to "
+                },
+                {
+                    "rank": 8.06876891658231,
+                    "title": "Sleepless Society NYCTOPHOBIA",
+                    "description": "Thai Horro Drama."
+                },
+                {
+                    "rank": 7.8913684706743,
+                    "title": "At Dolphin Bay",
+                    "description": "At Dolphin Bay is a Taiwanese drama that stars Angela Zhang, Ambrose Hsu, Wallace Huo, and Jill Hsu."
+                },
+                {
+                    "rank": 7.573561249729494,
+                    "title": "Budhia Singh: Born to Run",
+                    "description": "Budhia Singh \u2013 Born To Run is an upcoming 2016 Indian biographical sports film directed by Soumendra"
+                },
+                {
+                    "rank": 7.421798607248932,
+                    "title": "Total Drama Island",
+                    "description": "Reality TV meets animation in this parody in which twenty-two teens are sent to the most run-down an"
+                }
+            ]
+        }
+    },
+    "Discover shows on lawyer ": {
+        "type": "Full text",
+        "pg": {
+            "ts_rank": [
+                {
+                    "description": "While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence ",
+                    "title": "Firebrand",
+                    "rank": 0.29550256580114365
+                }
+            ],
+            "ts_rank_cd": [
+                {
+                    "description": "While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence ",
+                    "title": "Firebrand",
+                    "rank": 0.05000000074505806
+                }
+            ]
+        },
+        "pyluc": {
+            "BM25": [
+                {
+                    "rank": 4.103091716766357,
+                    "title": "30 March",
+                    "description": "Ali, the fugitive from a murder he does not even know whether he committed it or not, sets out to un"
+                },
+                {
+                    "rank": 3.4992330074310303,
+                    "title": "Cold Case Files",
+                    "description": "Tense new series exploring cold cases from victims death to criminal convictions."
+                },
+                {
+                    "rank": 3.400036096572876,
+                    "title": "Sakho & Mangane",
+                    "description": "Two cops with very different methods, solving mysterious murder cases surrounded by black magic."
+                },
+                {
+                    "rank": 3.175020933151245,
+                    "title": "Unsolved Mysteries",
+                    "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this grippi"
+                },
+                {
+                    "rank": 3.133544921875,
+                    "title": "The Confession Tapes",
+                    "description": "This true crime documentary series investigates cases where people convicted of murder claim their c"
+                },
+                {
+                    "rank": 3.133544921875,
+                    "title": "Firebrand",
+                    "description": "While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence "
+                },
+                {
+                    "rank": 3.101710081100464,
+                    "title": "Solo el amor",
+                    "description": "A love story between a young lawyer called Emma and a Noah, a rock star."
+                },
+                {
+                    "rank": 3.093139171600342,
+                    "title": "Catching Killers",
+                    "description": "The investigators behind infamous serial killer cases reveal the harrowing, chilling details of thei"
+                },
+                {
+                    "rank": 3.0537617206573486,
+                    "title": "U Turn",
+                    "description": "A journalist who intents to write an article on traffic rule breakers gets dragged into a whirlpool "
+                },
+                {
+                    "rank": 3.0537617206573486,
+                    "title": "Carmel: Who Killed Maria Marta?",
+                    "description": "Documentary series on the circumstances surrounding the death of Mar\u00eda Marta Garc\u00eda Belsunce, one of"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 1.8744348287582397,
+                    "title": "Cold Case Files",
+                    "description": "Tense new series exploring cold cases from victims death to criminal convictions."
+                },
+                {
+                    "rank": 1.7353893518447876,
+                    "title": "Sakho & Mangane",
+                    "description": "Two cops with very different methods, solving mysterious murder cases surrounded by black magic."
+                },
+                {
+                    "rank": 1.6812068223953247,
+                    "title": "30 March",
+                    "description": "Ali, the fugitive from a murder he does not even know whether he committed it or not, sets out to un"
+                },
+                {
+                    "rank": 1.571854829788208,
+                    "title": "Solo el amor",
+                    "description": "A love story between a young lawyer called Emma and a Noah, a rock star."
+                },
+                {
+                    "rank": 1.489649772644043,
+                    "title": "Unsolved Mysteries",
+                    "description": "Real cases of perplexing disappearances, shocking murders and paranormal encounters fuel this grippi"
+                },
+                {
+                    "rank": 1.4519309997558594,
+                    "title": "The Confession Tapes",
+                    "description": "This true crime documentary series investigates cases where people convicted of murder claim their c"
+                },
+                {
+                    "rank": 1.4519309997558594,
+                    "title": "Firebrand",
+                    "description": "While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence "
+                },
+                {
+                    "rank": 1.416939616203308,
+                    "title": "Catching Killers",
+                    "description": "The investigators behind infamous serial killer cases reveal the harrowing, chilling details of thei"
+                },
+                {
+                    "rank": 1.3843618631362915,
+                    "title": "U Turn",
+                    "description": "A journalist who intents to write an article on traffic rule breakers gets dragged into a whirlpool "
+                },
+                {
+                    "rank": 1.3843618631362915,
+                    "title": "Carmel: Who Killed Maria Marta?",
+                    "description": "Documentary series on the circumstances surrounding the death of Mar\u00eda Marta Garc\u00eda Belsunce, one of"
+                }
+            ]
+        },
+        "wo": {
+            "BM25": [
+                {
+                    "rank": 21.221156036832703,
+                    "title": "The Lincoln Lawyer",
+                    "description": "Sidelined after an accident, hotshot Los Angeles lawyer Mickey Haller restarts his career \u2014 and his "
+                },
+                {
+                    "rank": 17.387956132781728,
+                    "title": "Case",
+                    "description": "A dramatic thriller about a broken lawyer who seeks redemption through his investigation into the su"
+                },
+                {
+                    "rank": 15.6068478163442,
+                    "title": "Lawless Lawyer",
+                    "description": "Driven by the desire to avenge his mother, a former gangster turned lawyer uses both his fists and t"
+                },
+                {
+                    "rank": 14.128884208683369,
+                    "title": "Shepherds and Butchers",
+                    "description": "A lawyer takes on a case of a prison guard in South Africa who is traumatized by the executions he's"
+                },
+                {
+                    "rank": 14.004706841630833,
+                    "title": "Cold Case Files",
+                    "description": "Tense new series exploring cold cases from victims death to criminal convictions."
+                },
+                {
+                    "rank": 13.108839090003078,
+                    "title": "The Family Court",
+                    "description": "Five lawyers from different firms develop a strong bond of friendship that is occasionally tested by"
+                },
+                {
+                    "rank": 13.108839090003078,
+                    "title": "Firebrand",
+                    "description": "While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence "
+                },
+                {
+                    "rank": 11.782158982349138,
+                    "title": "Love, Guaranteed",
+                    "description": "To save her small law firm, earnest lawyer Susan takes a high-paying case from Nick, a charming new "
+                },
+                {
+                    "rank": 11.581958930919207,
+                    "title": "Under Suspicion: Uncovering the Wesphael Case",
+                    "description": "This docuseries follows the high-profile case of Belgian politician Bernard Wesphael, who was accuse"
+                },
+                {
+                    "rank": 11.27699893960202,
+                    "title": "Thimmarusu: Assignment Vali",
+                    "description": "After a cab driver is found dead, a young pub employee is framed for the murder and is sent to jail "
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 21.221156036832703,
+                    "title": "The Lincoln Lawyer",
+                    "description": "Sidelined after an accident, hotshot Los Angeles lawyer Mickey Haller restarts his career \u2014 and his "
+                },
+                {
+                    "rank": 17.387956132781728,
+                    "title": "Case",
+                    "description": "A dramatic thriller about a broken lawyer who seeks redemption through his investigation into the su"
+                },
+                {
+                    "rank": 15.6068478163442,
+                    "title": "Lawless Lawyer",
+                    "description": "Driven by the desire to avenge his mother, a former gangster turned lawyer uses both his fists and t"
+                },
+                {
+                    "rank": 14.128884208683369,
+                    "title": "Shepherds and Butchers",
+                    "description": "A lawyer takes on a case of a prison guard in South Africa who is traumatized by the executions he's"
+                },
+                {
+                    "rank": 14.004706841630833,
+                    "title": "Cold Case Files",
+                    "description": "Tense new series exploring cold cases from victims death to criminal convictions."
+                },
+                {
+                    "rank": 13.108839090003078,
+                    "title": "The Family Court",
+                    "description": "Five lawyers from different firms develop a strong bond of friendship that is occasionally tested by"
+                },
+                {
+                    "rank": 13.108839090003078,
+                    "title": "Firebrand",
+                    "description": "While she advocates for her female clients in divorce cases, a lawyer's trauma from sexual violence "
+                },
+                {
+                    "rank": 11.782158982349138,
+                    "title": "Love, Guaranteed",
+                    "description": "To save her small law firm, earnest lawyer Susan takes a high-paying case from Nick, a charming new "
+                },
+                {
+                    "rank": 11.581958930919207,
+                    "title": "Under Suspicion: Uncovering the Wesphael Case",
+                    "description": "This docuseries follows the high-profile case of Belgian politician Bernard Wesphael, who was accuse"
+                },
+                {
+                    "rank": 11.27699893960202,
+                    "title": "Thimmarusu: Assignment Vali",
+                    "description": "After a cab driver is found dead, a young pub employee is framed for the murder and is sent to jail "
+                }
+            ]
+        }
+    },
+    "Identify thrillers on love revenge.": {
+        "type": "Full text",
+        "pg": {
+            "ts_rank": [
+                {
+                    "description": "A patriotic bodyguard who was abandoned by his country and colleagues, a hidden daughter of leading ",
+                    "title": "The K2",
+                    "rank": 0.2744699791073799
+                },
+                {
+                    "description": "Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds ",
+                    "title": "Ferry",
+                    "rank": 0.1552320308983326
+                },
+                {
+                    "description": "The story of twin brothers who separated at birth but grew up to be supreme martial artists. Raised ",
+                    "title": "Handsome Siblings",
+                    "rank": 0.11931345239281654
+                },
+                {
+                    "description": "Quan is a humble London businessman whose long-buried past erupts in a revenge-fueled vendetta when ",
+                    "title": "The Foreigner",
+                    "rank": 0.08900328911840916
+                },
+                {
+                    "description": "When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek reven",
+                    "title": "The Harder They Fall",
+                    "rank": 0.0651920735836029
+                },
+                {
+                    "description": "After learning of his brother's death during a mission in Romania, a former soldier joins two allies",
+                    "title": "The Hard Way",
+                    "rank": 0.017576931975781918
+                },
+                {
+                    "description": "Siddharth, Omi, and Jai are close friends and roommates who are studying at Delhi University. Siddha",
+                    "title": "Chashme Baddoor",
+                    "rank": 0.0033253898145630956
+                },
+                {
+                    "description": "Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump",
+                    "title": "2020",
+                    "rank": 0.0017073896597139537
+                },
+                {
+                    "description": "Indran suffers from narcolepsy, a sleep disorder that makes him fall asleep at the slightest excitem",
+                    "title": "Naan Sigappu Manithan",
+                    "rank": 1.605580700925202e-05
+                },
+                {
+                    "description": "A bigamist with one family in Buenos Aires and the other in Mar del Plata sees his life turned upsid",
+                    "title": "So Much Love to Give",
+                    "rank": 3.032550466741668e-06
+                },
+                {
+                    "description": "This is the story of Catalina, the indigenous woman who gave away her soul, her heart and her life t",
+                    "title": "The Queen and the Conqueror",
+                    "rank": 5.554309545630076e-08
+                },
+                {
+                    "description": "Valerie is in love with a brooding outsider, Peter, but her parents have arranged for her to marry a",
+                    "title": "Red Riding Hood",
+                    "rank": 2.0433163161470702e-08
+                }
+            ],
+            "ts_rank_cd": [
+                {
+                    "description": "A patriotic bodyguard who was abandoned by his country and colleagues, a hidden daughter of leading ",
+                    "title": "The K2",
+                    "rank": 0.019999999552965164
+                },
+                {
+                    "description": "Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds ",
+                    "title": "Ferry",
+                    "rank": 0.011111111380159855
+                },
+                {
+                    "description": "The story of twin brothers who separated at birth but grew up to be supreme martial artists. Raised ",
+                    "title": "Handsome Siblings",
+                    "rank": 0.010869565419852734
+                },
+                {
+                    "description": "Quan is a humble London businessman whose long-buried past erupts in a revenge-fueled vendetta when ",
+                    "title": "The Foreigner",
+                    "rank": 0.00909090880304575
+                },
+                {
+                    "description": "When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek reven",
+                    "title": "The Harder They Fall",
+                    "rank": 0.008333333767950535
+                },
+                {
+                    "description": "After learning of his brother's death during a mission in Romania, a former soldier joins two allies",
+                    "title": "The Hard Way",
+                    "rank": 0.0062500000931322575
+                },
+                {
+                    "description": "Siddharth, Omi, and Jai are close friends and roommates who are studying at Delhi University. Siddha",
+                    "title": "Chashme Baddoor",
+                    "rank": 0.004761904943734407
+                },
+                {
+                    "description": "Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump",
+                    "title": "2020",
+                    "rank": 0.004347826354205608
+                },
+                {
+                    "description": "Indran suffers from narcolepsy, a sleep disorder that makes him fall asleep at the slightest excitem",
+                    "title": "Naan Sigappu Manithan",
+                    "rank": 0.0027027027681469917
+                },
+                {
+                    "description": "A bigamist with one family in Buenos Aires and the other in Mar del Plata sees his life turned upsid",
+                    "title": "So Much Love to Give",
+                    "rank": 0.0023809524718672037
+                },
+                {
+                    "description": "This is the story of Catalina, the indigenous woman who gave away her soul, her heart and her life t",
+                    "title": "The Queen and the Conqueror",
+                    "rank": 0.0018518519354984164
+                },
+                {
+                    "description": "Valerie is in love with a brooding outsider, Peter, but her parents have arranged for her to marry a",
+                    "title": "Red Riding Hood",
+                    "rank": 0.001754386001266539
+                }
+            ]
+        },
+        "pyluc": {
+            "BM25": [
+                {
+                    "rank": 3.66441011428833,
+                    "title": "2020",
+                    "description": "Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump"
+                },
+                {
+                    "rank": 3.5343918800354004,
+                    "title": "Ferry",
+                    "description": "Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds "
+                },
+                {
+                    "rank": 3.0323033332824707,
+                    "title": "The K2",
+                    "description": "A patriotic bodyguard who was abandoned by his country and colleagues, a hidden daughter of leading "
+                },
+                {
+                    "rank": 2.839146137237549,
+                    "title": "Thaandavam",
+                    "description": "A blind man with his 'Echolocation' power takes on a revenge mission."
+                },
+                {
+                    "rank": 2.7586612701416016,
+                    "title": "Sisterakas",
+                    "description": "A man takes revenge on his sister by hiring her as his personal assistant."
+                },
+                {
+                    "rank": 2.646141529083252,
+                    "title": "Hello Brother",
+                    "description": "A ghost seeking revenge for his death haunts the man who received his heart in a transplant."
+                },
+                {
+                    "rank": 2.610647201538086,
+                    "title": "The Harder They Fall",
+                    "description": "When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek reven"
+                },
+                {
+                    "rank": 2.610647201538086,
+                    "title": "He's All That",
+                    "description": "To get revenge on her ex-boyfriend, an influencer attempts to transform an unpopular classmate into "
+                },
+                {
+                    "rank": 2.5639986991882324,
+                    "title": "Naan Sigappu Manithan",
+                    "description": "Indran suffers from narcolepsy, a sleep disorder that makes him fall asleep at the slightest excitem"
+                },
+                {
+                    "rank": 2.54244065284729,
+                    "title": "Sin senos s\u00ed hay para\u00edso",
+                    "description": "A young woman born in a mafia-controlled town seeks revenge on those who wrongfully harmed and impri"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 1.772247552871704,
+                    "title": "2020",
+                    "description": "Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump"
+                },
+                {
+                    "rank": 1.6746164560317993,
+                    "title": "Ferry",
+                    "description": "Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds "
+                },
+                {
+                    "rank": 1.578069806098938,
+                    "title": "Thaandavam",
+                    "description": "A blind man with his 'Echolocation' power takes on a revenge mission."
+                },
+                {
+                    "rank": 1.4610087871551514,
+                    "title": "Sisterakas",
+                    "description": "A man takes revenge on his sister by hiring her as his personal assistant."
+                },
+                {
+                    "rank": 1.3673186302185059,
+                    "title": "The K2",
+                    "description": "A patriotic bodyguard who was abandoned by his country and colleagues, a hidden daughter of leading "
+                },
+                {
+                    "rank": 1.3258438110351562,
+                    "title": "Hello Brother",
+                    "description": "A ghost seeking revenge for his death haunts the man who received his heart in a transplant."
+                },
+                {
+                    "rank": 1.2884886264801025,
+                    "title": "The Harder They Fall",
+                    "description": "When an outlaw discovers his enemy is being released from prison, he reunites his gang to seek reven"
+                },
+                {
+                    "rank": 1.2884886264801025,
+                    "title": "He's All That",
+                    "description": "To get revenge on her ex-boyfriend, an influencer attempts to transform an unpopular classmate into "
+                },
+                {
+                    "rank": 1.2223676443099976,
+                    "title": "Sin senos s\u00ed hay para\u00edso",
+                    "description": "A young woman born in a mafia-controlled town seeks revenge on those who wrongfully harmed and impri"
+                },
+                {
+                    "rank": 1.2001876831054688,
+                    "title": "Jaane Tu... Ya Jaane Na",
+                    "description": "Two best friends being convinced that they are not in love search for each other's love."
+                }
+            ]
+        },
+        "wo": {
+            "BM25": [
+                {
+                    "rank": 12.608613860081633,
+                    "title": "The Car: Road to Revenge",
+                    "description": "In a dilapidated cyberpunk city plagued by crime and corruption, an unscrupulous District Attorney i"
+                },
+                {
+                    "rank": 10.220575800852203,
+                    "title": "Revenger",
+                    "description": "Hell-bent on avenging the murder of his family, a former detective infiltrates a remote island that "
+                },
+                {
+                    "rank": 9.795327483898728,
+                    "title": "Loving",
+                    "description": "The story of Richard and Mildred Loving, an interracial couple, whose challenge of their anti-misceg"
+                },
+                {
+                    "rank": 9.783731404933775,
+                    "title": "Ferry",
+                    "description": "Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds "
+                },
+                {
+                    "rank": 9.783731404933775,
+                    "title": "2020",
+                    "description": "Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump"
+                },
+                {
+                    "rank": 9.762820687937227,
+                    "title": "Love Actually",
+                    "description": "'Love Actually' follows the lives of eight very different couples dealing with their love lives, in "
+                },
+                {
+                    "rank": 9.622491146967032,
+                    "title": "Ashes of Love",
+                    "description": "Jin Mi is the daughter of a flower deity who is fed a pill that prevents her from feeling or express"
+                },
+                {
+                    "rank": 9.622491146967032,
+                    "title": "Love Hard",
+                    "description": "An LA girl, unlucky in love, falls for an East Coast guy on a dating app and decides to surprise him"
+                },
+                {
+                    "rank": 9.533629073191383,
+                    "title": "AI Love You",
+                    "description": "A modern love story set in the near future where an AI building is powered by human feelings. Due to"
+                },
+                {
+                    "rank": 9.408102916387541,
+                    "title": "Love Alarm",
+                    "description": "Love Alarm is an app that tells you if someone within a 10-meter radius has a crush on you. It quick"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 12.608613860081633,
+                    "title": "The Car: Road to Revenge",
+                    "description": "In a dilapidated cyberpunk city plagued by crime and corruption, an unscrupulous District Attorney i"
+                },
+                {
+                    "rank": 10.220575800852203,
+                    "title": "Revenger",
+                    "description": "Hell-bent on avenging the murder of his family, a former detective infiltrates a remote island that "
+                },
+                {
+                    "rank": 9.795327483898728,
+                    "title": "Loving",
+                    "description": "The story of Richard and Mildred Loving, an interracial couple, whose challenge of their anti-misceg"
+                },
+                {
+                    "rank": 9.783731404933775,
+                    "title": "Ferry",
+                    "description": "Before he built a drug empire, Ferry Bouman returns to his hometown on a revenge mission that finds "
+                },
+                {
+                    "rank": 9.783731404933775,
+                    "title": "2020",
+                    "description": "Seeking revenge, a woman goes to the village where her brother was killed, but her ride becomes bump"
+                },
+                {
+                    "rank": 9.762820687937227,
+                    "title": "Love Actually",
+                    "description": "'Love Actually' follows the lives of eight very different couples dealing with their love lives, in "
+                },
+                {
+                    "rank": 9.622491146967032,
+                    "title": "Ashes of Love",
+                    "description": "Jin Mi is the daughter of a flower deity who is fed a pill that prevents her from feeling or express"
+                },
+                {
+                    "rank": 9.622491146967032,
+                    "title": "Love Hard",
+                    "description": "An LA girl, unlucky in love, falls for an East Coast guy on a dating app and decides to surprise him"
+                },
+                {
+                    "rank": 9.533629073191383,
+                    "title": "AI Love You",
+                    "description": "A modern love story set in the near future where an AI building is powered by human feelings. Due to"
+                },
+                {
+                    "rank": 9.408102916387541,
+                    "title": "Love Alarm",
+                    "description": "Love Alarm is an app that tells you if someone within a 10-meter radius has a crush on you. It quick"
+                }
+            ]
+        }
+    },
+    "Explore stories of young superheroes": {
+        "type": "Full text",
+        "pg": {
+            "ts_rank": [
+                {
+                    "description": "A young man who stands for the right discovers that he's destined to do bigger things, which will tr",
+                    "title": "Bhavesh Joshi Superhero",
+                    "rank": 0.29606882482767105
+                }
+            ],
+            "ts_rank_cd": [
+                {
+                    "description": "A young man who stands for the right discovers that he's destined to do bigger things, which will tr",
+                    "title": "Bhavesh Joshi Superhero",
+                    "rank": 0.05384615436196327
+                }
+            ]
+        },
+        "pyluc": {
+            "BM25": [
+                {
+                    "rank": 4.448909282684326,
+                    "title": "Bhavesh Joshi Superhero",
+                    "description": "A young man who stands for the right discovers that he's destined to do bigger things, which will tr"
+                },
+                {
+                    "rank": 3.318852663040161,
+                    "title": "The Epic Tales of Captain Underpants",
+                    "description": "Fourth-grade friends George and Harold have a shared love of pranks and comic books -- and turning t"
+                },
+                {
+                    "rank": 3.318852663040161,
+                    "title": "Shiva VS Autobots",
+                    "description": "When an evil enemy gains control of a gadget that sends vehicles destructively spinning out of contr"
+                },
+                {
+                    "rank": 3.238445281982422,
+                    "title": "Zokkomon",
+                    "description": "An orphan is abused and abandoned, believed to be dead, and upon his return is first feared as a gho"
+                },
+                {
+                    "rank": 3.1248838901519775,
+                    "title": "Minnal Murali",
+                    "description": "A tailor gains special powers after being struck by lightning but must take down an unexpected foe i"
+                },
+                {
+                    "rank": 3.053499937057495,
+                    "title": "Abby Hatcher",
+                    "description": "Abby Hatcher is part girl, part superhero; living in a world full of fuzzlies. When a fuzzly friend "
+                },
+                {
+                    "rank": 2.827437400817871,
+                    "title": "StarBeam",
+                    "description": "Zoey is excited to tackle second grade, but when danger beckons, she sneaks away and with her signat"
+                },
+                {
+                    "rank": 2.797846555709839,
+                    "title": "Kevin Hart: I'm a Grown Little Man",
+                    "description": "Fresh off the heels of appearing in movies like Superhero Movie and The 40 Year-Old Virgin, fast-tal"
+                },
+                {
+                    "rank": 2.712677478790283,
+                    "title": "Henry Danger",
+                    "description": "When 13-year-old Henry Hart lands a job as Danger, the sidekick-in-training to superhero Captain Man"
+                },
+                {
+                    "rank": 2.21762752532959,
+                    "title": "Hancock",
+                    "description": "Hancock is a down-and-out superhero who's forced to employ a PR expert to help repair his image when"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 2.021639585494995,
+                    "title": "Bhavesh Joshi Superhero",
+                    "description": "A young man who stands for the right discovers that he's destined to do bigger things, which will tr"
+                },
+                {
+                    "rank": 1.4505751132965088,
+                    "title": "The Epic Tales of Captain Underpants",
+                    "description": "Fourth-grade friends George and Harold have a shared love of pranks and comic books -- and turning t"
+                },
+                {
+                    "rank": 1.4505751132965088,
+                    "title": "Shiva VS Autobots",
+                    "description": "When an evil enemy gains control of a gadget that sends vehicles destructively spinning out of contr"
+                },
+                {
+                    "rank": 1.393667459487915,
+                    "title": "Zokkomon",
+                    "description": "An orphan is abused and abandoned, believed to be dead, and upon his return is first feared as a gho"
+                },
+                {
+                    "rank": 1.3196136951446533,
+                    "title": "Minnal Murali",
+                    "description": "A tailor gains special powers after being struck by lightning but must take down an unexpected foe i"
+                },
+                {
+                    "rank": 1.2763359546661377,
+                    "title": "Abby Hatcher",
+                    "description": "Abby Hatcher is part girl, part superhero; living in a world full of fuzzlies. When a fuzzly friend "
+                },
+                {
+                    "rank": 1.15280020236969,
+                    "title": "StarBeam",
+                    "description": "Zoey is excited to tackle second grade, but when danger beckons, she sneaks away and with her signat"
+                },
+                {
+                    "rank": 1.1379246711730957,
+                    "title": "Kevin Hart: I'm a Grown Little Man",
+                    "description": "Fresh off the heels of appearing in movies like Superhero Movie and The 40 Year-Old Virgin, fast-tal"
+                },
+                {
+                    "rank": 1.0965317487716675,
+                    "title": "Henry Danger",
+                    "description": "When 13-year-old Henry Hart lands a job as Danger, the sidekick-in-training to superhero Captain Man"
+                },
+                {
+                    "rank": 1.0746715068817139,
+                    "title": "Teen Mom 2",
+                    "description": "Jenelle, Chelsea, Kailyn, and Leah are four young women navigating complicated lives. It's not alway"
+                }
+            ]
+        },
+        "wo": {
+            "BM25": [
+                {
+                    "rank": 19.342009024394375,
+                    "title": "Bhavesh Joshi Superhero",
+                    "description": "A young man who stands for the right discovers that he's destined to do bigger things, which will tr"
+                },
+                {
+                    "rank": 11.479883366788002,
+                    "title": "The Young Messiah",
+                    "description": "Tells the story of Jesus Christ at age seven as he and his family depart Egypt to return home to Naz"
+                },
+                {
+                    "rank": 11.165219927023404,
+                    "title": "Young & Hungry",
+                    "description": "Two worlds collide when Josh, a wealthy young tech entrepreneur, meets Gabi, a feisty young food blo"
+                },
+                {
+                    "rank": 8.21439565136659,
+                    "title": "How I Became a Super Hero",
+                    "description": "While superheroes have assimilated into Parisian society, a new drug gives super powers to mere mort"
+                },
+                {
+                    "rank": 8.114878094475722,
+                    "title": "Young Wallander",
+                    "description": "Follow recently graduated police officer Kurt Wallander as he investigates his first case."
+                },
+                {
+                    "rank": 8.114878094475722,
+                    "title": "We Die Young",
+                    "description": "Lucas, a 14-year-old boy inducted into the gang life in Washington D.C., is determined that his 10-y"
+                },
+                {
+                    "rank": 8.114878094475722,
+                    "title": "Young Royals",
+                    "description": "Prince Wilhelm adjusts to life at his prestigious new boarding school, Hillerska, but following his "
+                },
+                {
+                    "rank": 8.060582241647996,
+                    "title": "Zokkomon",
+                    "description": "An orphan is abused and abandoned, believed to be dead, and upon his return is first feared as a gho"
+                },
+                {
+                    "rank": 8.060582241647996,
+                    "title": "ReBoot: The Guardian Code",
+                    "description": "Four tech-savvy teens hone their skills as cyber-superheroes in a series of secret missions to save "
+                },
+                {
+                    "rank": 7.769612429457841,
+                    "title": "Miniforce",
+                    "description": "Four animal superheroes called the Miniforce transform into robots to protect small and defenseless "
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 19.342009024394375,
+                    "title": "Bhavesh Joshi Superhero",
+                    "description": "A young man who stands for the right discovers that he's destined to do bigger things, which will tr"
+                },
+                {
+                    "rank": 11.479883366788002,
+                    "title": "The Young Messiah",
+                    "description": "Tells the story of Jesus Christ at age seven as he and his family depart Egypt to return home to Naz"
+                },
+                {
+                    "rank": 11.165219927023404,
+                    "title": "Young & Hungry",
+                    "description": "Two worlds collide when Josh, a wealthy young tech entrepreneur, meets Gabi, a feisty young food blo"
+                },
+                {
+                    "rank": 8.21439565136659,
+                    "title": "How I Became a Super Hero",
+                    "description": "While superheroes have assimilated into Parisian society, a new drug gives super powers to mere mort"
+                },
+                {
+                    "rank": 8.114878094475722,
+                    "title": "Young Wallander",
+                    "description": "Follow recently graduated police officer Kurt Wallander as he investigates his first case."
+                },
+                {
+                    "rank": 8.114878094475722,
+                    "title": "We Die Young",
+                    "description": "Lucas, a 14-year-old boy inducted into the gang life in Washington D.C., is determined that his 10-y"
+                },
+                {
+                    "rank": 8.114878094475722,
+                    "title": "Young Royals",
+                    "description": "Prince Wilhelm adjusts to life at his prestigious new boarding school, Hillerska, but following his "
+                },
+                {
+                    "rank": 8.060582241647996,
+                    "title": "Zokkomon",
+                    "description": "An orphan is abused and abandoned, believed to be dead, and upon his return is first feared as a gho"
+                },
+                {
+                    "rank": 8.060582241647996,
+                    "title": "ReBoot: The Guardian Code",
+                    "description": "Four tech-savvy teens hone their skills as cyber-superheroes in a series of secret missions to save "
+                },
+                {
+                    "rank": 7.769612429457841,
+                    "title": "Miniforce",
+                    "description": "Four animal superheroes called the Miniforce transform into robots to protect small and defenseless "
+                }
+            ]
+        }
+    },
+    "Based on a true story": {
+        "type": "Full text",
+        "pg": {
+            "ts_rank": [
+                {
+                    "description": "Based on a true story, the drama tells the tragic love story of Kim Woo Jin, a married stage drama w",
+                    "title": "Hymn of Death",
+                    "rank": 2.2390741109848022
+                },
+                {
+                    "description": "The murder of 13-year-old Yara Gambirasio shocks the little town of Brembate di Sopra, Italy. To bri",
+                    "title": "Yara",
+                    "rank": 2.2355990409851074
+                },
+                {
+                    "description": "After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h",
+                    "title": "Silverton Siege",
+                    "rank": 2.226772964000702
+                },
+                {
+                    "description": "Having fought in the First Carlist War, Martin returns to his family farm in Gipuzkoa only to find t",
+                    "title": "Giant",
+                    "rank": 2.119137167930603
+                },
+                {
+                    "description": "Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever",
+                    "title": "Rescued by Ruby",
+                    "rank": 2.089073359966278
+                },
+                {
+                    "description": "Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her",
+                    "title": "Notes for My Son",
+                    "rank": 1.9631561636924744
+                },
+                {
+                    "description": "When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case",
+                    "title": "The Search",
+                    "rank": 1.945961594581604
+                },
+                {
+                    "description": "After her husband's death, a 60-year-old mom decides to find love again to the joy and annoyance of ",
+                    "title": "Mom, Don't Do That!",
+                    "rank": 1.9365879893302917
+                },
+                {
+                    "description": "A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this ",
+                    "title": "Final Fantasy XIV: Dad of Light",
+                    "rank": 1.9341418147087097
+                },
+                {
+                    "description": "An action-packed series about several Colombian women who work as intelligence agents. They investig",
+                    "title": "Undercover Law",
+                    "rank": 1.9327161312103271
+                },
+                {
+                    "description": "In 16th-century Zazzau, now Zaria, Nigeria, Amina must utilize her military skills and tactics to de",
+                    "title": "Amina",
+                    "rank": 1.9327161312103271
+                },
+                {
+                    "description": "Anthology series in which each season is based on a true crime story featuring an epic tale of love ",
+                    "title": "Dirty John",
+                    "rank": 1.9236969351768494
+                },
+                {
+                    "description": "Based on the incredibly true story of a Spanish man with Multiple Esclorosis who tried to finish an ",
+                    "title": "100 Meters",
+                    "rank": 1.876059114933014
+                },
+                {
+                    "description": "Based on the true story of Clyde Barrow, a charismatic convicted armed robber who sweeps Bonnie Park",
+                    "title": "Bonnie & Clyde",
+                    "rank": 1.8514525294303894
+                },
+                {
+                    "description": "Based on the true story of Grace Marks, a housemaid and immigrant from Ireland who was imprisoned in",
+                    "title": "Alias Grace",
+                    "rank": 1.8504645824432373
+                },
+                {
+                    "description": "When ISIS took their homes, families and city, one group of men fought to take it all back. Based on",
+                    "title": "Mosul",
+                    "rank": 1.6102665066719055
+                },
+                {
+                    "description": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million ",
+                    "title": "War Dogs",
+                    "rank": 1.4637937545776367
+                }
+            ],
+            "ts_rank_cd": [
+                {
+                    "description": "The murder of 13-year-old Yara Gambirasio shocks the little town of Brembate di Sopra, Italy. To bri",
+                    "title": "Yara",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her",
+                    "title": "Notes for My Son",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h",
+                    "title": "Silverton Siege",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "Based on a true story, the drama tells the tragic love story of Kim Woo Jin, a married stage drama w",
+                    "title": "Hymn of Death",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "In 16th-century Zazzau, now Zaria, Nigeria, Amina must utilize her military skills and tactics to de",
+                    "title": "Amina",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case",
+                    "title": "The Search",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever",
+                    "title": "Rescued by Ruby",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "After her husband's death, a 60-year-old mom decides to find love again to the joy and annoyance of ",
+                    "title": "Mom, Don't Do That!",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this ",
+                    "title": "Final Fantasy XIV: Dad of Light",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "An action-packed series about several Colombian women who work as intelligence agents. They investig",
+                    "title": "Undercover Law",
+                    "rank": 0.30000000447034836
+                },
+                {
+                    "description": "Having fought in the First Carlist War, Martin returns to his family farm in Gipuzkoa only to find t",
+                    "title": "Giant",
+                    "rank": 0.10000000149011612
+                },
+                {
+                    "description": "Anthology series in which each season is based on a true crime story featuring an epic tale of love ",
+                    "title": "Dirty John",
+                    "rank": 0.05000000074505806
+                },
+                {
+                    "description": "Based on the incredibly true story of a Spanish man with Multiple Esclorosis who tried to finish an ",
+                    "title": "100 Meters",
+                    "rank": 0.02500000037252903
+                },
+                {
+                    "description": "Based on the true story of Grace Marks, a housemaid and immigrant from Ireland who was imprisoned in",
+                    "title": "Alias Grace",
+                    "rank": 0.019999999552965164
+                },
+                {
+                    "description": "Based on the true story of Clyde Barrow, a charismatic convicted armed robber who sweeps Bonnie Park",
+                    "title": "Bonnie & Clyde",
+                    "rank": 0.019999999552965164
+                },
+                {
+                    "description": "When ISIS took their homes, families and city, one group of men fought to take it all back. Based on",
+                    "title": "Mosul",
+                    "rank": 0.009999999776482582
+                },
+                {
+                    "description": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million ",
+                    "title": "War Dogs",
+                    "rank": 0.007692307699471712
+                }
+            ]
+        },
+        "pyluc": {
+            "BM25": [
+                {
+                    "rank": 6.524355411529541,
+                    "title": "Dirty John",
+                    "description": "Anthology series in which each season is based on a true crime story featuring an epic tale of love "
+                },
+                {
+                    "rank": 6.287622451782227,
+                    "title": "Silverton Siege",
+                    "description": "After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h"
+                },
+                {
+                    "rank": 6.204342842102051,
+                    "title": "Amina",
+                    "description": "In 16th-century Zazzau, now Zaria, Nigeria, Amina must utilize her military skills and tactics to de"
+                },
+                {
+                    "rank": 6.176531791687012,
+                    "title": "Final Fantasy XIV: Dad of Light",
+                    "description": "A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this "
+                },
+                {
+                    "rank": 6.12674617767334,
+                    "title": "The Search",
+                    "description": "When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case"
+                },
+                {
+                    "rank": 6.032039642333984,
+                    "title": "Mom, Don't Do That!",
+                    "description": "After her husband's death, a 60-year-old mom decides to find love again to the joy and annoyance of "
+                },
+                {
+                    "rank": 6.000362396240234,
+                    "title": "Notes for My Son",
+                    "description": "Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her"
+                },
+                {
+                    "rank": 5.98613166809082,
+                    "title": "Rescued by Ruby",
+                    "description": "Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever"
+                },
+                {
+                    "rank": 5.914255142211914,
+                    "title": "War Dogs",
+                    "description": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million "
+                },
+                {
+                    "rank": 5.539427757263184,
+                    "title": "Too Young The Hero",
+                    "description": "TV movie based upon the true story of Calvin Graham, who, as a 12 year old boy, enlisted in the US N"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 3.62744140625,
+                    "title": "Dirty John",
+                    "description": "Anthology series in which each season is based on a true crime story featuring an epic tale of love "
+                },
+                {
+                    "rank": 3.582587718963623,
+                    "title": "Silverton Siege",
+                    "description": "After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h"
+                },
+                {
+                    "rank": 3.3808298110961914,
+                    "title": "The Search",
+                    "description": "When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case"
+                },
+                {
+                    "rank": 3.364828109741211,
+                    "title": "Final Fantasy XIV: Dad of Light",
+                    "description": "A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this "
+                },
+                {
+                    "rank": 3.3263490200042725,
+                    "title": "Notes for My Son",
+                    "description": "Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her"
+                },
+                {
+                    "rank": 3.3246052265167236,
+                    "title": "Amina",
+                    "description": "In 16th-century Zazzau, now Zaria, Nigeria, Amina must utilize her military skills and tactics to de"
+                },
+                {
+                    "rank": 3.262166976928711,
+                    "title": "Rescued by Ruby",
+                    "description": "Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever"
+                },
+                {
+                    "rank": 3.242429494857788,
+                    "title": "Mom, Don't Do That!",
+                    "description": "After her husband's death, a 60-year-old mom decides to find love again to the joy and annoyance of "
+                },
+                {
+                    "rank": 3.086818218231201,
+                    "title": "War Dogs",
+                    "description": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million "
+                },
+                {
+                    "rank": 2.9086685180664062,
+                    "title": "Too Young The Hero",
+                    "description": "TV movie based upon the true story of Calvin Graham, who, as a 12 year old boy, enlisted in the US N"
+                }
+            ]
+        },
+        "wo": {
+            "BM25": [
+                {
+                    "rank": 15.171913675503731,
+                    "title": "Dirty John",
+                    "description": "Anthology series in which each season is based on a true crime story featuring an epic tale of love "
+                },
+                {
+                    "rank": 15.171913675503731,
+                    "title": "The Search",
+                    "description": "When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case"
+                },
+                {
+                    "rank": 15.115907804424037,
+                    "title": "True: Terrific Tales",
+                    "description": "Through the magic of the Story Spinner, True and her friends create their own versions of Pinocchio,"
+                },
+                {
+                    "rank": 14.902931665410097,
+                    "title": "Too Young The Hero",
+                    "description": "TV movie based upon the true story of Calvin Graham, who, as a 12 year old boy, enlisted in the US N"
+                },
+                {
+                    "rank": 14.643321044545065,
+                    "title": "Silverton Siege",
+                    "description": "After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h"
+                },
+                {
+                    "rank": 14.626372374548396,
+                    "title": "Gifted Hands: The Ben Carson Story",
+                    "description": "Gifted Hands: The Ben Carson Story is a movie based on the life story of world-renowned neurosurgeon"
+                },
+                {
+                    "rank": 14.150320917936252,
+                    "title": "War Dogs",
+                    "description": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million "
+                },
+                {
+                    "rank": 14.150320917936252,
+                    "title": "Final Fantasy XIV: Dad of Light",
+                    "description": "A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this "
+                },
+                {
+                    "rank": 14.150320917936252,
+                    "title": "Notes for My Son",
+                    "description": "Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her"
+                },
+                {
+                    "rank": 14.150320917936252,
+                    "title": "Rescued by Ruby",
+                    "description": "Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever"
+                }
+            ],
+            "TF-IDF": [
+                {
+                    "rank": 15.171913675503731,
+                    "title": "Dirty John",
+                    "description": "Anthology series in which each season is based on a true crime story featuring an epic tale of love "
+                },
+                {
+                    "rank": 15.171913675503731,
+                    "title": "The Search",
+                    "description": "When a girl vanishes from a suburb near Mexico City, the personal goals of some involved in the case"
+                },
+                {
+                    "rank": 15.115907804424037,
+                    "title": "True: Terrific Tales",
+                    "description": "Through the magic of the Story Spinner, True and her friends create their own versions of Pinocchio,"
+                },
+                {
+                    "rank": 14.902931665410097,
+                    "title": "Too Young The Hero",
+                    "description": "TV movie based upon the true story of Calvin Graham, who, as a 12 year old boy, enlisted in the US N"
+                },
+                {
+                    "rank": 14.643321044545065,
+                    "title": "Silverton Siege",
+                    "description": "After a failed sabotage mission, a trio of anti-apartheid freedom fighters ends up in a tense bank h"
+                },
+                {
+                    "rank": 14.626372374548396,
+                    "title": "Gifted Hands: The Ben Carson Story",
+                    "description": "Gifted Hands: The Ben Carson Story is a movie based on the life story of world-renowned neurosurgeon"
+                },
+                {
+                    "rank": 14.150320917936252,
+                    "title": "War Dogs",
+                    "description": "Based on the true story of two young men, David Packouz and Efraim Diveroli, who won a $300 million "
+                },
+                {
+                    "rank": 14.150320917936252,
+                    "title": "Final Fantasy XIV: Dad of Light",
+                    "description": "A father and son rekindle their bond through the online role-playing game Final Fantasy XIV in this "
+                },
+                {
+                    "rank": 14.150320917936252,
+                    "title": "Notes for My Son",
+                    "description": "Battling terminal cancer, a woman writes a one of a kind notebook about life, death and love for her"
+                },
+                {
+                    "rank": 14.150320917936252,
+                    "title": "Rescued by Ruby",
+                    "description": "Chasing his dream to join an elite K-9 unit, a state trooper partners with a fellow underdog: clever"
+                }
+            ]
+        }
+    }
+}

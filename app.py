@@ -5,10 +5,6 @@ from postgres.postrgres import search_in_postgres
 from pylucene.pylucene import pylucene_search
 from wo.se_woosh import search
 
-#from your_pylucene_module import pylucene_search  # Modifica con il tuo modulo
-#from your_whoosh_module import whoosh_search  # Modifica con il tuo modulo
-
-
 
 
 
@@ -25,9 +21,6 @@ results = { uin['query']:{'type':uin['type'], 'pg':{} , 'pyluc':{}, 'wo':{}} for
 
 flag = False
 
-# WHOOSH
-# TODO: c'è da capire se funzionano i metodi search e adv_search,
-# formattare la risposta correttamente.
 for query in queries_dict:
     system = 'wo'
     uin = query['query']
@@ -37,7 +30,7 @@ for query in queries_dict:
         res = search(q, config,weighting=rank_model )
         results[uin][system][rank_model]=res
 
-pprint(results)
+#pprint(results)
 
 
 # POSTGRES
