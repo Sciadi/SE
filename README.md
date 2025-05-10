@@ -11,19 +11,21 @@ Una volta runnati i S.E. salviamo l'esito delle query in final.json.
 
 **è sufficiente formattare il json per rendere leggibili i risultati delle query **
 
-Successivamente ho aggiunto manualmente le valutazioni nel file **valutazioni_rilevanza.json** grazie allo script *assegna_rilevanza.py* aggiungendo la chiave *"rilevante"* e un valore compreso tra 0 e 1 in base alla rilevanza del risultato rispetto alla UIN. 
+Successivamente ho aggiunto manualmente e interattivamente le valutazioni nel file **valutazioni_rilevanza.json** grazie allo script *assegna_rilevanza.py* aggiungendo la chiave *"rilevante"* e un valore compreso tra 0 e 1 in base alla rilevanza del risultato rispetto alla UIN. 
 
 Infine in base a questi dati ho elaborato i benchmarks. 
 Lo script **calcola_benchmarks.py** legge i dati da **benchmark.json** e calcola MAP Precisione e NCDG, assegnando un valore medio ad ogni metrica per tutte le UIN. 
 
+Nel caso di query manuale non ho inserito la possibilità di valutare la rilevanza dei risultati.
+
 # Installazione
 ### 1 - Installare dependencies  
-```pip install -r requirements.txt``` (progetto con macchina linux/ubuntu 24) 
+```pip install -r requirements.txt``` (progetto con macchina linux/ubuntu 24 pylucene installato) 
 
 ### 2.1 - File constants.py 
 In base a questa costante possiamo eseguire query:
 - la chiave **query** riporta la uin in linguaggio naturale 
-- la chiave **ts_query** definisce la query per postgresql
+- la chiave **ts_query** definisce la query desiderata per postgresql
 - la chiave **pylucene** definisce la query per pylucene e whoosh 
 
 Configurazione file query:
@@ -47,16 +49,19 @@ UIN={
 ### 2.2 - Avviare SE (posizionarsi su cartella SE)
 ```python app.py```
 
+Interagire con la linea di comando. 
+
 ### 3 - Risultati query
 Tutti i risultati delle query sono ispezionabili in 'final.json' che riporta il rank assegnato dai vari ranking model.
+Nel caso di query manuale i risultati sono in manual_query_res.json
 
 #### Configurazione POSTGRES
 Il DB è hostato su aiven.com, se inutilizzato va in stand-by quindi potrebbe non essere attivo. 
 
 - ts_rank	-> Punteggio basato solo sulla frequenza dei termini: Ranking veloce e semplice
 - ts_rank_cd	-> Punteggio basato su frequenza e densità per un ranking più accurato Analogo a TF-IDF
-Il peso di un match ordinato con phraseto_tsquery è doppio rispetto a quello generico con phraseto_tsquery perche' il primo matcha il virgolettato e per evitare i falsi positivi:
 
+Il peso di un match ordinato con phraseto_tsquery è *doppio* rispetto a quello generico con phraseto_tsquery perche' il primo matcha il virgolettato e per evitare i falsi positivi:
 -> Falso positivo con Johnny Deep, la ricerca full text mi restituiva un film che aveva Deep nel titolo e Johnny nel cast: ho quindi dato peso doppio al match che considera l'ordinamento delle parole
 
 #### Configurazione pylucene e Woosh
