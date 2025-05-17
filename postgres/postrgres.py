@@ -45,9 +45,6 @@ def search_in_postgres(query, config, rank_model):
     words = crea_ts_query(query)
     print(words)
 
-#    if config == "CAST-Personaggi":
-#        join_v = join() 
-#   else:
     join_v = ''
     field =''
     

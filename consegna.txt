@@ -345,5 +345,3 @@ Conclusione:
    }
 }
 
-In media, i kpi dei SE sono:
-

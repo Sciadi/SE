@@ -37,10 +37,7 @@ def index_csv(csv_path):
         for row in reader:
             writer.add_document(
                 title=row["title"],
-                #type=row["type"],
                 description=row["description"],
-                #release_year=row["release_year"],
-                #genres=row["genres"]
             )
     writer.commit()
     print("Indicizzazione completata.")
